@@ -1060,7 +1060,7 @@ color: #1f1f1f;
 }
 
 .content-middle-banner:hover:before {
-  background: url(images/Banner_02Y.jpg);
+  background: url(images/Banner-hover.jpg);
 }
 
 .slides:hover:before,
