@@ -294,6 +294,7 @@ body  {
   font-family: GOTHAMbold;
   left: 8px;
   padding: 4px 7px 4px 5px;
+  width: 105px;
 }
 
 .slider-date {
@@ -747,7 +748,7 @@ margin-bottom: 6px;
 }
 
 .wrs-selection-rows.rows4 .wrs-selection-content {
-  background: #faf037;
+  background: #0054a5
 }
 
 .wrs-selection-rows.rows5 .wrs-selection-content {
@@ -877,6 +878,10 @@ width: 240px;
   padding-left: 16%;
 }
 
+.posts-view-all a:hover {
+  color: #000;
+  font-weight: bold;
+}
 .recent-post-img-right {
 position: absolute;
 right: 0;
@@ -897,7 +902,7 @@ font-family: GOTHAMbold;
 font-size: 12px;
 text-transform: uppercase;
 padding-top: 16px;
-margin-bottom: 18px;
+margin-bottom: 11px;
 }
 
 .cate-1 {
@@ -906,7 +911,7 @@ width: 49%;
 border-bottom: 2px solid #367d99;
 margin-right: 2%;
 padding-bottom: 0px;
-padding-top: 4px;
+padding-top: 9px;
 }
 
 .cate-2 {
@@ -915,13 +920,17 @@ width: 48%;
 border-bottom: 2px solid #367d99;
 }
 
+.categories.last .cate-1,
+.categories.last .cate-2 {
+  border: none;
+}
 .cate-img {
 width: 37px;
 float: left;
 padding-left: 5px;
 }
 .cate-text {
-padding-bottom: 10px;
+padding-bottom: 7px;
 padding-top: 0px;
 padding-left: 41px;
 }
@@ -941,7 +950,7 @@ color: #686f75;
 float: left;
 width: 48%;
 border-bottom: 2px solid #367d99;
-padding-top: 4px;
+padding-top: 9px;
 }
 
 #footer {
@@ -969,7 +978,7 @@ overflow: hidden;
   background: url(images/pager.jpg) no-repeat;
   display: inline-block;
   width: 6px;
-  height: 6px;
+  height: 8px;
 }
 
 .footer-world-radio {
@@ -1044,14 +1053,18 @@ color: #1f1f1f;
   background: url(images/Banner_02Y.jpg);
 }
 
-.slider:hover:before,
+.slides:hover:before,
 .foriegn-affair:hover:before,
 .wrs-selection-img:hover:before {
   background: #faf037;
   opacity: .8;
   }
 
-.slider:before,
+.slides:hover:before {
+  background: url(images/slider-hover.png) #faf037 no-repeat center 138px;
+}
+
+.slides:before,
 .foriegn-affair:before,
 .content-middle-banner:before,
 .wrs-selection-img:before {
@@ -1069,8 +1082,8 @@ color: #1f1f1f;
     transition: all .3s linear;
   }
 
-.slider:hover .slider-text-country,
-.slider:hover .slider-date {
+.slides:hover .slider-text-country,
+.slides:hover .slider-date {
   background: #faf037;
   color: #3c3c3c;
 }
@@ -1090,7 +1103,7 @@ color: #1f1f1f;
 
 
 .wrs-selection-rows:hover .wrs-selection-img:before {
-  background: #faf037;
+  background: url(images/classifieds-image-hover.png) #faf037 no-repeat center ;
   opacity: .8;
   }
 
