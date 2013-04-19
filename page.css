@@ -444,6 +444,12 @@ body  {
   font-family: DIN;
 }
 
+.affair-wrs-img {
+  float: right;
+  margin-top: -27px;
+  margin-right: -21px;
+}
+
 .foriegn-affair .affair-text {
   display: block;
   width: 100px;
@@ -501,6 +507,10 @@ body  {
   margin-bottom: 4px;
 }
 
+.next-wrs {
+  float: right;
+  margin-top: -18px;
+}
 .sidebar-second .next-name {
   font-size: 18px;
   font-family: GOTHAMbold;
@@ -829,10 +839,6 @@ width: 41px;
 float: left;
 }
 
-.recent-post-img-right {
-  width: 37px;
-}
-
 .recent-post-text {
   font-family: GOTHAMbook;
   font-size: 12px;
@@ -882,10 +888,14 @@ width: 240px;
   color: #000;
   font-weight: bold;
 }
-.recent-post-img-right {
+.recent-post-channel {
 position: absolute;
 right: 0;
-top: 4px;
+top: 11px;
+background: url(images/camera.png) no-repeat;
+height: 21px;
+float: right;
+width: 23px;
 }
 
 .browse-by-categories {
