@@ -190,7 +190,7 @@ body  {
 
 #main-menu {
   background: #ffe100;
-  line-height: 38px;
+  line-height: 18px;
 }
 
 #main-menu li {
@@ -201,7 +201,7 @@ body  {
 #main-menu li a {
   color: #0054a5;
   font-family: GOTHAMbold;
-  font-size: 13px;
+  font-size: 11px;
   display: inline-block;
   text-decoration: none;
 }
@@ -218,24 +218,27 @@ body  {
 
 #menu-special-series {
   background: #FBF697;
-  line-height: 28px;
 }
 
 #menu-special-series li{
   display: inline-block;
   padding-right: 1.5%;
+  padding-top: 3px;
 }
 
 #menu-special-series li a{
   color: #0054a5;
-  font-family: GOTHAMbold;
+  font-family: GOTHAMbook;
   font-size: 12px;
   display: inline-block;
   text-decoration: none;
+  padding: 0.5em 0;
 }
-.menu-special-series:hover li a {
+
+#menu-special-series li a:hover {
   color: #000;
 }
+
 #menu-special-series li.special-menu {
   padding-left: 3.3%;
 }
@@ -262,7 +265,7 @@ body  {
   font-size: 30px;
   font-family: GOTHAMbold;
   display: inline-block;
-  font-weight: bold;
+  
 }
 .special-row {
     display: inline;
@@ -301,7 +304,7 @@ body  {
 .special-tag-lin {
     font-family: GOTHAMbold;
     font-size: 12px;
-    font-weight: bold;
+    
     height: 47px;
     line-height: 16px;
     padding-left: 9px;
