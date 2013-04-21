@@ -1111,8 +1111,7 @@ color: #1f1f1f;
 .slides:before,
 .foriegn-affair:before,
 .content-middle-banner:before,
-.wrs-selection-img:before,
-.later-description:before {
+.wrs-selection-img:before {
     content: "";
     display: block;
     position: absolute;
