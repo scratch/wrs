@@ -1,0 +1,428 @@
+/* page.css --  used with page.html for template.
+
+   Impt: Use with reset.css OR  normailise.css
+ */
+
+@font-face {
+  font-family: DIN;
+  src: url(font/DIN/din1451engschrift.ttf);
+}
+
+@font-face {
+  font-family: GOTHAMbold;
+  src: url(font/Gotham/Gotham-Bold.otf);
+}
+
+@font-face {
+  font-family: GOTHAMbook;
+  src: url(font/Gotham/Gotham-Book.otf);
+}
+
+body  {
+    margin:    0;
+    border:    0;
+    padding:   0;
+    font-size: 100%;
+}
+
+
+#page  {
+    max-width: 1024px;
+    margin: 0 auto;
+    width:  100%;
+}
+
+.header-top {
+  overflow: hidden;
+}
+
+.logo {
+  float: left;
+  margin-left: 0.6%;
+}
+
+.top-menu {
+  float: left;
+  width: 50%;
+}
+
+.top-nav-menu {
+  margin-top: 15px;
+  margin-left: 7.2%;
+}
+
+.top-menu li {
+  display: inline-block;
+  padding-right: 2.5%;
+}
+
+.sign {
+  float: right;
+  width: 12.7%;
+}
+
+.sign-in {
+  margin-top: 15px;
+}
+.sign li {
+  display: inline-block;
+}
+.sign li.first {
+  border-right: 1px solid;
+  padding-right: 7px;
+ line-height: 11px;
+}
+.sign li a {
+    text-decoration: none;
+    color: #075a78;
+    font-family: GOTHAMbold;
+    font-size: 13px;
+}
+.top-menu .top-nav-menu li a{
+    text-decoration: none;
+    color: #075a78;
+    font-family: GOTHAMbold;
+    font-size: 11px;
+    background: url(images/down-arrow.jpg) no-repeat center right;
+    padding-right: 14px;
+}
+
+
+#header-block  {
+    background-color: #f8f8f8;
+    min-height: 144px;
+    width:100%;
+}
+
+
+#header-menu  {
+    background-color: #F9F035;
+    height:   63px;
+    width:    30%;
+    position: relative;
+    left:     23.5%;
+    top:      90px;
+}
+
+
+#header-menu li  {
+   float:           left;
+   list-style-type: none;
+   width:           32%;
+   background:      #666;
+   text-align:      center;
+   border-right:    3px solid #ccc; /* TODO:last menu shouldn't have a border */
+}
+
+.radios {
+  margin-left: 5.8%;
+  margin-top: 9px;
+  float: left;
+  width: 7.8%;
+}
+
+.listen {
+  float: left;
+  margin-top: 21px;
+}
+
+.listen a {
+  text-decoration: none;
+  color: #015b7e;
+  font-family: GOTHAMbold;
+  font-size: 14px;
+  letter-spacing: 2px;
+}
+/* Not used */
+.mid-border  {
+  border-left: 1px solid #ccc;
+  border-right:1px solid #ccc; /* TODO:last menu shouldn't have a border */
+}
+
+/**css for header tabs **/
+.header-tabs ul li {
+  display: inline-block;
+}
+
+.header-tabs {
+  float: left;
+  margin-left: 4.7%;
+}
+
+.header-tabs li a.radio {
+  color: #0054a5;
+  background: #ffe102;
+  padding: 15px 30px;
+  line-height: 46px;
+}
+
+.header-tabs li a {
+  text-decoration: none;
+  font-family: GOTHAMbold;
+  font-size: 22px;
+}
+
+.header-tabs li.community {
+  margin-left: -2px;
+}
+
+.header-tabs li.events {
+  margin-left: -2px;
+}
+
+.header-bottom-media {
+  float: right;
+  margin-top: -32px;
+  margin-right: 3.2%;
+}
+
+.header-tabs li a.community {
+  background: #ff8201;
+  padding: 15px 26px;
+  color: #fff;
+}
+
+.header-tabs li a.events {
+  background: #015b7e;
+  padding: 15px 23px;
+  color: #fff;
+}
+
+#main-menu {
+  background: #ffe100;
+  line-height: 38px;
+}
+
+#main-menu li {
+  display: inline-block;
+  padding-right: 1.5%;
+}
+
+#main-menu li a {
+  color: #0054a5;
+  font-family: GOTHAMbold;
+  font-size: 13px;
+  display: inline-block;
+  text-decoration: none;
+}
+
+#main-menu li.first {
+  padding-left: 3.3%;
+}
+#main-menu input {
+  margin-left: 25%;
+  border: 0px;
+  padding: 4px;
+}
+/* CSS code @Saurabh*/
+
+#menu-special-series {
+  background: #FBF697;
+  line-height: 28px;
+}
+
+#menu-special-series li{
+  display: inline-block;
+  padding-right: 1.5%;
+}
+
+#menu-special-series li a{
+  color: #0054a5;
+  font-family: GOTHAMbold;
+  font-size: 12px;
+  display: inline-block;
+  text-decoration: none;
+}
+.menu-special-series:hover li a {
+  color: #000;
+}
+#menu-special-series li.special-menu {
+  padding-left: 3.3%;
+}
+
+#main-content{
+  overflow: hidden;
+  margin: 0 3.4%;
+}
+
+.primary-content {
+  float: left;
+  width: 72.5%;
+}
+
+.special-series {
+  margin-top: 34px;
+  margin-bottom: 34px;
+  float: left;
+  padding-right:20px;
+}
+
+.special-series h1 {
+  color: #1f1f1f;
+  font-size: 30px;
+  font-family: GOTHAMbold;
+  display: inline-block;
+  font-weight: bold;
+}
+.special-row {
+    display: inline;
+    float: left;
+    margin-bottom: 15px;
+}
+.special-column {
+    background-color: #F1F1F1;
+    border-top: 3px solid #FF0000;
+    float: left;
+    margin-bottom: 0;
+    margin-right: 3px;
+    width: 235px;
+}
+
+  
+
+
+.special-date {
+    font-family: GOTHAMbook;
+    font-size: 10px;
+    padding-bottom: 4px;
+    padding-left: 5%;
+}
+
+.special-tag-head {
+    color: #E40C23;
+    font-family: GOTHAMbook;
+    font-size: 17px;
+    height: 60px;
+    line-height: 20px;
+    padding-left: 4.5%;
+    padding-top: 12px;
+}
+
+.special-tag-lin {
+    font-family: GOTHAMbold;
+    font-size: 12px;
+    font-weight: bold;
+    height: 47px;
+    line-height: 16px;
+    padding-left: 9px;
+}
+.special-column:hover {
+    background-color: #faf02c;
+    border-top:none;
+}
+.special-column:hover .special-tag-head{
+    color: #000;
+}
+/* end CSS code @Saurabh */
+
+
+/** css for footer **/
+#footer .footer-menu li {
+  display: inline-block;
+  padding: 9px 2.2%;
+  float: left;
+}
+
+#footer .footer-menu li a {
+  text-decoration: none;
+  font-family: GOTHAMbold;
+  font-size: 12px;
+  color: #fff227;
+}
+
+#footer .footer-menu li.news {
+  background: #e40c23;
+}
+
+#footer .footer-menu li.arts {
+  background: #6a37d4;
+}
+
+#footer .footer-menu li.business {
+  background: #0153a5;
+}
+
+#footer .footer-menu li.home-family {
+  background: #ef4f1d;
+}
+
+#footer .footer-menu li.life {
+  background: #646464;
+}
+
+#footer .footer-menu li.science-tech {
+  background: #34b751;
+}
+
+#footer .footer-menu li.sports {
+  background: #1d58f0;
+}
+
+.footer-bottom {
+  background: #f8f8f8;
+  float: left;
+  width: 100%;
+}
+
+.footer-bottom-menu ul {
+  color: #1b1b1b;
+  font-size: 12px;
+  font-family: GOTHAMbold;
+}
+
+.footer-bottom-menu ul h1 {
+  margin-bottom: 4px;
+}
+
+.footer-content-partners ul h1{
+  margin-bottom: 20px;
+}
+
+.footer-bottom-menu li {
+  line-height: 17px;
+}
+
+.footer-bottom-menu li a{
+  text-decoration: none;
+  font-size: 12px;
+  font-family: GOTHAMbook;
+  color: #065983;
+}
+
+.footer-bottom-menu {
+  float: left;
+  width: 100%;
+  padding-top: 50px;
+}
+
+.footer-wrs {
+  float: left;
+  width: 26.1%;
+}
+
+.footer-wrs li {
+  padding-left: 8.2%;
+}
+.footer-radio {
+  float: left;
+  width: 14.1%;
+}
+
+.footer-community {
+  float: left;
+  width: 14.1%;
+}
+
+.footer-events {
+  float: left;
+  width: 14%;
+}
+
+.footer-about {
+  float: left;
+  width: 12%;
+}
+
+.footer-content-partners {
+  float: left;
+}
