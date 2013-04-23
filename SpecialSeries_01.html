@@ -3,13 +3,14 @@
   <head>
     <title>HTML conversion template</title>
     <link rel="stylesheet" type="text/css" href="reset.css">
+    <link rel="stylesheet" type="text/css" href="page.css">
     <link rel="stylesheet" type="text/css" href="SpecialSeries_01.css">
   </head>
 
   <body>
-		<div id="page">
-
-			<div id="header-block">
+    <div id="page">
+      <div class="header">
+      <div id="header-block">
         <div class="header-top"><!-- hesder top -->
           <div class="logo">
             <img src="images/logo.jpg">
@@ -51,23 +52,27 @@
         </div>
       </div><!--end header -->
     </div>
-			<div id="main-menu">
-					<li class="first"><a href="#">HOME</a></li>
-					<li><a href="#">WRS NEWS</a></li>
-					<li><a href="#">SCHEDULE</a></li>
-					<li><a href="#">SHOWS</a></li>
-					<li><a href=="#">PROGRAMMES</a></li>
-					<li><a href="#">PLAY LIST</a></li>
-					<li><a href="#">ABOUT</a></li>
-					<li><a href="#">HOW TO LISTEN</a></li>
+  </div>
+      <div id="main-menu">
+        <ul class="main-top-menu">
+          <li class="first"><a href="#">HOME</a></li>
+          <li><a href="#">WRS NEWS</a></li>
+          <li><a href="#">SCHEDULE</a></li>
+          <li><a href="#">SHOWS</a></li>
+          <li><a href=="#">PROGRAMMES</a></li>
+          <li><a href="#">PLAY LIST</a></li>
+          <li><a href="#">ABOUT</a></li>
+          <li><a href="#">HOW TO LISTEN</a></li>
           <li><form>
-          <input type="text" placeholder="Search WRS Radio">
+          <input type="text" placeholder="Search WRS Radio" class="search">
+          <input type="submit" class="submit">
           </form></li>
-			</div>
+      </div>
       
       <!-- HTML code@ Saurabh -->
 
       <div id="menu-special-series">
+        <ul class="special-menu-top">
           <li class="special-menu"><a href="#">ALL NEWS</a></li>
           <li><a href="#">BUSINESS ECONOMY</a></li>
           <li><a href="#">SCIENCE & TECHNOLOGY</a></li>
@@ -75,9 +80,9 @@
           <li><a href=="#">HOME & FAMILY</a></li>
           <li><a href="#">LIFE IN CH</a></li>
           <li><a href="#">SPECIAL SERIES</a></li>
-          <li><a href="#">SPORTS</a></li>
+          <li><a href="#">SPORTS</a></li></ul>
           </div>
-    
+<div class="main-region">
  <div id= "main-content">
 	<div class="special-series">
            <h1> Special Series </h1>
@@ -448,7 +453,7 @@
 
 
         </div>        
-   
+      </div>
       <!--ends HTML code@ Saurabh -->
 
 		

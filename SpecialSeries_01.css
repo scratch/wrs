@@ -27,7 +27,6 @@ body  {
 
 
 #page  {
-    max-width: 1024px;
     margin: 0 auto;
     width:  100%;
 }
@@ -60,7 +59,11 @@ body  {
   float: right;
   width: 12.7%;
 }
-
+#menu-special-series ul {
+    margin: 0 auto;
+    max-width: 1024px;
+    width: 100%;
+}
 .sign-in {
   margin-top: 15px;
 }
@@ -243,10 +246,6 @@ body  {
   padding-left: 3.3%;
 }
 
-#main-content{
-  overflow: hidden;
-  margin: 0 3.4%;
-}
 
 .primary-content {
   float: left;
