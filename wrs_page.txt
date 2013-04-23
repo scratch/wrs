@@ -1,19 +1,19 @@
 Episode_ArtistInterview_4.jpg
 Episode_WRSNews_04.jpg
-FAQs_01.jpg
+FAQs_01.jpg          -- Nitish
 Homepage_04.jpg      -- Mukesh. 
-JobProfile_01.jpg
+JobProfile_01.jpg    --  Ashish N
 MediaPartners_03.jpg
 Playlist_05.jpg
-Programme_05.jpg
+Programme_05.jpg     --   Balbir
 Programs_ByName_03.jpg
 Programs_ByPartner_03.jpg
 Programs_ByTheme_03.jpg
 Schedule_03.jpg
 SearchResult_04.jpg
 Shows_04.jpg
-SpecialSeries_01.jpg
-TermsOfUse_02.jpg
+SpecialSeries_01.jpg    -- Saurabh
+TermsOfUse_02.jpg       -- Balbir 
 Theme_03.jpg
 Voice_03.jpg
 VoiceProfile_03.jpg
