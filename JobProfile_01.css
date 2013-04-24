@@ -11,7 +11,6 @@ float:left;
 width:60%;
 font: GOTHAMbook;;
 font-size:20px;
-
 }
 .right-content1
 {
@@ -292,6 +291,7 @@ body  {
 }
 #main-content{
   overflow: hidden;
+  float: left;
 }
 
 .primary-content {
@@ -308,7 +308,7 @@ body  {
 {
 font-size:16px;
 font-family: GOTHAMbook;
- }
+ 
 .heading1 h1
 {
 font-size:14px;
@@ -869,18 +869,6 @@ body  {
   padding-left: 10px;
 }
 
-.main-region {
-  width: 1024px;
-  margin: 0 auto;
-}
-
-#main-content{
-  overflow: hidden;
-  padding: 0 3.5%;
-  background: #fff;
-  padding-bottom: 52px;
-}
-
 #main-menu form {
   float: left;
   width: 235px;
@@ -902,6 +890,54 @@ body  {
   max-width: 1024px;
   width: 100%;
 }
+
+
+
+#main-menu-2  {
+  background: #FDF9B0;
+  line-height: 38px;
+  height:  35px;
+  width: 100%;
+}
+
+
+#main-menu-2 li {
+	float: left;
+}
+
+
+#main-menu-2 li {
+  display: inline-block;
+  padding-right: 1.5%;
+}
+
+#main-menu-2 li a {
+  color: #8DB590;
+  font-family: GOTHAM-Light;
+  font-size: 13px;
+  display: inline-block;
+  text-decoration: none;
+}
+
+#main-menu-2 li.first {
+  padding-left: 3.3%;
+}
+
+
+
+.main-region {
+  width: 100%;
+  margin: 0 auto;
+}
+
+#main-content{
+  overflow: hidden;
+  padding: 0 3.5%;
+  background: #fff;
+  padding-bottom: 52px;
+}
+
+
 .primary-content {
   float: left;
   width: 72.5%;
