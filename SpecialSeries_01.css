@@ -259,17 +259,19 @@ body  {
 .special-row {
     display: inline;
     float: left;
-    margin-bottom: 15px;
+    margin-bottom: 17px;
 }
 .special-column {
     background-color: #F1F1F1;
     border-top: 4px solid #FF0000;
     float: left;
     margin-bottom: 0;
-    margin-right: 3px;
+    margin-right: 4px;
     width: 235px;
 }
-
+.special-column.last {
+  margin-right: 0px;
+} 
   
 
 
@@ -278,6 +280,7 @@ body  {
     font-size: 10px;
     padding-bottom: 4px;
     padding-left: 4.4%;
+    color: #6d6d6d;
 }
 
 .special-tag-head {
@@ -293,10 +296,11 @@ body  {
 .special-tag-lin {
     font-family: GOTHAMbold;
     font-size: 12px;
-    
+    letter-spacing: 1px;
     height: 47px;
     line-height: 16px;
     padding-left: 9px;
+    color:#1c1a1b;
 }
 .special-column:hover {
     background-color: #faf02c;
