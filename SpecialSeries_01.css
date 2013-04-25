@@ -291,6 +291,7 @@ body  {
     line-height: 20px;
     padding-left: 3.8%;
     padding-top: 10px;
+    padding-right: 3.8px;
 }
 
 .special-tag-lin {
@@ -301,6 +302,7 @@ body  {
     line-height: 16px;
     padding-left: 9px;
     color:#1c1a1b;
+    padding-right: 9px;
 }
 .special-column:hover {
     background-color: #faf02c;
