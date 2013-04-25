@@ -1159,10 +1159,11 @@ color: #1f1f1f;
 #sub-menu li {
   list-style:none;
   float:left;
-  width:135px;
+  width:auto;
   font-size:13px;
   padding-top:3px;
   color:#00CC66;
+  margin-left:11px;
 }
 
 #sub-menu a li:hover  {
@@ -1339,6 +1340,7 @@ color: #1f1f1f;
   padding:7px 0px 0px  10px;
   font-weight:bold;
   font-family:Verdana;
+  color:#0054aa;
 }
 
 #npr {
@@ -1351,6 +1353,7 @@ color: #1f1f1f;
   padding:7px 0px 0px  10px;
   font-weight:bold;
   font-family:Verdana;
+  color:#0054aa;
 }
 
 #pri {
@@ -1363,5 +1366,6 @@ color: #1f1f1f;
   padding:7px 0px 0px  10px;
   font-weight:bold;
   font-family:Verdana;
+  color:#0054aa;
 }
 
