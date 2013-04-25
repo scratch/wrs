@@ -191,23 +191,12 @@ body  {
   color: #fff;
 }
 
-#main-menu {
-  background: #ffe100;
-  line-height: 18px;
-}
 
 #main-menu li {
   display: inline-block;
   padding-right: 1.5%;
 }
 
-#main-menu li a {
-  color: #0054a5;
-  font-family: GOTHAMbold;
-  font-size: 11px;
-  display: inline-block;
-  text-decoration: none;
-}
 
 #main-menu li.first {
   padding-left: 3.3%;
@@ -225,8 +214,9 @@ body  {
 
 #menu-special-series li{
   display: inline-block;
-  padding-right: 1.5%;
-  padding-top: 3px;
+  padding-right: 1.4%;
+  padding-top: 4px;
+  padding-bottom: 1px;
 }
 
 #menu-special-series li a{
@@ -253,7 +243,7 @@ body  {
 }
 
 .special-series {
-  margin-top: 34px;
+  margin-top: 37px;
   margin-bottom: 34px;
   float: left;
   padding-right:20px;
@@ -273,7 +263,7 @@ body  {
 }
 .special-column {
     background-color: #F1F1F1;
-    border-top: 3px solid #FF0000;
+    border-top: 4px solid #FF0000;
     float: left;
     margin-bottom: 0;
     margin-right: 3px;
@@ -287,7 +277,7 @@ body  {
     font-family: GOTHAMbook;
     font-size: 10px;
     padding-bottom: 4px;
-    padding-left: 5%;
+    padding-left: 4.4%;
 }
 
 .special-tag-head {
@@ -296,8 +286,8 @@ body  {
     font-size: 17px;
     height: 60px;
     line-height: 20px;
-    padding-left: 4.5%;
-    padding-top: 12px;
+    padding-left: 3.8%;
+    padding-top: 10px;
 }
 
 .special-tag-lin {
