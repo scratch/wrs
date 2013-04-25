@@ -1159,10 +1159,11 @@ color: #1f1f1f;
 #sub-menu li {
   list-style:none;
   float:left;
-  width:135px;
+  width:auto;
   font-size:13px;
   padding-top:3px;
   color:#00CC66;
+  margin-left:12px;
 }
 
 #sub-menu a li:hover  {
@@ -1192,7 +1193,7 @@ color: #1f1f1f;
   font-size:13px;
   padding-top:3px;
   color:#0054aa;
-  margin-left:12px;
+  margin-left:15px;
 }
 
 #s_sub-menu a li:hover  {
