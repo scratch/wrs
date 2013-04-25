@@ -254,6 +254,41 @@ body  {
   max-width: 1024px;
   width: 100%;
 }
+.sub-menu
+{
+height:40px;
+background-color:#FDF9B0;
+
+}
+.sub-menu ul
+{
+float:left;
+text-decoration:none;
+margin-left:100px;
+
+}
+.sub-menu ul li
+{
+display:block;
+float:left;
+text-decoration:none;
+margin-right:5px;
+margin-top:10px;
+
+}
+
+
+.sub-menu ul li a
+{
+display:block;
+float:left;
+text-decoration:none;
+margin-right:15px;
+color:#34727F;
+ font-family: GOTHAMbook;
+ font-weight:bold;
+ font-size:14px;
+}
 .primary-content {
   float: left;
   width: 65%;
@@ -328,7 +363,7 @@ margin-bottom:30px;
 }
 .primary-content p
 {
-font-family:GOTHAMbold;
+font-family:GOTHAMbook;
 font-size:12pt;
 line-height:1.3em;
 text-align:justify;
