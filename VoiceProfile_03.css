@@ -254,401 +254,155 @@ body  {
   max-width: 1024px;
   width: 100%;
 }
-
-
-
-.sub-menu
-{
-height:32px;
-background-color:#FDF9B0;
-}
-
-
-.sub-menu ul
-{
-float:left;
-text-decoration:none;
-margin-left:100px;
-
-}
-.sub-menu ul li
-{
-display:block;
-float:left;
-text-decoration:none;
-margin-right:5px;
-margin-top:10px;
-
-}
-
-
-.sub-menu ul li a
-{
-display:block;
-float:left;
-text-decoration:none;
-margin-right:15px;
-color:#34727F;
- font-family: GOTHAMbook;
- font-weight:bold;
- font-size:13px;
-}
-
-
-.sub-menu1
-{
-background-color:#F8F8F8;
-height:32px;
-}
-
-.sub-menu1 ul
-{
-float:left;
-text-decoration:none;
-margin-left:100px;
-
-}
-.sub-menu1 ul li
-{
-display:block;
-float:left;
-text-decoration:none;
-margin-right:5px;
-margin-top:10px;
-
-}
-
-
-.sub-menu1 ul li a
-{
-display:block;
-float:left;
-text-decoration:none;
-margin-right:15px;
-color:#34727F;
- font-family: GOTHAMbook;
- font-weight:bold;
- font-size:13px;
-}
-
-.main
-{
-width:1000px;
-border:#00CCFF medium thin;
-height:auto;
-padding-bottom:20px;
-
-}
-
-.left-main h1
-{
-font-family:GOTHAMbold;
-font-size:24pt;
-font-weight:bold;
-margin-bottom:37px;
-margin-top: 50px;
-}
-.left-main img
-{
-width:630px;
-float:left;
-height:400px;
-margin-bottom:40px;
-}
-.right-main img
-{
-width:320px;
-float:right;
-height:400px;
-margin-bottom:40px;
-margin-right:50px;
-
-}
-.center-content
-{
-float:left;
-width:620px;
-position:relative;
-}
-.left-center-content
-{
-float:left;
-width:310px;
-}
-.right-center-content
-{
-float:right;
-width:310px;
-}
-
-
-
-.left-center-date
-{
-position:absolute;
-font-size:12px;
-margin-top:12px;
-margin-left:8px;
-background-color:#FFFFFF;
-width:125px;
-height:12px;
-}
-.left-center-date1
-{
-position:absolute;
-font-size:12px;
-margin-top:12px;
-margin-left:12px;
-background-color:#FFFFFF;
-width:125px;
-height:12px;
-right: 172px;
-}
-.left-center-date2
-{
-position:absolute;
-font-size:12px;
-margin-top:9px;
-margin-left:10px;
-background-color:#FFFFFF;
-width:125px;
-height:14px;
-}
-.left-center-date3
-{
-position:absolute;
-font-size:12px;
-margin-top:12px;
-margin-left:8px;
-background-color:#FFFFFF;
-width:125px;
-height:12px;
-right: 172px;
-
-}
-
-/***
-.left-center-content img
-{
-float:left;
-width:300px;
-height:175px;
-}
-.right-center-content img
-{
-float:right;
-width:300px;
-height:175px;
-}***/
-.center-content1
-{
-float:left;
-width:620px;
-}
-.left-center-content1
-{
-float:left;
-width:310px;
-background-color:#666666;
-height:50px;
-}
-.left-center-content1 h1
-{
-margin-top:10px;
-font-size:12pt;
-font-family:Arial, Helvetica, sans-serif;
-font-weight:bold;
-color:white;
-
-}
-.right-center-content2 h1
-{
-margin-top:10px;
-font-size:12pt;
-font-weight:bold;
-color:white;
-font-family:Arial, Helvetica, sans-serif;
-}
-.right-center-content2
-{
-float:right;
-width:310px;
-background-color:#666666;
-height:50px;
-}
-.right-content3
-{
-height:410px;
-float:right;
-width:305px;
-background-color:#E0E0E0;
-font-family:GOTHAMbook;
-margin-right:5px;
-
-
-}
-.right-content31 h2
-{
-font-family:GOTHAMbold;
-color:#009999;
-margin-left:10px;
-text-align:justify;
-}
-.right-content4
-{
-float:right;
-width:320px;
-height:100px;
-margin-right:-20px;
-text-align:justify;
-font-size:12px;
-
-}
-.right-content5
-{
-float:right;
-width:320px;
-height:100px;
-margin-right:-20px;
-text-align:justify;
-font-size:12px;
-}
-
-.right-content6
-{
-float:right;
-width:320px;
-height:100px;
-margin-right:-20px;
-text-align:justify;
-font-size:12px;
-}  
-
-.right-content8
-{
-float:right;
-width:320px;
-height:100px;
-font-size:12px;
-margin-right:-20px;
-}
-.right-content3 h1
-{
-font-size:12pt;
-font-family: GOTHAMbold;
-margin-top:10px;
-
-}
-.left-center-footer
-{
-float:left;
-width:620px;
-background-color:#E2E2E2;
-height:25px;
-margin-top:5px;
-text-align: center;
-
-}
-.right-center-footer
-{
-float:right;
-width:305px;
-background-color:#E2E2E2;
-height:25px;
-margin-top:5px;
-margin-right:5px;
-
-}
-.left-center-footer .pager1 a, .left-center-footer .pager2 a, .left-center-footer .pager3 a {
-    background: url("images/pager.jpg") no-repeat scroll 0 0 transparent;
-    display: inline-block;
-    height: 8px;
-    width: 6px;
-	text-indent: -9999em;
-	
-}
-.center-footer .pager1 a, .center-footer .pager2 a, .center-footer .pager3 a {
-    background: url("images/pager.jpg") no-repeat scroll 0 0 transparent;
-    display: inline-block;
-    height: 8px;
-    text-indent: -9999em;
-    width: 6px;
-}
- .center-footer .pager
-{
-width:100px;
-margin-left:450px;
-margin-top:12px;
-}
-.left-center-footer .pager
-{
-width:100px;
-margin-left:250px;
-margin-top:12px;
-}
-.right-center-footer h2
-{
- 
-margin-top:7px;
-margin-left:120px;
-color:#3366CC;
-}
 .primary-content {
   float: left;
-  width: 72.5%;
-  height:auto;
+  width: 65%;
+  height:740px;
   font-size:10px;
+  margin-top:70px;
+  position:relative;
  
 }
+
+.primary-content1 {
+  float: left;
+  width: 65%;
+  }
+.reporter
+{
+position:absolute;
+margin-top:144px;
+font-size:12px;
+color:white;
+background-color:#00607C;
+height:px;
+width:132px;
+margin-left:10px;
+padding-top:5px;
+padding-left:5px;
+}
+.wrs-repoter
+{
+float:left;
+width:1000px;
+}
+.wrs-repoter-place
+{
+float:left;
+width:1000px;
+}
+
+
+
+.wrs-repoter-place1
+{
+ float:left;
+width:250px;
+}
+.wrs-repoter-place2
+{
+ float:left;
+width:250px;
+
+}
+.wrs-repoter-place3
+{
+float:left;
+width:250px;
+}
+.wrs-repoter-place4
+{
+float:left;
+width:250px;
+}
+
+.wrs-repoter-place h2
+{
+font-family: GOTHAMbold;
+font-size:12px;
+color:#999999;
+width:235px;
+background-color:#E9E9E9;
+}
+
+.wrs-repoter-place h1
+{
+font-family: GOTHAMbold;
+font-size:14px;
+color:#0033CC;
+width:235px;
+background-color:#E9E9E9;
+}
+
+
+
+
+.wrs-repoter1
+{
+float:left;
+width:250px;
+}
+.wrs-repoter2
+{
+float:left;
+width:250px;
+}
+.wrs-repoter3
+{
+float:left;
+width:250px;
+}
+.wrs-repoter4
+{
+float:left;
+width:250px;
+}
+
+
 .right-content
 {
 width:28%
 float:right;
 }
 
-.right-top1 img
+.right-top1
 {
-margin-top:70px;
-width:250px;
-height:100px;
-margin-left:10px;
+margin-top:135px;
+width:300px;
+float:right;
+height:78px;
+margin-left:25px;
 margin-bottom:30px;
+background-color:#000000;
+color:#FFFF00;
+font-family: GOTHAMbold;
+}
+.right-top1 h1
+{margin-top:30px;
+margin-left:70px;
 }
 .right-top2 h1
 {
-font-family:Arial, Helvetica, sans-serif;
-font-size:16px;
-padding-left:2%;
+font-family: GOTHAMbold;
+font-size:11pt;
 font-weight:bold;
 width:200px;
 float:right;
-margin-right:40px;
+margin-right:100px;
 }
 
- .right-top2 img
-{
-width:125px;
-height:110px;
-margin-left:10px;
-float:left;
-margin-top:5px;
-
+ 
 
 }
 .right-top3 img
 {
-width:125px;
-height:110px;
-margin-right:2px;
+margin-right:4px;
 float:right;
 margin-top:5px;
 
 }
 .right-footer
 {
-background-color:#CCCCCC;
-height:20px;
-width:250px;
 float:right;
 margin-right:2px;
 margin-top:5px;
@@ -656,20 +410,26 @@ margin-top:5px;
 
 .h1-content
 {
-font-size:30pt;
-font-family:Arial, Helvetica, sans-serif;
+font-size:24pt;
+font-family: GOTHAMbold;
 font-weight:bold;
+
 margin-bottom:30px;
 }
 .primary-content p
 {
-font-family:Arial, Helvetica, sans-serif;
-font-size:14px;
-line-height:1.5em;
-text-align:justify;;
+font-family:GOTHAMbook;
+font-size:12pt;
+text-align:justify;
+line-height:1.0em;
+ 
 }
 
-
+.content-bottom-middle h1
+{
+margin-bottom:30px;
+font-family: GOTHAMbold;
+}
 .news-today {
   margin-top: 34px;
 }
@@ -993,152 +753,25 @@ text-align:justify;;
 }
 
 
-
-/** css for footer **/
-#footer .footer-menu li {
-  display: inline-block;
-  padding: 9px 2.2%;
-  float: left;
-}
-
-#footer .footer-menu li a {
-  text-decoration: none;
-  font-family: GOTHAMbold;
-  font-size: 12px;
-  color: #fff227;
-}
-
-#footer .footer-menu li.news {
-  background: #e40c23;
-}
-
-#footer .footer-menu li.arts {
-  background: #6a37d4;
-}
-
-#footer .footer-menu li.business {
-  background: #0153a5;
-}
-
-#footer .footer-menu li.home-family {
-  background: #ef4f1d;
-}
-
-#footer .footer-menu li.life {
-  background: #646464;
-}
-
-#footer .footer-menu li.science-tech {
-  background: #34b751;
-}
-
-#footer .footer-menu li.sports {
-  background: #1d58f0;
-}
-
-.footer-bottom {
-  background: #f8f8f8;
-  float: left;
-  width: 100%;
-}
-
-.footer-bottom-menu ul {
-  color: #1b1b1b;
-  font-size: 12px;
-  font-family: GOTHAMbold;
-}
-
-.footer-bottom-menu ul h1 {
-  margin-bottom: 4px;
-}
-
-.footer-content-partners ul h1{
-  margin-bottom: 20px;
-}
-
-.footer-bottom-menu li {
-  line-height: 17px;
-}
-
-.footer-bottom-menu li a{
-  text-decoration: none;
-  font-size: 12px;
-  font-family: GOTHAMbook;
-  color: #065983;
-}
-
-.footer-bottom-menu {
-  float: left;
-  width: 100%;
-  padding-top: 50px;
-}
-
-.footer-wrs {
-  float: left;
-  width: 26.1%;
-}
-
-.footer-wrs li {
-  padding-left: 8.2%;
-}
-.footer-radio {
-  float: left;
-  width: 14.1%;
-}
-
-.footer-community {
-  float: left;
-  width: 14.1%;
-}
-
-.footer-events {
-  float: left;
-  width: 14%;
-}
-
-.footer-about {
-  float: left;
-  width: 12%;
-}
-
-.footer-content-partners {
-  float: left;
-}
-
-
 /** css for content bottom */
 .content-bottom-first,
 .content-bottom-middle,
 .content-bottom-last{
-  float:left;
+  width: 300px;
+  float:right;
+}
+.right-content
+{
+float:right;
 }
 
+.content-bottom-first,
 .content-bottom-middle {
-width:1000px;
+  padding-left:30px;
+  margin-right:-20px;
+  margin-top:100px;
 }
 
-.wrs-selection-rows.rows1 {
-    width: 300px;
-}
-.wrs-selection-rows.rows2 {
-    width: 300px;
-	margin-left:23px;
-}
-.wrs-selection-rows.rows3 {
-    width: 325px;
-	margin-left:23px;
-}
-.wrs-selection-rows.rows4{
-    width: 300px;
-}
-.wrs-selection-rows.rows5 {
-    width: 300px;
-	margin-left:23px;
-}
-.wrs-selection-rows.rows6{
-    width: 325px;
-	margin-left:23px;
-}
 .content-bottom {
   float: left;
   width: 100%;
@@ -1204,36 +837,29 @@ margin-bottom: 6px;
 }
 
 .wrs-selection-rows.rows1 .wrs-selection-content {
-  background: #999999;
+  background: #0153a5;
 }
 
 .wrs-selection-rows.rows2 .wrs-selection-content {
-  background: #999999;
+  background: #3ab54b;
 }
 
 .wrs-selection-rows.rows3 .wrs-selection-content {
-  background: #999999;
+  background: #6a33d7;
 }
 
 .wrs-selection-rows.rows4 .wrs-selection-content {
-  background: #999999;
+  background: #0054a5
 }
 
 .wrs-selection-rows.rows5 .wrs-selection-content {
-  background: #999999;
+  background: #646464;
 }
 
 .wrs-selection-rows.rows6 .wrs-selection-content {
-  background: #999999;
+  background: #1d58f0;
 }
-.center-footer{
-height:25px;
-width:950px;
-background-color:#E9E9E9;
-float:left;
-}
-	   
-					   
+
 .wrs-selection-main-title {
   font-size: 10px;
   font-family: GOTHAMbold;
