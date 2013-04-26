@@ -254,23 +254,25 @@ body  {
   font-size: 30px;
   font-family: GOTHAMbold;
   display: inline-block;
-  
+
 }
 .special-row {
     display: inline;
     float: left;
-    margin-bottom: 15px;
+    margin-bottom: 17px;
 }
 .special-column {
     background-color: #F1F1F1;
     border-top: 4px solid #FF0000;
     float: left;
     margin-bottom: 0;
-    margin-right: 3px;
+    margin-right: 4px;
     width: 235px;
 }
+.special-column.last {
+  margin-right: 0px;
+}
 
-  
 
 
 .special-date {
@@ -278,6 +280,7 @@ body  {
     font-size: 10px;
     padding-bottom: 4px;
     padding-left: 4.4%;
+    color: #6d6d6d;
 }
 
 .special-tag-head {
@@ -288,19 +291,22 @@ body  {
     line-height: 20px;
     padding-left: 3.8%;
     padding-top: 10px;
+    padding-right: 3.8px;
 }
 
 .special-tag-lin {
     font-family: GOTHAMbold;
     font-size: 12px;
-    
+    letter-spacing: 1px;
     height: 47px;
     line-height: 16px;
     padding-left: 9px;
+    color:#1c1a1b;
+    padding-right: 9px;
 }
 .special-column:hover {
     background-color: #faf02c;
-    border-top:none;
+    border-top:4px solid #faf02c;
 }
 .special-column:hover .special-tag-head{
     color: #000;

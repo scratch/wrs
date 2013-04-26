@@ -3,17 +3,14 @@
   <head>
     <title>HTML conversion template</title>
     <link rel="stylesheet" type="text/css" href="reset.css">
-    <link rel="stylesheet" type="text/css" href="Theme_03.css">
-	<link rel="stylesheet" type="text/css" href="page.css">
-	<link rel="stylesheet" type="text/css" href="WRSnews_04.css">
-	 
-	 
+    <link rel="stylesheet" type="text/css" href="page.css">
+    <link rel="stylesheet" type="text/css" href="WRSnews_04.css">
   </head>
 
-  <body class="theme">
-		<div id="page">
+  <body class="news">
+    <div id="page">
       <div class="header">
-			<div id="header-block">
+      <div id="header-block">
         <div class="header-top"><!-- hesder top -->
           <div class="logo">
             <img src="images/logo.jpg">
@@ -56,48 +53,59 @@
       </div><!--end header -->
     </div>
   </div>
-			<div id="main-menu">
+      <div id="main-menu">
         <ul class="main-top-menu">
-					<li class="first"><a href="#">HOME</a></li>
-					<li><a href="#">WRS NEWS</a></li>
-					<li><a href="#">SCHEDULE</a></li>
-					<li><a href="#">SHOWS</a></li>
-					<li><a href=="#">PROGRAMMES</a></li>
-					<li><a href="#">PLAY LIST</a></li>
-					<li><a href="#">ABOUT</a></li>
-					<li><a href="#">HOW TO LISTEN</a></li>
-          <li><form>
+          <li class="first"><a href="#">HOME</a></li>
+          <li><a href="#" class="active">WRS NEWS</a></li>
+          <li><a href="#">SCHEDULE</a></li>
+          <li><a href="#">SHOWS</a></li>
+          <li><a href=="#">PROGRAMMES</a></li>
+          <li><a href="#">PLAY LIST</a></li>
+          <li><a href="#">ABOUT</a></li>
+          <li><a href="#">HOW TO LISTEN</a></li>
+          <li><div class="menu-form"><form>
           <input type="text" placeholder="Search WRS Radio" class="search">
           <input type="submit" class="submit">
-          </form></li>
-			</div>
+          </form></div></li>
+        </ul>
+      </div>
+     <div id="main-menu-sub">
+        <ul class="main-menu-sub-top">
+          <li class="first"><a class="active" href="#">ALL NEWS</a></li>
+          <li><a href="#">BUSINESS ECONOMY</a></li>
+          <li><a href="#">SCIENCE & TECHNOLOGY</a></li>
+          <li><a href="#">ARTS & ENTERTAINMENT</a></li>
+          <li><a href=="#">HOME & FAMILY</a></li>
+          <li><a href="#">LIFE IN CH</a></li>
+          <li><a href="#">SPECIAL SERIES</a></li>
+          <li class="last"><a href="#">SPORTS</a></li>
+        </ul>
+
+      </div>
   <div class="main-region">
     <div id="main-content">
-	  <div class="main-content-business">
-	  <div class="content-business">
-	  <div class="h1-h2">
-	  <h2> WRS THEME</h2>
-          <h1 class="h1-content">BUSINESS & ECONOMY</h1>
-		  </div>
-          <div class="slider">
-         <div class="slides">
-         <div class="slider-image">
-           <img src="images/Featured-News.jpg">
-         </div>
-         <div class="slider-text-country">olympics</div>
-         <div class="slider-date">18:30 | 18 Mar 2013</div>
+      <div class="primary-content">
+        <div class="news-today">
+          <h1> WRS NEWS </h1>
+        </div>
+        <div class="slider">
+          <div class="slides">
+          <div class="slider-image">
+            <img src="images/Featured-News.jpg">
+          </div>
+          <div class="slider-text-country">olympics</div>
+          <div class="slider-date">18:30 | 18 Mar 2013</div>
 
-         <div class="slider-content">
-           <h1>Qatar 2022 World Cup bid in question</h1>
-         </div></div>
-       <div class="slider-bottom1">
-           <span class="slider1"><a href="#">1</a></span>
-           <span class="slider2"><a href="#">2</a></span>
-           <span class="slider3"><a href ="#">3</a></span>
-         </div>
-       </div>
-		<div class="news-content-middle">
-		<h1 class="newsh1"><span class="bold">NEWS IN</span>  BUSINESS & ECONOMY</h1>
+          <div class="slider-content">
+            <h1>Qatar 2022 World Cup bid in question</h1>
+          </div></div>
+        <div class="slider-bottom">
+            <span class="slider1"><a href="#">1</a></span>
+            <span class="slider2"><a href="#">2</a></span>
+            <span class="slider3"><a href ="#">3</a></span>
+          </div>
+        </div>
+        <div class="news-content-middle">
           <div class="news-content-middle-container">
             <div class="news-content-rows">
               <div class="news-content-column transformation">
@@ -153,7 +161,7 @@
               </div>
               <div class="news-content-column working-in-ch">
                 <div class="news-img">
-                  <img src="images/news4.jpg">
+                  <img src="images/News4.jpg">
                 </div>
                 <div class="news-content-main">
                   <div class="news-content-title">
@@ -168,289 +176,233 @@
                   </div>
                 </div>
               </div>
-              
-                   
-               
+              <div class="news-content-column architech">
+                <div class="news-img">
+                  <img src="images/News6.jpg">
+                </div>
+                <div class="news-content-main">
+                  <div class="news-content-title">
+                    <h1>architecture</h1>
+                  </div>
+                  <div class="news-content-img-wrs"></div>
+                  <div class="news-content-desc">
+                    <span>City of Geneva finishes 2012 in the black</span>
+                  </div>
+                  <div class="news-content-date">
+                    <span>18:30 | 18 Mar 2013</span>
+                  </div>
+                </div>
+              </div>
+              <div class="news-content-column music">
+                <div class="news-img">
+                  <img src="images/News5.jpg">
+                </div>
+                <div class="news-content-main">
+                  <div class="news-content-title">
+                    <h1>MUSIC</h1>
+                  </div>
+                  <div class="news-content-img-wrs"></div>
+                  <div class="news-content-desc">
+                    <span>City of Geneva finishes 2012 in the black</span>
+                  </div>
+                  <div class="news-content-date">
+                    <span>18:30 | 18 Mar 2013</span>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
       </div>
-		 
-		 
-	 
-		 
-		 
-		  <div class="content-bottom-middle-theme03">
-        <h1 class="title">PROGRAMME EPISODES</h1>
+    <div class="news-sidebar-second">
+      <div class="latest-news-bulletin-block">
+        <h1>Latest News Bulletin</h1>
+      </div>
+      <div class="wheather">
+        <img src="images/wheather.jpg">
+      </div>
+        <div class="latest-news-bulletion">
+         <div class="latest-news">
+          <span class="news-label">WRS NEWS</span>
+          <li><a href="#">Could it get a lot tougher to become Swiss?</a></li>
+          <li><a href="#">Italy deadlock after protest vote </a></li>
+          <li><a href="#">Egypt balloon crash kills tourists</a></li>
+          <li><a href="#">Bad sleep 'dramatically' alters body</a></li>
+          <li><a href="#">Could it get a lot tougher to become Swiss?</a></li>
+        </div>
+    </div><!--side bar second ends -->
+        <div class="classifieds-recent-posts">
+          <h1 class="recent-post-title">WRS CLASSIFIEDS</h1>
+          <div class="classifieds">
+            <div class="recent-classifieds">
+              <div class="recent-post-img"><img src="images/Icons_Classifieds_01.png"></div>
+              <div class="classifieds-post-label">Animals</div>
+              <div class="recent-post-text">WTS: Available English Bulldog Puppies</div>
+              <div class="recent-post-channel"></div>
+            </div>
+            <div class="recent-classifieds">
+              <div class="recent-post-img"><img src="images/Icons_Classifieds_02.png"></div>
+              <div class="classifieds-post-label">Cameras</div>
+              <div class="recent-post-text">Brand New Canon EOS
+5D Mark III 21MP DSLR Camera</div>
+              <div class="recent-post-channel"></div>
+            </div>
+            <div class="recent-classifieds">
+              <div class="recent-post-img"><img src="images/Icons_Classifieds_03.png"></div>
+              <div class="classifieds-post-label">Animals</div>
+              <div class="recent-post-text">WTS: Available English Bulldog Puppies</div>
+            </div>
+            <div class="recent-classifieds">
+              <div class="recent-post-img"><img src="images/Icons_Classifieds_04.png"></div>
+              <div class="classifieds-post-label">Cameras</div>
+              <div class="recent-post-text">Brand New Canon EOS
+5D Mark III 21MP DSLR Camera</div>
+              <div class="recent-post-channel"></div>
+            </div>
+            <div class="recent-classifieds">
+              <div class="recent-post-img"><img src="images/Icons_Classifieds_05.png"></div>
+              <div class="classifieds-post-label">Animals</div>
+              <div class="recent-post-text">WTS: Available English Bulldog Puppies</div>
+            </div>
+            <div class="recent-classifieds">
+              <div class="recent-post-img"><img src="images/Icons_Classifieds_06.png"></div>
+              <div class="classifieds-post-label">Cameras</div>
+              <div class="recent-post-text">Brand New Canon EOS
+5D Mark III 21MP DSLR Camera</div>
+
+            </div>
+            <div class="recent-classifieds">
+              <div class="recent-post-img"><img src="images/Icons_Classifieds_07.png"></div>
+              <div class="classifieds-post-label">Animals</div>
+              <div class="recent-post-text">WTS: Available English Bulldog Puppies</div>
+              <div class="recent-post-channel"></div>
+            </div>
+            <div class="recent-classifieds">
+              <div class="recent-post-img"><img src="images/Icons_Classifieds_08.png"></div>
+              <div class="classifieds-post-label">Cameras</div>
+              <div class="recent-post-text">Brand New Canon EOS
+5D Mark III 21MP DSLR Camera</div>
+              <div class="recent-post-img-right"></div>
+            </div>
+            <div class="recent-classifieds">
+              <div class="recent-post-img"><img src="images/Icons_Classifieds_07.png"></div>
+              <div class="classifieds-post-label">Animals</div>
+              <div class="recent-post-text">WTS: Available English Bulldog Puppies</div>
+              <div class="recent-post-channel"></div>
+            </div>
+            <div class="posts-view-all"><a href="#">VIEW ALL</a> </div>
+          </div>
+        </div>
+    </div>
+    <div class="content-bottom">
+     <h1 class="title">MORE NEWS</h1>
         <div class="wrs-selection">
-          <div class="wrs-selection-rows rows1">
+          <div class="row-one row">
+            <div class="wrs-selection-rows expats">
             <div class="wrs-selection-img">
               <img src="images/selection1.jpg">
              </div>
             <div class="wrs-selection-content">
               <div class="wrs-selction-main">
-              <div class="wrs-selection-main-title">ABE, THE Consumer Show</div>
+              <div class="wrs-selection-main-title">EXPATS</div>
               <div class="wrs-channel-img"><!--<img src="images/bbc.png">--></div>
               <div class="wrs-selection-main-time">06:30 | 18 MAR 2013</div>
-              <div class="wrs-selection-main-desc">A new Zurich
-               space for...</div>
+              <div class="wrs-selection-main-desc">City of Geneva finishes 2012 in the black</div>
 
             </div>
-          </div>
+            </div>
         </div>
-        <div class="wrs-selection-rows rows2">
+        <div class="wrs-selection-rows health">
           <div class="wrs-selection-img">
             <img src="images/selection2.jpg">
           </div>
           <div class="wrs-selection-content">
             <div class="wrs-selction-main">
-              <div class="wrs-selection-main-title">gadget guru
+              <div class="wrs-selection-main-title">HEALTH
               </div>
               <div class="wrs-channel-img"><!--<img src="images/bbc.png">--></div>
               <div class="wrs-selection-main-time">06:30 | 18 MAR 2013
               </div>
-              <div class="wrs-selection-main-desc">From new Justin Timberlake to new Kim Deal
+              <div class="wrs-selection-main-desc">Switzerland ranks 6th for asylum
               </div>
 
             </div>
           </div>
         </div>
-        <div class="wrs-selection-rows rows3">
+        <div class="wrs-selection-rows jobs last">
           <div class="wrs-selection-img">
             <img src="images/selection3.jpg">
           </div>
           <div class="wrs-selection-content">
             <div class="wrs-selction-main">
-              <div class="wrs-selection-main-title">dig it
+              <div class="wrs-selection-main-title">JOBS
               </div>
               <div class="wrs-channel-img"><!--<img src="images/bbc.png">--></div>
               <div class="wrs-selection-main-time">06:30 | 18 MAR 2013
               </div>
-              <div class="wrs-selection-main-desc">A show dedicated to Claude Nobs
+              <div class="wrs-selection-main-desc">Switzerland ranks 6th for asylum
               </div>
 
             </div>
           </div>
         </div>
-
-
-        <div class="wrs-selection-rows rows1">
-            <div class="wrs-selection-img">
-              <img src="images/selection1.jpg">
-             </div>
-            <div class="wrs-selection-content">
-              <div class="wrs-selction-main">
-              <div class="wrs-selection-main-title">ABE, THE Consumer Show</div>
+        </div>
+        <div class="row-two row">
+        <div class="wrs-selection-rows environment">
+          <div class="wrs-selection-img">
+            <img src="images/Selection_03.jpg">
+          </div>
+          <div class="wrs-selection-content">
+            <div class="wrs-selction-main">
+              <div class="wrs-selection-main-title">ENVIRONMENT</div>
               <div class="wrs-channel-img"><!--<img src="images/bbc.png">--></div>
               <div class="wrs-selection-main-time">06:30 | 18 MAR 2013</div>
-              <div class="wrs-selection-main-desc">A new Zurich
-               space for...</div>
-
-            </div>
-          </div>
-        </div>
-        <div class="wrs-selection-rows rows2">
-          <div class="wrs-selection-img">
-            <img src="images/selection2.jpg">
-          </div>
-          <div class="wrs-selection-content">
-            <div class="wrs-selction-main">
-              <div class="wrs-selection-main-title">gadget guru
-              </div>
-              <div class="wrs-channel-img"><!--<img src="images/bbc.png">--></div>
-              <div class="wrs-selection-main-time">06:30 | 18 MAR 2013
-              </div>
-              <div class="wrs-selection-main-desc">From new Justin Timberlake to new Kim Deal
-              </div>
-
-            </div>
-          </div>
-        </div>
-        <div class="wrs-selection-rows rows3">
-          <div class="wrs-selection-img">
-            <img src="images/selection3.jpg">
-          </div>
-          <div class="wrs-selection-content">
-            <div class="wrs-selction-main">
-              <div class="wrs-selection-main-title">dig it
-              </div>
-              <div class="wrs-channel-img"><!--<img src="images/bbc.png">--></div>
-              <div class="wrs-selection-main-time">06:30 | 18 MAR 2013
-              </div>
-              <div class="wrs-selection-main-desc">A show dedicated to Claude Nobs
-              </div>
-
-            </div>
-          </div>
-        </div>
-         
-		 
-		 
-		 
-		 <div class="wrs-selection-rows rows1">
-            <div class="wrs-selection-img">
-              <img src="images/selection1.jpg">
-             </div>
-            <div class="wrs-selection-content">
-              <div class="wrs-selction-main">
-              <div class="wrs-selection-main-title">ABE, THE Consumer Show</div>
-              <div class="wrs-channel-img"><!--<img src="images/bbc.png">--></div>
-              <div class="wrs-selection-main-time">06:30 | 18 MAR 2013</div>
-              <div class="wrs-selection-main-desc">A new Zurich
-               space for...</div>
-
-            </div>
-          </div>
-        </div>
-        <div class="wrs-selection-rows rows2">
-          <div class="wrs-selection-img">
-            <img src="images/selection2.jpg">
-          </div>
-          <div class="wrs-selection-content">
-            <div class="wrs-selction-main">
-              <div class="wrs-selection-main-title">gadget guru
-              </div>
-              <div class="wrs-channel-img"><!--<img src="images/bbc.png">--></div>
-              <div class="wrs-selection-main-time">06:30 | 18 MAR 2013
-              </div>
-              <div class="wrs-selection-main-desc">From new Justin Timberlake to new Kim Deal
-              </div>
-
-            </div>
-          </div>
-        </div>
-        <div class="wrs-selection-rows rows3">
-          <div class="wrs-selection-img">
-            <img src="images/selection3.jpg">
-          </div>
-          <div class="wrs-selection-content">
-            <div class="wrs-selction-main">
-              <div class="wrs-selection-main-title">dig it
-              </div>
-              <div class="wrs-channel-img"><!--<img src="images/bbc.png">--></div>
-              <div class="wrs-selection-main-time">06:30 | 18 MAR 2013
-              </div>
-              <div class="wrs-selection-main-desc">A show dedicated to Claude Nobs
+              <div class="wrs-selection-main-desc">World-record holding bird dies
               </div>
 
             </div>
           </div>
         </div>
 
-          <div class="wrs-selection-rows rows1">
-            <div class="wrs-selection-img">
-              <img src="images/selection1.jpg">
-             </div>
-            <div class="wrs-selection-content">
-              <div class="wrs-selction-main">
-              <div class="wrs-selection-main-title">ABE, THE Consumer Show</div>
-              <div class="wrs-channel-img"><!--<img src="images/bbc.png">--></div>
-              <div class="wrs-selection-main-time">06:30 | 18 MAR 2013</div>
-              <div class="wrs-selection-main-desc">A new Zurich
-               space for...</div>
-
-            </div>
-          </div>
-        </div>
-        <div class="wrs-selection-rows rows2">
-          <div class="wrs-selection-img">
-            <img src="images/selection2.jpg">
-          </div>
-          <div class="wrs-selection-content">
-            <div class="wrs-selction-main">
-              <div class="wrs-selection-main-title">gadget guru
-              </div>
-              <div class="wrs-channel-img"><!--<img src="images/bbc.png">--></div>
-              <div class="wrs-selection-main-time">06:30 | 18 MAR 2013
-              </div>
-              <div class="wrs-selection-main-desc">From new Justin Timberlake to new Kim Deal
-              </div>
-
-            </div>
-          </div>
-        </div>
-        
-		
-		  </div>
-		  </div>
-		   
-		   <div id="content-bottom-middle">
-		   <div id="wrs-selection">
-          <div id="wrs-selection-rows-row1">
-            <div class="wrs-selection-img">
-              <img src="images/selection1.jpg">
-             </div>
-            <div class="wrs-selection-content">
-              <div id="wrs-selction-main">
-              <div id="wrs-selection-main-title">dig it
-              </div>
-              <div id="wrs-channel-img"><!--<img src="images/bbc.png">--></div>
-              <div id="wrs-selection-main-time">06:30 | 18 MAR 2013
-              </div>
-              <div id="wrs-selection-main-desc">A show dedicated to Claude Nobs
-              </div>
-
-            </div>
-          </div>
-        </div>
-        <div id="wrs-selection-rows-rows2">
+        <div class="wrs-selection-rows crime-safety">
           <div class="wrs-selection-img">
             <img src="images/selection4.jpg">
           </div>
           <div class="wrs-selection-content">
-            <div id="wrs-selction-main">
-			
-			<div id="wrs-selection-main-title">business insight</div>
-              <div id="wrs-channel-img"><!--<img src="images/bbc.png">--></div>
-              <div id="wrs-selection-main-time">06:30 | 18 MAR 2013</div>
-              <div id="wrs-selection-main-desc">Beginner's Guide to Fondue
+            <div class="wrs-selction-main">
+              <div class="wrs-selection-main-title">CRIME & SAFETY
               </div>
-              
+              <div class="wrs-channel-img"><!--<img src="images/bbc.png">--></div>
+              <div class="wrs-selection-main-time">06:30 | 18 MAR 2013
+              </div>
+              <div class="wrs-selection-main-desc">Aviation office under fire for heliskiing
+              </div>
 
             </div>
           </div>
         </div>
-        <div id="wrs-selection-rows-rows3">
+        <div class="wrs-selection-rows books last">
           <div class="wrs-selection-img">
-            <img src="images/selection3.jpg">
+            <img src="images/selection5.jpg">
           </div>
           <div class="wrs-selection-content">
-            <div id="wrs-selction-main">
-              <div id="wrs-selection-main-title">gadget guru
+            <div class="wrs-selction-main">
+              <div class="wrs-selection-main-title">BOOKS
               </div>
-              <div id="wrs-channel-img"><!--<img src="images/bbc.png">--></div>
-              <div id="wrs-selection-main-time">06:30 | 18 MAR 2013
+              <div class="wrs-channel-img"><!--<img src="images/bbc.png">--></div>
+              <div class="wrs-selection-main-time">06:30 | 18 MAR 2013
               </div>
-              <div id="wrs-selection-main-desc">From new Justin Timberlake to new Kim Deal
-              </div>
-
-            </div>
-          </div>
-        </div>
-        <div id="wrs-selection-rows-rows4">
-          <div class="wrs-selection-img">
-            <img src="images/selection2.jpg">
-          </div>
-          <div class="wrs-selection-content">
-            <div id="wrs-selction-main">
-              <div id="wrs-selection-main-title">motoring on
-              </div>
-              <div id="wrs-channel-img"><!--<img src="images/bbc.png">--></div>
-              <div id="wrs-selection-main-time">06:30 | 18 MAR 2013
-              </div>
-              <div id="wrs-selection-main-desc">From Les Trans Musicales festival in
+              <div class="wrs-selection-main-desc">Aviation office under fire for heliskiing
               </div>
 
             </div>
           </div>
         </div>
-			  
-
-         
-           </div>
-         </div>
-				 </div><!--main end -->
-				</div>
+      </div>
+        </div>
+      </div>
+    </div>
+  </div><!--main end -->
     <div id="footer">
       <div class="footer-main-menu">
         <ul class="footer-menu">
