@@ -254,7 +254,7 @@ body  {
   font-size: 30px;
   font-family: GOTHAMbold;
   display: inline-block;
-  
+
 }
 .special-row {
     display: inline;
@@ -271,8 +271,8 @@ body  {
 }
 .special-column.last {
   margin-right: 0px;
-} 
-  
+}
+
 
 
 .special-date {
@@ -306,7 +306,7 @@ body  {
 }
 .special-column:hover {
     background-color: #faf02c;
-    border-top:none;
+    border-top:4px solid #faf02c;
 }
 .special-column:hover .special-tag-head{
     color: #000;
