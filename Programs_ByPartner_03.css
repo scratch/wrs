@@ -1161,7 +1161,7 @@ color: #1f1f1f;
   float:left;
   width:auto;
   font-size:12px;
-  padding-top:8px;
+  padding-top:12px;
   color:#00CC66;
   margin-left:11px;
   font-family:Verdana;
@@ -1192,7 +1192,7 @@ color: #1f1f1f;
   float:left;
   width:40px;
   font-size:13px;
-  padding-top:3px;
+  padding-top:5px;
   color:#00CC66;
   font-family:Verdana;
 }
@@ -1222,13 +1222,13 @@ color: #1f1f1f;
 #mid-one {
   border:red solid thin none;
   width:100%;
-  height:80px;
+  height:100px;
 }
 
 #mid-one-left {
   border:green solid thin none;
   width:49%;
-  height:80px;
+  height:100px;
   float:left;
 }
 
@@ -1321,7 +1321,7 @@ color: #1f1f1f;
 #mid-one-right {
   border:blue solid thin none;
   width:49%;
-  height:80px;
+  height:100px;
   float:right;
 }
 
@@ -1336,10 +1336,10 @@ color: #1f1f1f;
   border:red solid thin none;
   width:100%;
   height:36px;
-  margin-top:20px;
+  margin-top:35px;
   background-color:#F8F8F8;
   font-size:25px;
-  padding:7px 0px 0px  10px;
+  padding:10px 0px 0px  13px;
   font-weight:bold;
   font-family:Verdana;
   color:#0054aa;
@@ -1349,10 +1349,10 @@ color: #1f1f1f;
   border:red solid thin none;
   width:100%;
   height:36px;
-  margin-top:20px;
+  margin-top:7px;
   background-color:#F8F8F8;
   font-size:25px;
-  padding:7px 0px 0px  10px;
+  padding:7px 0px 0px  18px;
   font-weight:bold;
   font-family:Verdana;
   color:#0054aa;
@@ -1362,10 +1362,10 @@ color: #1f1f1f;
   border:red solid thin none;
   width:100%;
   height:36px;
-  margin-top:20px;
+  margin-top:14px;
   background-color:#F8F8F8;
   font-size:25px;
-  padding:7px 0px 0px  10px;
+  padding:7px 0px 0px 20px;
   font-weight:bold;
   font-family:Verdana;
   color:#0054aa;
