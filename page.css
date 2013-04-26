@@ -584,6 +584,11 @@ body  {
 }
 
 /** css for footer **/
+#footer{
+  width: 100%;
+  max-width: 1024px;
+  margin: 0 auto;
+}
 #footer .footer-menu li {
   display: inline-block;
   padding: 9px 2.2%;
@@ -1149,12 +1154,14 @@ color: #1f1f1f;
 }
 
 
-.wrs-selection-rows:hover .wrs-selection-img:before {
+.wrs-selection-rows:hover .wrs-selection-img:before,
+.voices .col:hover .pic:before  {
   background: url(images/classifieds-image-hover.png) #faf037 no-repeat center ;
   opacity: .8;
   }
 
-.wrs-selection-img:before {
+.wrs-selection-img:before,
+.voices .col .pic:before {
     content: "";
     display: block;
     position: absolute;
@@ -1168,3 +1175,10 @@ color: #1f1f1f;
     -o-transition: all .3s linear;
     transition: all .3s linear;**/
   }
+.voices .row  .pic{
+  position: relative;
+
+}
+.voices .col:hover .intro:before {
+  background: #faf037;
+}
