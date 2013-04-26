@@ -1146,13 +1146,13 @@ color: #1f1f1f;
 {
  border:red solid thin none;
  width:100%;
- height:20px;
+ height:31px;
 }  
 
 #sub-menu-item {
  border:#000066 solid thin none;
  width:970px;
- height:20px;
+ height:31px;
  
 }
   
@@ -1160,10 +1160,11 @@ color: #1f1f1f;
   list-style:none;
   float:left;
   width:auto;
-  font-size:13px;
-  padding-top:3px;
+  font-size:12px;
+  padding-top:8px;
   color:#00CC66;
   margin-left:11px;
+  font-family:Verdana;
 }
 
 #sub-menu a li:hover  {
@@ -1193,6 +1194,7 @@ color: #1f1f1f;
   font-size:13px;
   padding-top:3px;
   color:#00CC66;
+  font-family:Verdana;
 }
 
 #s_sub-menu a li:hover  {
@@ -1204,10 +1206,10 @@ color: #1f1f1f;
   width:100%;
   border:#000099 solid thin none;
   height:30px;
-  margin-top:30px;
+  margin-top:38px;
   font-weight:bold;
-  font-size:24px;
-  font-family:Georgia;
+  font-size:28px;
+  font-family:verdana;
 }
 
 #mid-content {
@@ -1369,3 +1371,81 @@ color: #1f1f1f;
   color:#0054aa;
 }
 
+
+#mid-one-left:hover, #mid-one-right:hover{
+background:red;
+}
+#mid-one-left:hover #mid-one-text div , #mid-one-right:hover #mid-one-text div  {
+color:#fff;
+}
+#mid-one-left:hover #mid-one-text #title {
+color:#fff;
+}
+
+
+#title {
+  border:red solid thin none;
+  width:auto;
+  height:auto;
+  color:#FF0000;
+  margin-top:3px;
+}
+
+
+#t_one {
+  border:red solid thin none;
+  width:auto;
+  height:auto;
+  margin-top:3px;
+}
+
+#t_two {
+  border:red solid thin none;
+  width:auto;
+  height:auto;
+  margin-top:3px;
+}
+
+#title-gray {
+  border:red solid thin none;
+  width:auto;
+  height:auto;
+  color:#646464;
+  margin-top:3px;
+}
+
+
+#title-blue {
+  border:red solid thin none;
+  width:auto;
+  height:auto;
+  color:#0054aa;
+  margin-top:3px;
+}
+
+#title-green {
+  border:red solid thin none;
+  width:auto;
+  height:auto;
+  color:#3bb345;
+  margin-top:3px;
+}
+
+
+#title-blue-light {
+  border:red solid thin none;
+  width:auto;
+  height:auto;
+  color:#165ae9;
+  margin-top:3px;
+}
+
+
+
+#title-blue-light-j {
+  border:red solid thin none;
+  width:auto;
+  height:auto;
+  color:#6c36d4;
+  margin-top:3px;
+}
