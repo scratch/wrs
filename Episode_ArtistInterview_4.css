@@ -1,31 +1,40 @@
-.news-episode .slider-date {
+.artist-interview .slider-date {
   width: 61%;
 }
 
-.news-episode .slider-text-country {
+.artist-interview .primary-content {
+  float: left;
+  width: 66.5%;
+}
+
+.artist-interview .slider-text-country {
   width: 31%;
 }
 
-.news-episode .wrs-selection-rows .wrs-selection-main-title {
+.artist-interview .wrs-selection-rows .wrs-selection-main-title {
 color:#e40c23;
 }
 
-.news-episode .wrs-selection-rows .wrs-selection-content {
+.artist-interview .wrs-selection-rows .wrs-selection-content {
   border-top: 4px solid #e40c23;
 }
 
-.news-episode .content-bottom h1.title{
+.artist-interview .content-bottom h1.title{
   font-family: GOTHAMbook;
 }
 
-.news-episode .content-bottom h1.title span {
+.artist-interview .content-bottom h1.title span {
   font-family: GOTHAMbold;
 }
 
-.news-episode .sidebars .wrs-selection-rows,
+.artist-interview .sidebars .wrs-selection-rows{
+  padding-right: 0;
+}
+
 .artist-interview .sidebars .wrs-selection-rows {
   padding-right: 0;
 }
+
 
 .wrs-roadways-news .title,
 .wrs-transportation-news .title{
@@ -49,16 +58,29 @@ color:#e40c23;
   margin-top: 42px;
 }
 
-.slider-palyer-bottom {
-background: #f1f1f1;
-float: left;
-padding-left: 3%;
-width: 93%;
-padding-top: 19px;
-padding-right: 3%;
-min-height: 361px;
-border-bottom: 4px solid #e40c23;
+.artist-interview .slider-text-country {
+  background: #6A37D4;
 }
+
+
+.news-sidebar-second-mod {
+  margin-left: 1.7%;
+  width: 300px;
+  float: right;
+  margin-top: 103px;
+}
+
+.slider-player-bottom {
+  background: #f1f1f1;
+  float: left;
+  padding-left: 3%;
+  width: 85%;
+  padding-top: 19px;
+  padding-right: 3%;
+  min-height: 361px;
+  border-bottom: 4px solid #e40c23;
+}
+
 .slider-player {
   float: left;
   width: 100%;
@@ -89,14 +111,16 @@ font-size: 13px;
 padding-top: 2px;
 }
 
-.slide-palyer-center {
+.slide-player-center {
 float: left;
-width: 73.5%;
+/* width: 73.5%;
+ */
+width: 65.5%;
 background: #9c9c9c;
 padding-bottom: 17px;
 }
 
-.audio-palyer {
+.audio-player {
   background: #000;
 float: left;
 width: 42%;
