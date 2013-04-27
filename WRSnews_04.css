@@ -1,12 +1,14 @@
 .news .slider,
-.news-episode .slider {
+.news-episode .slider,
+.artist-interview .slider {
   width: 626px;
   height: 387px;
   margin-top: 35px;
 }
 
 .news .slides,
-.news-episode .slides {
+.news-episode .slides,
+.artist-interview .slides {
   height: 387px;
 }
 
@@ -31,12 +33,14 @@
 }
 
 .news .latest-news-bulletin-block,
-.news-episode .latest-news-bulletin-block {
+.news-episode .latest-news-bulletin-block,
+{
   background: #000;
 }
 
 .news .latest-news-bulletin-block h1,
-.news-episode .latest-news-bulletin-block h1 {
+.news-episode .latest-news-bulletin-block h1,
+.artist-interview .latest-news-bulletin-block h1 {
   color: #f5f535;
   font-family: GOTHAMbold;
   text-align: center;
@@ -120,12 +124,12 @@ padding-left: 3.3%;
   margin-top: 22px;
   min-height: 213px;
 }
-.news .latest-news-bulletion .latest-news{
+.news .latest-news-bulletion .latest-news {
   height: auto;
 }
 
 .news .wrs-selection-rows,
-.news-episode .wrs-selection-rows{
+.news-episode .wrs-selection-rows {
   width: auto;
   padding-right: 2.7%;
 }
