@@ -1,6 +1,6 @@
 .news .slider,
 .news-episode .slider {
-  width: 627px;
+  width: 626px;
   height: 387px;
   margin-top: 35px;
 }
@@ -24,7 +24,7 @@
 }
 
 .news-sidebar-second {
-  margin-left: 1.7%;
+  margin-left: 1.9%;
   width: 300px;
   float: left;
   margin-top: 103px;
@@ -247,8 +247,8 @@ padding-left: 3.3%;
 .news .news-content-column,
 .theme .news-content-column {
   float: left;
-  width: 49.4%;
-  padding-right: 2px;
+  width: 49.2%;
+  padding-right: 0.4%;
   position: relative;
   margin-bottom: 25px;
 }
@@ -278,8 +278,10 @@ padding-left: 3.3%;
 .theme .news-content-column .news-content-desc {
   font-size: 14px;
   font-family: GOTHAMbold;
-  padding: 5px 7% 0 3%;
+  padding: 2px 7% 0 3%;
   color: #414141;
+  float: left;
+  width: 82%;
 }
 
 .news .news-content-column .news-content-date,
