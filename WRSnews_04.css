@@ -26,14 +26,14 @@
 }
 
 .news-sidebar-second {
-  margin-left: 1.9%;
+  margin-left: 2%;
   width: 300px;
   float: left;
   margin-top: 103px;
 }
 
 .news .latest-news-bulletin-block,
-.news-episode .latest-news-bulletin-block,
+.news-episode .latest-news-bulletin-block
 {
   background: #000;
 }
@@ -50,7 +50,7 @@
 .news .primary-content,
 .news-episode .primary-content {
   float: left;
-  width: 66.5%;
+  width: 66.4%;
 }
 
 .news .wheather {
@@ -62,15 +62,16 @@
   color: #000;
 }
 
-#main-menu-sub {
+/**#main-menu-sub {
   background: #fdf9b0;
-}
+}**/
 
 .main-menu-sub-top {
   line-height: 28px;
   max-width: 1024px;
   width: 100%;
   margin: 0 auto;
+  background: #fdf9b0;
 }
 
 #main-menu-sub li a {
@@ -239,7 +240,7 @@ padding-left: 3.3%;
 .news .classifieds-recent-posts {
   margin-top: 25px;
   float: left;
-  width: 90%;
+  width: 89.6%;
   min-height: 441px;
 }
 
@@ -251,8 +252,8 @@ padding-left: 3.3%;
 .news .news-content-column,
 .theme .news-content-column {
   float: left;
-  width: 49.2%;
-  padding-right: 0.4%;
+  width: 49.3%;
+  padding-right: 0.3%;
   position: relative;
   margin-bottom: 25px;
 }
