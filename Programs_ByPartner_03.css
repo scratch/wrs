@@ -1151,7 +1151,7 @@ color: #1f1f1f;
 
 #sub-menu-item {
  border:#000066 solid thin none;
- width:970px;
+ width:1004px;
  height:31px;
  background-color: #fdf9b0;
  padding-left:21px;
@@ -1184,14 +1184,14 @@ color: #1f1f1f;
  border:red solid thin none;
  width:100%;
  height:20px;
- background-color:#f8f8f8;
 }  
 
 #s_sub-menu-item {
  border:#000066 solid thin none;
- width:970px;
+ width:1004px;
  height:20px;
  padding-left: 21px;
+  background-color:#f8f8f8;
 }
   
 #s_sub-menu li {
