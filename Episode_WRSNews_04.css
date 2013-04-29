@@ -1,0 +1,176 @@
+.news-episode .slider-date {
+  width: 61%;
+}
+
+.news-episode .slider-text-country {
+  width: 31%;
+}
+
+.news-episode .wrs-selection-rows .wrs-selection-main-title {
+color:#e40c23;
+}
+
+.news-episode .wrs-selection-rows .wrs-selection-content {
+  border-top: 4px solid #e40c23;
+}
+
+.news-episode .content-bottom h1.title{
+  font-family: GOTHAMbook;
+}
+
+.news-episode .content-bottom h1.title span {
+  font-family: GOTHAMbold;
+}
+
+.news-episode .sidebars .wrs-selection-rows,
+.artist-interview .sidebars .wrs-selection-rows {
+  padding-right: 0;
+}
+
+.wrs-roadways-news .title,
+.wrs-transportation-news .title{
+  font-family: GOTHAMbook;
+  font-size: 14px;
+    margin-bottom: 28px;
+}
+
+.wrs-roadways-news .title span,
+.wrs-transportation-news .title span{
+  font-family: GOTHAMbold;
+  font-size: 14px;
+}
+
+.wrs-transportation-news {
+  margin-top: 42px;
+  float: left;
+}
+
+.wrs-roadways-news {
+  margin-top: 42px;
+}
+
+.slider-palyer-bottom {
+background: #f1f1f1;
+float: left;
+padding-left: 3%;
+width: 93%;
+padding-top: 19px;
+padding-right: 3%;
+min-height: 361px;
+border-bottom: 4px solid #e40c23;
+}
+.slider-player {
+  float: left;
+  width: 100%;
+  margin-top: 20px;
+}
+
+.slider-player ul li {
+  display: inline-block;
+}
+
+.slider-player-left {
+background: #faf037;
+float: left;
+width: 22.5%;
+padding-top: 25px;
+padding-bottom: 18px;
+padding-left: 3%;
+}
+
+.slide-palyer-title {
+font-family: GOTHAMbold;
+font-size: 13px;
+}
+
+.slide-player-desc {
+font-family: GOTHAMbook;
+font-size: 13px;
+padding-top: 2px;
+}
+
+.slide-palyer-center {
+float: left;
+width: 73.5%;
+background: #9c9c9c;
+padding-bottom: 17px;
+}
+
+.audio-palyer {
+  background: #000;
+float: left;
+width: 42%;
+margin-left: 4.2%;
+color: #faf738;
+font-family: GOTHAMbold;
+font-size: 13px;
+padding-top: 11px;
+margin-top: 19px;
+padding-left: 18%;
+padding-bottom: 11px;
+}
+
+.slider-palyer-share {
+float: left;
+width: 32%;
+}
+
+.slider-palyer-share span {
+margin-top: 34px;
+display: inline-block;
+margin-left: 21%;
+font-family: GOTHAMbold;
+font-size: 12px;
+float: left;
+width: 35.4%;
+}
+
+.slider-palyer-share ul {
+  float: left;
+margin-top: 31px;
+}
+
+.news-episode .slider-player-closure h1 {
+font-family: GOTHAMbook;
+font-size: 18px;
+color: #e40c23;
+padding-bottom: 3px;
+}
+
+.slider-player-closure p{
+  font-family: GOTHAMbook;
+font-size: 14px;
+line-height: 24px;
+}
+
+.audio-player-tags {
+padding-top: 15px;
+}
+
+.tagging {
+font-family: GOTHAMbold;
+font-size: 12px;
+color: #e40c23;
+padding-bottom: 7px;
+}
+
+.tags {
+font-family: GOTHAMbook;
+font-size: 14px;
+}
+
+.audio-related-links {
+padding-top: 16px;
+}
+
+.audio-related-links h1 {
+font-family: GOTHAMbold;
+font-size: 12px;
+color: #e40c23;
+padding-bottom: 10px;
+}
+
+.audio-related-links li {
+font-family: GOTHAMbook;
+font-size: 13px;
+}

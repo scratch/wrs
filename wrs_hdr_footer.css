@@ -27,9 +27,22 @@ body  {
 
 
 #page  {
-    margin: 0 auto;
     width:  100%;
+    background: #fef773;
 }
+
+
+.header {
+  background: #f8f8f8;
+}
+
+#header-block {
+  min-height: 144px;
+  width: 100%;
+  max-width: 1024px;
+  margin: 0 auto;
+}
+
 
 .header-top {
   overflow: hidden;
@@ -59,11 +72,7 @@ body  {
   float: right;
   width: 12.7%;
 }
-#menu-special-series ul {
-    margin: 0 auto;
-    max-width: 1024px;
-    width: 100%;
-}
+
 .sign-in {
   margin-top: 15px;
 }
@@ -81,7 +90,7 @@ body  {
     font-family: GOTHAMbold;
     font-size: 13px;
 }
-.top-menu .top-nav-menu li a{
+.top-menu .top-nav-menu li a  {
     text-decoration: none;
     color: #075a78;
     font-family: GOTHAMbold;
@@ -89,15 +98,6 @@ body  {
     background: url(images/down-arrow.jpg) no-repeat center right;
     padding-right: 14px;
 }
-
-
-#header-block  {
-    background-color: #f8f8f8;
-    min-height: 144px;
-    width:100%;
-}
-
-
 #header-menu  {
     background-color: #F9F035;
     height:   63px;
@@ -135,11 +135,6 @@ body  {
   font-family: GOTHAMbold;
   font-size: 14px;
   letter-spacing: 2px;
-}
-/* Not used */
-.mid-border  {
-  border-left: 1px solid #ccc;
-  border-right:1px solid #ccc; /* TODO:last menu shouldn't have a border */
 }
 
 /**css for header tabs **/
@@ -191,127 +186,76 @@ body  {
   color: #fff;
 }
 
+#main-menu {
+  background: #ffe100;
+  line-height: 38px;
+}
 
 #main-menu li {
   display: inline-block;
   padding-right: 1.5%;
 }
 
+#main-menu li a {
+  color: #0054a5;
+  font-family: GOTHAMbold;
+  font-size: 13px;
+  display: inline-block;
+  text-decoration: none;
+}
+
+#main-menu li a:hover {
+  color: #000;
+}
 
 #main-menu li.first {
   padding-left: 3.3%;
 }
-#main-menu input {
-  margin-left: 25%;
+#main-menu input.search {
+  margin-left: 16.5%;
   border: 0px;
   padding: 4px;
-}
-/* CSS code @Saurabh*/
-
-#menu-special-series {
-  background: #FBF697;
+  width: 150px;
+  outline: none;
+  padding-left: 10px;
 }
 
-#menu-special-series li{
-  display: inline-block;
-  padding-right: 1.4%;
-  padding-top: 4px;
-  padding-bottom: 1px;
-}
-
-#menu-special-series li a{
-  color: #0054a5;
-  font-family: GOTHAMbook;
-  font-size: 12px;
-  display: inline-block;
-  text-decoration: none;
-  padding: 0.5em 0;
-}
-
-#menu-special-series li a:hover {
-  color: #000;
-}
-
-#menu-special-series li.special-menu {
-  padding-left: 3.3%;
+.main-region {
+  width: 1024px;
+  margin: 0 auto;
 }
 
 
-.primary-content {
+#main-content{
+  overflow: hidden;
+  padding: 0 3.5%;
+  background: #fff;
+  padding-bottom: 52px;
+}
+
+#main-menu form {
   float: left;
-  width: 72.5%;
+  width: 235px;
+  height: 24px;
 }
 
-.special-series {
-  margin-top: 37px;
-  margin-bottom: 34px;
-  float: left;
-  padding-right:20px;
-}
-
-.special-series h1 {
-  color: #1f1f1f;
-  font-size: 30px;
-  font-family: GOTHAMbold;
+#main-menu .submit {
   display: inline-block;
-
-}
-.special-row {
-    display: inline;
-    float: left;
-    margin-bottom: 17px;
-}
-.special-column {
-    background-color: #F1F1F1;
-    border-top: 4px solid #FF0000;
-    float: left;
-    margin-bottom: 0;
-    margin-right: 4px;
-    width: 235px;
-}
-.special-column.last {
-  margin-right: 0px;
+  border: none;
+  width: 28px;
+  background: url(images/search.jpg);
+  height: 23px;
+  text-indent: -9999em;
+  margin-left: -4px;
 }
 
-
-
-.special-date {
-    font-family: GOTHAMbook;
-    font-size: 10px;
-    padding-bottom: 4px;
-    padding-left: 4.4%;
-    color: #6d6d6d;
+#main-menu ul {
+  margin: 0 auto;
+  max-width: 1024px;
+  width: 100%;
 }
 
-.special-tag-head {
-    color: #E40C23;
-    font-family: GOTHAMbook;
-    font-size: 17px;
-    height: 60px;
-    line-height: 20px;
-    padding-left: 3.8%;
-    padding-top: 10px;
-    padding-right: 3.8px;
-}
-
-.special-tag-lin {
-    font-family: GOTHAMbold;
-    font-size: 12px;
-    letter-spacing: 1px;
-    height: 47px;
-    line-height: 16px;
-    padding-left: 9px;
-    color:#1c1a1b;
-    padding-right: 9px;
-}
-.special-column:hover {
-    background-color: #faf02c;
-    border-top:4px solid #faf02c;
-}
-.special-column:hover .special-tag-head{
-    color: #000;
-}
-/* end CSS code @Saurabh */
+/* -- end of header -- */
 
 
 /** css for footer **/
@@ -423,4 +367,32 @@ body  {
 
 .footer-content-partners {
   float: left;
+}
+
+.footer-world-radio {
+  float: left;
+  width: 57.5%;
+  text-align: center;
+  margin-left: 11%;
+  line-height: 28px;
+  margin-top: 7px;
+}
+
+.footer-world-radio h1 {
+  font-size: 18px;
+  font-family: GOTHAMbold;
+  color: #6c7476;
+  text-transform: uppercase;
+}
+
+.footer-world-radio p {
+  font-size: 14px;
+  font-family: GOTHAMbook;
+  color: #9b9b9b;
+  text-transform: uppercase;
+}
+
+.social {
+  float: left;
+  margin-top: 7px;
 }
