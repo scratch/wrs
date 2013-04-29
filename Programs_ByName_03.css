@@ -260,7 +260,7 @@ body  {
   height:800px;
   font-size:10px;
   margin-top:70px;
- 
+
 }
 .right-content
 {
@@ -332,7 +332,7 @@ font-family:GOTHAMbold;
 font-size:12pt;
 line-height:1.3em;
 text-align:justify;
- 
+
 }
 
 .content-bottom-middle h1
@@ -1137,17 +1137,17 @@ color: #1f1f1f;
     -o-transition: all .3s linear;
     transition: all .3s linear;**/
   }
-  
-  
-  
+
+
+
   /* Brahminder Singh */
-  
+
 #sub-menu
 {
  border:red solid thin none;
  width:100%;
  height:31px;
-}  
+}
 
 #sub-menu-item {
  border:#000066 solid thin none;
@@ -1156,7 +1156,7 @@ color: #1f1f1f;
  background-color:#fdf9b0;
  padding-left:21px;
 }
-  
+
 #sub-menu li {
   list-style:none;
   float:left;
@@ -1183,8 +1183,8 @@ color: #1f1f1f;
  border:red solid thin none;
  width:100%;
  height:20px;
- 
-}  
+
+}
 
 #s_sub-menu-item {
  border:#000066 solid thin none;
@@ -1193,7 +1193,7 @@ color: #1f1f1f;
  background-color:#f8f8f8;
  padding-left:21px;
 }
-  
+
 #s_sub-menu li {
   list-style:none;
   float:left;
@@ -1231,7 +1231,7 @@ color: #1f1f1f;
   border:red solid thin none;
   width:100%;
   height:100px;
-  
+
 }
 
 #mid-one-left {
@@ -1314,16 +1314,15 @@ color: #1f1f1f;
   height:60px;
   float:left;
   margin-left:4px;
-  font-weight:bold;
-  font-family:gothambook;
+  font-family: GOTHAMbold;
   font-size:14px;
   padding:3px 0px 0px 5px;
  }
- 
+
  #mid-one-text p {
  padding:2px;
  }
- 
+
  #mid-one-logo img {
    border:black solid thin none;
   width:35px;
@@ -1357,7 +1356,7 @@ color:#000;
 color:#000;
 }
 
-/* NEW 
+/* NEW
 #mid-one-left-blue:hover, #mid-one-right-blue:hover{
 background:blue;
 }
@@ -1386,6 +1385,7 @@ color:#fff;
   width:auto;
   height:auto;
   margin-top:3px;
+  font-size: 13px;
 }
 
 #t_two {
@@ -1393,6 +1393,7 @@ color:#fff;
   width:auto;
   height:auto;
   margin-top:3px;
+  font-size: 13px;
 }
 
 #title-gray {
