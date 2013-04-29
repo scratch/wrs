@@ -274,9 +274,13 @@ voices .main-region {
 }
 
 .voices #sub-menu{
-  background: #fff39d;
   line-height: 20px;
 }
+
+.voices #sub-menu ul {
+  background: #fff39d;
+}
+
 .voices #sub-menu li {
   display: inline-block;
   padding-right: 1.5%;
