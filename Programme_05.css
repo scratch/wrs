@@ -254,6 +254,83 @@ body  {
   max-width: 1024px;
   width: 100%;
 }
+
+
+
+.sub-menu
+{
+height:32px;
+background-color:#FDF9B0;
+}
+
+
+.sub-menu ul
+{
+float:left;
+text-decoration:none;
+margin-left:100px;
+
+}
+.sub-menu ul li
+{
+display:block;
+float:left;
+text-decoration:none;
+margin-right:5px;
+margin-top:10px;
+
+}
+
+
+.sub-menu ul li a
+{
+display:block;
+float:left;
+text-decoration:none;
+margin-right:15px;
+color:#34727F;
+ font-family: GOTHAMbook;
+ font-weight:bold;
+ font-size:13px;
+}
+
+
+.sub-menu1
+{
+background-color:#F8F8F8;
+height:32px;
+}
+
+.sub-menu1 ul
+{
+float:left;
+text-decoration:none;
+margin-left:100px;
+
+}
+.sub-menu1 ul li
+{
+display:block;
+float:left;
+text-decoration:none;
+margin-right:5px;
+margin-top:10px;
+
+}
+
+
+.sub-menu1 ul li a
+{
+display:block;
+float:left;
+text-decoration:none;
+margin-right:15px;
+color:#34727F;
+ font-family: GOTHAMbook;
+ font-weight:bold;
+ font-size:13px;
+}
+
 .main
 {
 width:1000px;

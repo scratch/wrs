@@ -1802,3 +1802,17 @@ font-family:GHOTHAMbook;
 font-family:GOTHAMbold; 
 
  }
+ 
+.theme .wrs-selection-theme .wrs-selection-rows {
+    width: 300px;
+	padding-right:25px;
+}
+
+.theme .wrs-selection-theme .wrs-selection-rows.row2,
+.theme .wrs-selection-theme .wrs-selection-rows.row4 {
+  padding:0;
+}
+.theme .content-bottom-middle {
+    padding: 0;
+    width: 628px;
+}
