@@ -1312,7 +1312,7 @@ color: #1f1f1f;
   float:left;
   margin-left:4px;
   font-weight:bold;
-  font-family:Verdana;
+  font-family:gothambook;
   font-size:13px;
   margin-top:2px;
  }
@@ -1376,7 +1376,7 @@ color: #1f1f1f;
   font-size:25px;
   padding:7px 0px 0px 20px;
   font-weight:bold;
-  font-family:Verdana;
+  font-family:gothambook;
   color:#0054aa;
 }
 
@@ -1384,10 +1384,11 @@ color: #1f1f1f;
 #mid-one-left:hover, #mid-one-right:hover{ background: red
 url(images/listen.jpg);
  background-repeat: no-repeat; 
+ background-position: 339px 40px;
   background-size: 40px auto;
- background-position: 400px 60px;
 
-background-position: center;
+
+
 }
 #mid-one-left:hover #mid-one-text div , #mid-one-right:hover #mid-one-text div  {
 color:#fff;
