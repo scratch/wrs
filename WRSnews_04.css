@@ -415,3 +415,13 @@ color:#3F80C2;
 .news #main-content {
   padding-bottom: 70px;
 }
+
+
+.news-content-column:hover .news-content-title h1 {
+  color: #000;
+}
+
+.wrs-selection-rows:hover .wrs-selction-main .wrs-selection-main-title {
+  color: #000;
+}
+
