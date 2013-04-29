@@ -1,18 +1,59 @@
-.artist-interview .slider-date {
-  width: 61%;
+
+.news-today {
+  margin-top: 34px;
 }
+
+.news-today h1 {
+  color: #1f1f1f;
+  font-size: 20px;
+  font-family: GOTHAMbold;
+  display: inline-block;
+  margin: 10px 10px 10px 10px;
+}
+
+.artist-interview .slider {
+  float: left;
+  margin-top: 15px;
+  width: 444px;
+  height: 381px;
+  position: relative;
+}
+
+.artist-interview .slider-text-country {
+  background: #e30d29;
+  position: absolute;
+  top: 8px;
+  color: #fff;
+  font-size: 12px;
+  font-family: GOTHAMbold;
+  margin-left: 8px;
+  padding: 4px 7px 4px 5px;
+  width: 120px;
+  text-align: center;
+}
+
+.artist-interview .slider-date {
+  position: absolute;
+  top: 8px;
+  background: #f1f1f1;
+  color: #3c3c3c;
+  font-size: 12px;
+  font-family: GOTHAMbold;
+  padding: 4px 11px;
+  width: 62%;
+  right: 9px;
+}
+
+
 
 .artist-interview .primary-content {
   float: left;
   width: 66.5%;
 }
 
-.artist-interview .slider-text-country {
-  width: 31%;
-}
 
 .artist-interview .wrs-selection-rows .wrs-selection-main-title {
-color:#e40c23;
+  color:#e40c23;
 }
 
 .artist-interview .wrs-selection-rows .wrs-selection-content {
