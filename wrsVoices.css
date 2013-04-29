@@ -33,7 +33,7 @@ body  {
     /**max-width: 1024px;
     margin: 0 auto; **/
     width:  100%;
-    background: #fef773; 
+    background: #fef773;
 }
 
 .header-top {
@@ -280,7 +280,8 @@ voices .main-region {
 .voices #sub-menu li {
   display: inline-block;
   padding-right: 1.5%;
-  padding-top: 6px;
+  padding-top: 0px;
+  line-height: 22px;
 }
 
  .voices #sub-menu li a {
@@ -288,6 +289,7 @@ voices .main-region {
   font-size: 13px;
   display: inline-block;
   text-decoration: none;
+  font-family: GOTHAMbook;
 }
 .voices #sub-menu li a:hover{
 color: #000000;
@@ -321,7 +323,7 @@ color: #000000;
 .voices .sidebar label{
   color: #9c9c9c;
   letter-spacing: 1px;
-   font-family: GOTHAMbold; 
+   font-family: GOTHAMbold;
 }
 .voices .filter{
   margin-top: 22px;
@@ -341,6 +343,7 @@ color: #000000;
   font-size: 14px;
   color: #000000;
   letter-spacing: 0px;
+  font-family: GOTHAMbook;
    }
 
 .voices .filter form{
@@ -361,7 +364,7 @@ color: #000000;
   margin-left: 5px;
   height: 183px;
  }
- 
+
 .voices .pic{
   width: 235px;
   height: 117px;
@@ -375,7 +378,7 @@ color: #000000;
 .voices .intro{
   width: 224px;
   height: 47px;
-  background-color:#e6e8fa;   
+  background-color:#e6e8fa;
   color: #bababa;
   font-family: GOTHAMbook;
   font-size: 10px;
@@ -721,4 +724,16 @@ overflow: hidden;
   }
 .voices .col  .pic{
   position: relative;
+}
+
+.voices .col:hover img {
+  border-bottom: 4px solid #faf037;
+}
+
+.voices .col:hover .intro {
+  color: #000;
+}
+
+.voices .col:hover .intro p {
+  color: #000;
 }
