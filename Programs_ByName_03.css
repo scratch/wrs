@@ -1162,7 +1162,7 @@ color: #1f1f1f;
   float:left;
   width:auto;
   font-size:12px;
-  padding-top:8px;
+  padding-top:10px;
   color:#003399;
   margin-left:11px;
   font-family:gothambook;
@@ -1198,8 +1198,8 @@ color: #1f1f1f;
   list-style:none;
   float:left;
   width:40px;
-  font-size:13px;
-  padding-top:3px;
+  font-size:11px;
+  padding-top:5px;
   color:#003399;
   font-family:gothambook;
   margin-left:2px;
@@ -1316,7 +1316,7 @@ color: #1f1f1f;
   margin-left:4px;
   font-weight:bold;
   font-family:gothambook;
-  font-size:13px;
+  font-size:14px;
   padding:3px 0px 0px 5px;
  }
  
@@ -1348,13 +1348,13 @@ color: #1f1f1f;
 }
 
 #mid-one-left:hover, #mid-one-right:hover{
-background:red;
+background:#faf02c;
 }
 #mid-one-left:hover #mid-one-text div , #mid-one-right:hover #mid-one-text div  {
-color:#fff;
+color:#000;
 }
 #mid-one-left:hover #mid-one-text #title {
-color:#fff;
+color:#000;
 }
 
 /* NEW 
@@ -1439,7 +1439,13 @@ color:#fff;
   margin-top:3px;
 }
 
+#mid-one-left-air {
+  border:green solid thin none;
+  width:49%;
+  height:100px;
+  float:left;
+  background-color:#FF0000;
 
-
+}
 
 
