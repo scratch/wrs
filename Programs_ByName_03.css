@@ -1167,6 +1167,11 @@ color: #1f1f1f;
   font-family:Verdana;
 }
 
+#sub-menu a.active li{
+  color:#000000;
+  font-weight:bold;
+}
+
 #sub-menu a li:hover  {
   color:#000;
 }
@@ -1350,6 +1355,21 @@ color:#fff;
 #mid-one-left:hover #mid-one-text #title {
 color:#fff;
 }
+
+/* NEW 
+#mid-one-left-blue:hover, #mid-one-right-blue:hover{
+background:blue;
+}
+
+#mid-one-left-blue:hover #mid-one-text div , #mid-one-right-blue:hover #mid-one-text div  {
+color:#fff;
+}
+
+#mid-one-left-blue:hover #mid-one-text #title-blue {
+color:#fff;
+}
+
+*/
 
 #title {
   border:red solid thin none;

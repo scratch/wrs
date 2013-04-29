@@ -209,6 +209,11 @@ body  {
   text-decoration: none;
 }
 
+#main-menu li a.active {
+  color:#000000;
+  font-weight:bold;
+}
+
 #main-menu li.first {
   padding-left: 3.3%;
 }
@@ -1164,7 +1169,7 @@ color: #1f1f1f;
   padding-top:8px;
   color:#00CC66;
   margin-left:12px;
-  font-family:verdana;
+  font-family:gothambook;
 }
 
 #sub-menu a li:hover  {
@@ -1195,22 +1200,25 @@ color: #1f1f1f;
   padding-top:3px;
   color:#0054aa;
   margin-left:12px;
-  font-family:Verdana;
+  font-family:gothambook;
 }
 
 #s_sub-menu a li:hover  {
   color:#000;
 }
 
+#sub-menu a.active li {
+  color:#000000;
+  font-weight:bold;
+}
 
 #text {
   width:100%;
   border:#000099 solid thin none;
   height:30px;
   margin-top:38px;
-  font-weight:bold;
   font-size:28px;
-  font-family:verdana;
+  font-family:gothambold;
 }
 
 #mid-content {
@@ -1319,7 +1327,7 @@ color: #1f1f1f;
   float:left;
   margin-left:4px;
   font-weight:bold;
-  font-family:Verdana;
+  font-family:gothambook;
   font-size:13px;
  }
  
@@ -1467,7 +1475,7 @@ color:#fff;
   width:auto;
   height:auto;
   color:#FF0000;
-  margin-top:13px;
+  margin-top:7px;
 }
 
 
