@@ -38,8 +38,7 @@
 }
 
 .news .latest-news-bulletin-block h1,
-.news-episode .latest-news-bulletin-block h1,
-.artist-interview .latest-news-bulletin-block h1 {
+.news-episode .latest-news-bulletin-block h1 {
   color: #f5f535;
   font-family: GOTHAMbold;
   text-align: center;
