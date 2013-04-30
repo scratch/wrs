@@ -1458,3 +1458,13 @@ color:#fff;
   margin-top:3px;
 }
 
+
+#t_two  span {
+    color: #CCCCCC;
+	font-size:12px;
+}
+
+#mid-one-left:hover span,
+#mid-one-right:hover span  {
+  color:#000;
+}
