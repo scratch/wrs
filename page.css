@@ -322,6 +322,9 @@ body  {
   right: 8px;
 }
 
+.front .slider-date {
+  width: 69%;
+}
 .slider-content {
   position: absolute;
   bottom: 0;
