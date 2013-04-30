@@ -1166,7 +1166,6 @@ color: #1f1f1f;
     margin-left: 11px;
     padding-top: 12px;
     width: auto;
-    font-weight: bold;
 }
 
 #sub-menu a.active li{
@@ -1195,15 +1194,14 @@ color: #1f1f1f;
 }
   
 #s_sub-menu li {
- color: #4D8294;
+ 	color: #4D8294;
     float: left;
     font-family: gothambook;
-    font-size: 12px;
+    font-size: 11px;
     list-style: none outside none;
     padding-left: 6px;
     padding-top: 5px;
     width: 40px;
-    font-weight: bold;
 }
 
 #s_sub-menu a li:hover  {
@@ -1239,6 +1237,16 @@ color: #1f1f1f;
   width:49%;
   height:100px;
   float:left;
+}
+
+
+#mid-one-left-air {
+  border:green solid thin none;
+  width:49%;
+  height:90px;
+  float:left;
+  background-color:#FF0000;
+
 }
 
 
@@ -1313,7 +1321,7 @@ color: #1f1f1f;
   margin-left:4px;
   font-weight:bold;
   font-family:gothambook;
-  font-size:13px;
+  font-size:14px;
   margin-top:2px;
  }
  
@@ -1381,7 +1389,7 @@ color: #1f1f1f;
 }
 
 
-#mid-one-left:hover, #mid-one-right:hover{ background: red
+#mid-one-left:hover, #mid-one-right:hover{ background: #faf02c
 url(images/listen.jpg);
  background-repeat: no-repeat; 
  background-position: 339px 40px;
@@ -1391,10 +1399,10 @@ url(images/listen.jpg);
 
 }
 #mid-one-left:hover #mid-one-text div , #mid-one-right:hover #mid-one-text div  {
-color:#fff;
+color:#000;
 }
 #mid-one-left:hover #mid-one-text #title {
-color:#fff;
+color:#000;
 }
 
 
@@ -1464,3 +1472,4 @@ color:#fff;
   color:#6c36d4;
   margin-top:3px;
 }
+

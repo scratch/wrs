@@ -1199,8 +1199,8 @@ color: #1f1f1f;
   list-style:none;
   float:left;
   width:auto;
-  font-size:12px;
-  padding-top:3px;
+  font-size:11px;
+  padding-top:5px;
   color:#006699;
   margin-left:12px;
   font-family:gothambook;
@@ -1242,6 +1242,14 @@ color: #1f1f1f;
   width:49%;
   height:90px;
   float:left;
+}
+
+#mid-one-left-air {
+  border:green solid thin none;
+  width:49%;
+  height:90px;
+  float:left;
+  background-color:#FF0000;
 }
 
 
@@ -1463,13 +1471,13 @@ color: #1f1f1f;
 }
 
 #mid-one-left:hover, #mid-one-right:hover{
-background:red;
+background:#faf02c;
 }
 #mid-one-left:hover #mid-one-text div , #mid-one-right:hover #mid-one-text div  {
-color:#fff;
+color:#000;
 }
 #mid-one-left:hover #mid-one-text #title {
-color:#fff;
+color:#000;
 }
 
 
