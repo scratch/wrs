@@ -260,7 +260,7 @@ body  {
   height:800px;
   font-size:10px;
   margin-top:70px;
- 
+
 }
 .right-content
 {
@@ -332,7 +332,7 @@ font-family:GOTHAMbold;
 font-size:12pt;
 line-height:1.3em;
 text-align:justify;
- 
+
 }
 
 .content-bottom-middle h1
@@ -1137,26 +1137,26 @@ color: #1f1f1f;
     -o-transition: all .3s linear;
     transition: all .3s linear;**/
   }
-  
-  
-  
+
+
+
   /* Brahminder Singh */
-  
+
 #sub-menu
 {
  border:red solid thin none;
  width:100%;
  height:31px;
-}  
+}
 
 #sub-menu-item {
  border:#000066 solid thin none;
- width:970px;
+ width:1004px;
  height:31px;
  background-color: #fdf9b0;
  padding-left:21px;
 }
-  
+
 #sub-menu li {
   color: #689791;
     float: left;
@@ -1166,7 +1166,6 @@ color: #1f1f1f;
     margin-left: 11px;
     padding-top: 12px;
     width: auto;
-    font-weight: bold;
 }
 
 #sub-menu a.active li{
@@ -1184,26 +1183,25 @@ color: #1f1f1f;
  border:red solid thin none;
  width:100%;
  height:20px;
- background-color:#f8f8f8;
-}  
+}
 
 #s_sub-menu-item {
  border:#000066 solid thin none;
- width:970px;
+ width:1004px;
  height:20px;
  padding-left: 21px;
+  background-color:#f8f8f8;
 }
-  
+
 #s_sub-menu li {
- color: #4D8294;
+ 	color: #4D8294;
     float: left;
     font-family: gothambook;
-    font-size: 12px;
+    font-size: 11px;
     list-style: none outside none;
     padding-left: 6px;
     padding-top: 5px;
     width: 40px;
-    font-weight: bold;
 }
 
 #s_sub-menu a li:hover  {
@@ -1239,6 +1237,16 @@ color: #1f1f1f;
   width:49%;
   height:100px;
   float:left;
+}
+
+
+#mid-one-left-air {
+  border:green solid thin none;
+  width:49%;
+  height:90px;
+  float:left;
+  background-color:#FF0000;
+
 }
 
 
@@ -1311,12 +1319,11 @@ color: #1f1f1f;
   height:60px;
   float:left;
   margin-left:4px;
-  font-weight:bold;
-  font-family:Verdana;
-  font-size:13px;
+  font-family:GOTHAMbold;
+  font-size:14px;
   margin-top:2px;
  }
- 
+
  #mid-one-logo img {
    border:black solid thin none;
   width:35px;
@@ -1376,24 +1383,24 @@ color: #1f1f1f;
   font-size:25px;
   padding:7px 0px 0px 20px;
   font-weight:bold;
-  font-family:Verdana;
+  font-family:gothambook;
   color:#0054aa;
 }
 
 
-#mid-one-left:hover, #mid-one-right:hover{ background: red
-url(images/listen.jpg);
- background-repeat: no-repeat; 
+#mid-one-left:hover, #mid-one-right:hover{ background: #faf02c;
+ background-repeat: no-repeat;
+ background-position: 339px 40px;
   background-size: 40px auto;
- background-position: 400px 60px;
 
-background-position: center;
+
+
 }
 #mid-one-left:hover #mid-one-text div , #mid-one-right:hover #mid-one-text div  {
-color:#fff;
+color:#000;
 }
 #mid-one-left:hover #mid-one-text #title {
-color:#fff;
+color:#000;
 }
 
 
@@ -1411,6 +1418,7 @@ color:#fff;
   width:auto;
   height:auto;
   margin-top:3px;
+  font-size: 13px;
 }
 
 #t_two {
@@ -1418,6 +1426,7 @@ color:#fff;
   width:auto;
   height:auto;
   margin-top:3px;
+  font-size: 13px;
 }
 
 #title-gray {
@@ -1463,3 +1472,4 @@ color:#fff;
   color:#6c36d4;
   margin-top:3px;
 }
+

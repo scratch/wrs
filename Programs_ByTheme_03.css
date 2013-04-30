@@ -211,7 +211,6 @@ body  {
 
 #main-menu li a.active {
   color:#000000;
-  font-weight:bold;
 }
 
 #main-menu li.first {
@@ -265,7 +264,7 @@ body  {
   height:800px;
   font-size:10px;
   margin-top:70px;
- 
+
 }
 .right-content
 {
@@ -337,7 +336,7 @@ font-family:GOTHAMbold;
 font-size:12pt;
 line-height:1.3em;
 text-align:justify;
- 
+
 }
 
 .content-bottom-middle h1
@@ -1142,17 +1141,17 @@ color: #1f1f1f;
     -o-transition: all .3s linear;
     transition: all .3s linear;**/
   }
-  
-  
-  
+
+
+
   /* Brahminder Singh */
-  
+
 #sub-menu
 {
  border:red solid thin none;
  width:100%;
  height:31px;
-}  
+}
 
 #sub-menu-item {
  border:#000066 solid thin none;
@@ -1160,9 +1159,9 @@ color: #1f1f1f;
  height:31px;
  padding-left:21px;
  background-color:#fdf9b0;
- 
+
 }
-  
+
 #sub-menu li {
   list-style:none;
   float:left;
@@ -1184,7 +1183,7 @@ color: #1f1f1f;
  border:red solid thin none;
  width:100%;
  height:20px;
-}  
+}
 
 #s_sub-menu-item {
  border:#000066 solid thin none;
@@ -1192,15 +1191,15 @@ color: #1f1f1f;
  height:20px;
  padding-left:21px;
   background-color:#f8f8f8;
- 
+
 }
-  
+
 #s_sub-menu li {
   list-style:none;
   float:left;
   width:auto;
-  font-size:12px;
-  padding-top:3px;
+  font-size:11px;
+  padding-top:5px;
   color:#006699;
   margin-left:12px;
   font-family:gothambook;
@@ -1242,6 +1241,13 @@ color: #1f1f1f;
   width:49%;
   height:90px;
   float:left;
+}
+
+#mid-one-left-air {
+  width:49%;
+  height:90px;
+  float:left;
+  background-color:#0153a5;
 }
 
 
@@ -1329,11 +1335,10 @@ color: #1f1f1f;
   height:60px;
   float:left;
   margin-left:4px;
-  font-weight:bold;
-  font-family:gothambook;
-  font-size:13px;
+  font-family:GOTHAMbold;
+  font-size:14px;
  }
- 
+
  #mid-one-logo img {
    border:black solid thin none;
   width:35px;
@@ -1463,13 +1468,13 @@ color: #1f1f1f;
 }
 
 #mid-one-left:hover, #mid-one-right:hover{
-background:red;
+background:#faf02c;
 }
 #mid-one-left:hover #mid-one-text div , #mid-one-right:hover #mid-one-text div  {
-color:#fff;
+color:#000;
 }
 #mid-one-left:hover #mid-one-text #title {
-color:#fff;
+color:#000;
 }
 
 
@@ -1487,6 +1492,7 @@ color:#fff;
   width:auto;
   height:auto;
   margin-top:5px;
+  font-size: 13px;
 }
 
 #t_two {
@@ -1494,6 +1500,7 @@ color:#fff;
   width:auto;
   height:auto;
   margin-top:5px;
+  font-size: 13px;
 }
 
 #title-gray {

@@ -65,7 +65,6 @@
   min-height: 100px;
   border-top: 4px solid #ED501D; 
 }
-/** CSS for hover divs of primary columns**/
 .second_col:hover,.third_col:hover,.fourth_col:hover, .fifth_col:hover ,.sixth_col:hover ,.eighth_col:hover ,.seventh_col:hover{
   background:#faf037;
   opacity: 0.8; 
@@ -84,6 +83,7 @@
 }
 .sixth_col,.seventh_col {
   min-height: 100px;
+<
   border-top: 4px solid #6f37d8;
 }
 .first_col_first,.first_col_second ,.first_col_third{
@@ -118,6 +118,7 @@
  .title1 {
   color: #e40c23;
   font-family: gotham;
+<<<<<<< HEAD
   font-size: 15px;
   font-weight: bold;
   line-height: 33px;
@@ -131,8 +132,10 @@
 }
 .eighth_col_div .title1 {
   color: #025C75;
+<<<<<<< HEAD
   font-size: 18px;
   font-family: gothan;
+
 }
  .author {
   display: block;
@@ -305,7 +308,6 @@
   float: right;
   font-family: GOTHAMbold;
   font-size: 15px;
-
   padding: 4px 0 4px 11px;
   width: 40px;
 }

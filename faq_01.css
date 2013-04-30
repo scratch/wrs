@@ -225,6 +225,7 @@ body  {
   overflow: hidden;
   margin: 0 3.4%;
 }
+/*my code*/
 #secondry-menu{
   background:#FDF9B0;
   line-height:30px;
@@ -261,7 +262,7 @@ body  {
   text-decoration: none;
   color:rgb(17, 96, 2);
   font-size: 12px;
-  padding-left: 12px;
+  padding-left: 13px;
   
 
 }
@@ -273,8 +274,8 @@ body  {
 .middleleftcontent{
   float: left;
   width: 600px;
-  margin-top: 5px;
-  margin-left: 40px;
+  margin-top: -23px;
+  margin-left: 32px;
   margin-bottom: 14px;
 
 
@@ -285,8 +286,8 @@ body  {
 float:right;
 width:300px;
 background-color:rgb(238, 238, 238);
-margin-top:20px;
-margin-right: 50px;
+margin-top:22px;
+margin-right: 24px;
 padding-right: 2px;
 margin-bottom: 24px;
 height: auto;
@@ -300,9 +301,10 @@ height: auto;
     font-family: GOThambook;
     list-style: none outside none;
     margin-left: 18px;
-    margin-right: 10px;
-    padding: 8px 28px 4px 10px;
+    margin-right: 25px;
+    padding: 10px 20px 2px 42px;
 font-size: 12px;
+
 margin-bottom: 12px;
 }
 .boldmiddlerightcontent
@@ -312,9 +314,9 @@ margin-bottom: 12px;
   font-weight: bolder;
 }
 .faq {
-  margin-top: 40px;
-  margin-left: 40px;
-  font-size: 32px;
+  margin-top: 38px;
+  margin-left: 33px;
+  font-size: 29px;
   font-family:GOTHAMbold;
   
     
@@ -322,18 +324,20 @@ margin-bottom: 12px;
 }
 .faqquestion
 { 
-  margin-top:20px;
-  font-size:20px;
+  margin-top:9px;
+  font-size:18px;
   font-family: GOTHAMbold;
   margin-bottom: 4px;
 
 }
 .faqpara
 {
-  margin-left: 36px;
-  margin-top: 5px;
+  margin-left: 13px;
+  margin-top: -17px;
   font-size: 14px;
-  font-family:GOTHAMbook;
+  font-weight:verdna;
+  font-family:GOTHAmbook;
+ line-height: 24px; 
   
 
 }
@@ -341,14 +345,25 @@ margin-bottom: 12px;
 {
   float: right;
   width: 350px;
+  
   font-size: 16px;
   font-family:GOTHAMBOLD;
   
-}
+  }
+  .recent,p
+  {
+    padding-left: 26px;
+    padding-top: 17px;
+    font-style: gothambold;
+    font-size: 14px;
+  }
+  
 .uirecentbold
 {
   font-family:GOTHAMbook;
   font-size: 14px;
+  margin-left: 40px;
+  margin-top: 60px;
   font-weight: bold;
 }
 
