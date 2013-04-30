@@ -1,5 +1,11 @@
+
+.artist-interview .primary-content {
+    margin-top: 0;
+}
+
 .artist-interview .news-today {
   margin-top: 34px;
+  margin-left: -12px;
 }
 
 .artist-interview .news-today h1 {
@@ -42,7 +48,7 @@
   font-size: 12px;
   font-family: GOTHAMbold;
   padding: 5px 11px;
-  width: 90%;
+  width: 100%;
   left: 30%;
 }
 
@@ -195,7 +201,7 @@ font-size: 13px;
 
 
 .news-sidebar-second-mod {
-  margin-top: 110px;
+  margin-top: 100px;
   margin-bottom: 30px;
   margin-left: 1.7%;
   width: 300px;
@@ -215,7 +221,7 @@ font-size: 13px;
 .news-sidebar-second-mod .bottom-block .title {
   font-family: GOTHAMbold;
   font-size: 16px;
-  margin-bottom: 15px;
+  margin-bottom: 26px;
 }
 
 
