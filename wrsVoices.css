@@ -29,6 +29,12 @@ body  {
 }
 
 
+#main-menu .main-top-menu a.active,
+.main-menu-sub-top a.active {
+  color: #000;
+}
+
+
 #page  {
     /**max-width: 1024px;
     margin: 0 auto; **/

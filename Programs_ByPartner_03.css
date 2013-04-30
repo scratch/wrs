@@ -1388,8 +1388,7 @@ color: #1f1f1f;
 }
 
 
-#mid-one-left:hover, #mid-one-right:hover{ background: #faf02c
-url(images/listen.jpg);
+#mid-one-left:hover, #mid-one-right:hover{ background: #faf02c;
  background-repeat: no-repeat;
  background-position: 339px 40px;
   background-size: 40px auto;
