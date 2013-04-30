@@ -1244,14 +1244,19 @@ color: #1f1f1f;
 }
 
 #mid-one-left-air {
-  border:green solid thin none;
   width:49%;
   height:90px;
   float:left;
-  background-color:#FF0000;
+  background-color:#0153a5;
+  color:#FFFFFF;
+  position:relative;
 }
 
-
+.listen-air {
+position: absolute;
+    right: 89px;
+    top: 18px;
+}
 
 #line_red {
  border:red solid thin none;
@@ -1521,6 +1526,14 @@ color:#000;
   margin-top:3px;
 }
 
+#title-w {
+  width:auto;
+  height:auto;
+  color:#FFFFFF;
+  margin-top:3px;
+}
+
+
 #title-green {
   border:red solid thin none;
   width:auto;
@@ -1566,6 +1579,12 @@ color:#000;
   margin-top:3px;
 }
 
+#t_two  span {
+    color: #CCCCCC;
+}
 
 
-
+#mid-one-left:hover span,
+#mid-one-right:hover span  {
+  color:#000;
+}

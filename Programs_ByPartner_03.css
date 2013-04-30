@@ -1383,13 +1383,12 @@ color: #1f1f1f;
   font-size:25px;
   padding:7px 0px 0px 20px;
   font-weight:bold;
-  font-family:gothambook;
+  font-family:GOTHAMbold;
   color:#0054aa;
 }
 
 
-#mid-one-left:hover, #mid-one-right:hover{ background: #faf02c
-url(images/listen.jpg);
+#mid-one-left:hover, #mid-one-right:hover{ background: #faf02c;
  background-repeat: no-repeat;
  background-position: 339px 40px;
   background-size: 40px auto;
@@ -1409,7 +1408,7 @@ color:#000;
   border:red solid thin none;
   width:auto;
   height:auto;
-  color:#FF0000;
+  
   margin-top:3px;
 }
 
@@ -1472,5 +1471,37 @@ color:#000;
   height:auto;
   color:#6c36d4;
   margin-top:3px;
+}
+
+#mid-one-left-air {
+  width:49%;
+  height:90px;
+  float:left;
+  background-color:#FF0000;
+  color:#FFFFFF;
+  position:relative;
+}
+.listen-air {
+position: absolute;
+    right: 89px;
+    top: 18px;
+}
+
+
+#t_two  span {
+    color: #CCCCCC;
+	font-size:12px;
+}
+
+#mid-one-left:hover span,
+#mid-one-right:hover span  {
+  color:#000;
+}
+
+#title-red {
+ color:#FF0000;
+ height: auto;
+    margin-top: 3px;
+    width: auto;
 }
 

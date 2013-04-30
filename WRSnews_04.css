@@ -64,7 +64,8 @@
   background: #fdf9b0;
 }**/
 
-.main-menu-sub-top {
+.main-menu-sub-top,
+.main-menu-sub-top2 {
   line-height: 28px;
   max-width: 1024px;
   width: 100%;
@@ -72,28 +73,37 @@
   background: #fdf9b0;
 }
 
-#main-menu-sub li a {
+.main-menu-sub-top2 {
+  background: #f8f8f8;
+}
+
+#main-menu-sub li a,
+.main-menu-sub-top2 li a {
   font-family: GOTHAMbook;
   text-decoration: none;
   color: #015b7e;
     font-size: 12px;
 }
 
-#main-menu-sub li a:hover {
+#main-menu-sub li a:hover,
+.main-menu-sub-top2 li a:hover {
   color: #000;
 }
 
-#main-menu-sub li {
+#main-menu-sub li,
+.main-menu-sub-top2 li {
   display: inline-block;
   padding-right: 1.4%;
 }
 
-#main-menu-sub li.first {
+#main-menu-sub li.first,
+.main-menu-sub-top2 li.first {
 padding-left: 3.3%;
 }
 
 
-#main-menu-sub li a.active {
+#main-menu-sub li a.active,
+.main-menu-sub-top2 li a.active {
   font-family: GOTHAMbold;
   color: #000;
 }
