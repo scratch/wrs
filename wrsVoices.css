@@ -218,6 +218,11 @@ body  {
   padding-left: 3.3%;
 }
 
+#main-menu li a:hover{
+color: #000000;
+}
+
+
 #main-menu input.search {
   margin-left: 16.5%;
   border: 0px;
@@ -230,13 +235,14 @@ voices .main-region {
   width: 1024px;
   margin: 0 auto;
   margin-bottom: 72px;
+
 }
 
 #main-content{
   overflow: hidden;
   padding: 0 3.5%;
   background: #fff;
-  padding-bottom: 52px;
+  padding-bottom: 124px;
 }
 
 #main-menu form {
@@ -255,7 +261,7 @@ voices .main-region {
 }
 
 .main-region {
-  width: 1024px;
+  width: 1028px;
   margin: 0 auto;
 }
 
@@ -269,11 +275,12 @@ voices .main-region {
 
 .voices #sub-menu{
   background: #fff39d;
-  line-height: 26px;
+  line-height: 20px;
 }
 .voices #sub-menu li {
   display: inline-block;
   padding-right: 1.5%;
+  padding-top: 6px;
 }
 
  .voices #sub-menu li a {
@@ -282,7 +289,9 @@ voices .main-region {
   display: inline-block;
   text-decoration: none;
 }
-
+.voices #sub-menu li a:hover{
+color: #000000;
+}
 .voices #sub-menu li.first {
   padding-left: 3.3%;
 }
@@ -296,37 +305,39 @@ voices .main-region {
 .voices #wrsvoices{
   font-family: GOTHAMblack;
   font-size: 30px;
-  margin-top: 42px;
-  margin-bottom: 27px;
+  margin-top: 40px;
+  margin-bottom: 31px;
   }
 
 
 .voices .sidebar{
   float:left;
-  width: 220px;
+  width: 222px;
   height: 1110px;
   font-size: 14px;
+  margin-top: 1px;
   }
 
 .voices .sidebar label{
   color: #9c9c9c;
   letter-spacing: 1px;
-   font-family: GOTHAMbold;
+   font-family: GOTHAMbold; 
 }
 .voices .filter{
   margin-top: 22px;
 }
 
 .voices .filter h1{
-  margin-top: 18x;
+
   color: #015b7e;
   font-family: GOTHAMbold;
   font-size: 14px;
   letter-spacing: 2px;
+  margin-bottom: 6px;
 }
 
 .voices .filter p{
-  margin-top: 5px;
+  margin-top: 4px;
   font-size: 14px;
   color: #000000;
   letter-spacing: 0px;
@@ -340,18 +351,20 @@ voices .main-region {
   float: left;
   height: 185px;
   width: 720px;
-  margin-bottom: 3px;
-  margin-left: 12px;
+  margin-bottom: 2px;
+  margin-left: 9px;
+  margin-top: 2px;
+  padding-left: 3px;
  }
  .voices .col{
   float: left;
-  margin-left: 3px;
+  margin-left: 5px;
   height: 183px;
  }
  
 .voices .pic{
-  width: 234px;
-  height: 117px
+  width: 235px;
+  height: 117px;
 }
 .voices .pic img{
    border-bottom: 4px solid #697273;
@@ -360,14 +373,14 @@ voices .main-region {
 }
 
 .voices .intro{
-  width: 223px;
+  width: 224px;
   height: 47px;
   background-color:#e6e8fa;   
   color: #bababa;
   font-family: GOTHAMbook;
   font-size: 10px;
-  padding-left: 13px;
-  padding-top: 14px;
+  padding-left: 11px;
+  padding-top: 12px;
   margin-bottom: 10px;
 }
 
@@ -381,7 +394,7 @@ voices .main-region {
   color: #015b7e;
   font-family: GOTHAMbold;
   font-size: 14px;
-  margin:9px 0px;
+  margin:7px 0px;
   }
 
 .primary-content {
