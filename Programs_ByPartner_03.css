@@ -1408,7 +1408,7 @@ color:#000;
   border:red solid thin none;
   width:auto;
   height:auto;
-  color:#FF0000;
+  
   margin-top:3px;
 }
 
@@ -1486,3 +1486,22 @@ position: absolute;
     right: 89px;
     top: 18px;
 }
+
+
+#t_two  span {
+    color: #CCCCCC;
+	font-size:12px;
+}
+
+#mid-one-left:hover span,
+#mid-one-right:hover span  {
+  color:#000;
+}
+
+#title-red {
+ color:#FF0000;
+ height: auto;
+    margin-top: 3px;
+    width: auto;
+}
+

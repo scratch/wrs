@@ -1579,5 +1579,12 @@ color:#000;
   margin-top:3px;
 }
 
+#t_two  span {
+    color: #CCCCCC;
+}
 
 
+#mid-one-left:hover span,
+#mid-one-right:hover span  {
+  color:#000;
+}
