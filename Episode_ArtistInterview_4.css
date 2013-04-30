@@ -1,8 +1,8 @@
-.news-today {
+.artist-interview .news-today {
   margin-top: 34px;
 }
 
-.news-today h1 {
+.artist-interview .news-today h1 {
   color: #1f1f1f;
   font-size: 30px;
   font-family: GOTHAMbold;
@@ -195,7 +195,8 @@ font-size: 13px;
 
 
 .news-sidebar-second-mod {
-  margin-top: 66px;
+  margin-top: 110px;
+  margin-bottom: 30px;
   margin-left: 1.7%;
   width: 300px;
   float: right;
@@ -212,6 +213,8 @@ font-size: 13px;
 }
 
 .news-sidebar-second-mod .box  {
+  height: 98px;
+  width: 100%;
 }
 
 .news-sidebar-second-mod .box .image  {
@@ -227,5 +230,10 @@ font-size: 13px;
   background: #693AD3;
   width: 50%;
   height: 98px;
+
+  /*background: #e30d29; */
+  color: #fff;
+  font-size: 12px;
+  font-family: GOTHAMbold;
 }
 
