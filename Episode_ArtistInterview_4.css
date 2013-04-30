@@ -1,8 +1,8 @@
-.news-today {
+.artist-interview .news-today {
   margin-top: 34px;
 }
 
-.news-today h1 {
+.artist-interview .news-today h1 {
   color: #1f1f1f;
   font-size: 30px;
   font-family: GOTHAMbold;
@@ -195,7 +195,8 @@ font-size: 13px;
 
 
 .news-sidebar-second-mod {
-  margin-top: 66px;
+  margin-top: 110px;
+  margin-bottom: 30px;
   margin-left: 1.7%;
   width: 300px;
   float: right;
@@ -212,6 +213,8 @@ font-size: 13px;
 }
 
 .news-sidebar-second-mod .box  {
+  height: 98px;
+  width: 100%;
 }
 
 .news-sidebar-second-mod .box .image  {
@@ -227,5 +230,77 @@ font-size: 13px;
   background: #693AD3;
   width: 50%;
   height: 98px;
+
+  /*background: #e30d29; */
+  color: #fff;
+  font-size: 12px;
+  font-family: GOTHAMbold;
 }
+
+
+
+/*
+ * TODO: cleanup heights, etc.
+.wrs-selection-rows {
+float: left;
+width: 50%;
+margin-bottom: 6px;
+  height: 98px;
+}
+
+.wrs-selection-content {
+  float: left;
+  width: 50%;
+  padding-left: 10px;
+  height: 98px;
+}
+
+
+.wrs-selection-rows.rows1 .wrs-selection-content {
+  background: #0153a5;
+}
+
+.wrs-selection-main {
+  padding-top: 9px;
+}
+
+.wrs-selection-main-title {
+  font-size: 10px;
+  font-family: GOTHAMbold;
+  color: #fff;
+  text-transform: uppercase;
+  line-height: 12px;
+  width: 95px;
+  float: left;
+}
+
+.wrs-channel-img {
+  margin-top: -4px;
+  background: url(images/bbc.png);
+  width: 35px;
+  height: 12px;
+  float: right;
+  margin-right: 6px;
+}
+
+.wrs-selection-rows:hover .wrs-channel-img{
+  background: url(images/bbc-hiver.png);
+}
+.wrs-selection-main-time {
+  font-size: 10px;
+  color: #fff;
+  font-family: GOTHAMbook;
+  padding-bottom: 4px;
+  width: 105px;
+}
+
+.wrs-selection-main-desc {
+  font-size: 14px;
+  font-family: GOTHAMbold;
+  color: #fff;
+  width: 130px;
+  line-height: 16px;
+}
+*/
+/* -- end of right sidebar */
 
