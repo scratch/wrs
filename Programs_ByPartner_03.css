@@ -1473,3 +1473,16 @@ color:#000;
   margin-top:3px;
 }
 
+#mid-one-left-air {
+  width:49%;
+  height:90px;
+  float:left;
+  background-color:#FF0000;
+  color:#FFFFFF;
+  position:relative;
+}
+.listen-air {
+position: absolute;
+    right: 89px;
+    top: 18px;
+}
