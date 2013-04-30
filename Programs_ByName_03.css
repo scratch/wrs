@@ -1446,7 +1446,15 @@ color:#fff;
   height:100px;
   float:left;
   background-color:#FF0000;
+  color:#FFFFFF;
 
 }
 
+
+#title-w {
+  width:auto;
+  height:auto;
+  color:#FFFFFF;
+  margin-top:3px;
+}
 
