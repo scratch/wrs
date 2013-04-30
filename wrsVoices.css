@@ -315,7 +315,7 @@ color: #000000;
 }
 
 .voices #wrsvoices{
-  font-family: GOTHAMblack;
+  font-family: GOTHAMbold;
   font-size: 30px;
   margin-top: 40px;
   margin-bottom: 31px;
@@ -386,7 +386,7 @@ color: #000000;
 }
 
 .voices .intro{
-  width: 224px;
+  width: 223px;
   height: 47px;
   background-color:#e6e8fa;
   color: #bababa;
@@ -714,7 +714,7 @@ overflow: hidden;
  .voices .col:hover .intro p
  {
   background: #faf037 no-repeat center ;
-  opacity: .8;
+  opacity: .9;
   color: black;
   }
 

@@ -1383,7 +1383,7 @@ color: #1f1f1f;
   font-size:25px;
   padding:7px 0px 0px 20px;
   font-weight:bold;
-  font-family:gothambook;
+  font-family:GOTHAMbold;
   color:#0054aa;
 }
 
@@ -1487,6 +1487,7 @@ position: absolute;
     top: 18px;
 }
 
+
 #t_two  span {
     color: #CCCCCC;
 	font-size:12px;
@@ -1503,3 +1504,4 @@ position: absolute;
     margin-top: 3px;
     width: auto;
 }
+
