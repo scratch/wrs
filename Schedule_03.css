@@ -68,10 +68,14 @@
   width: 684px;
   border-top: 4px solid #ED501D; 
 }
-.fourth_col:hover, .fifth_col:hover {
+.second_col:hover,.third_col:hover,.fourth_col:hover, .fifth_col:hover ,.sixth_col:hover ,.eighth_col:hover ,.seventh_col:hover{
+  background:#faf037;
+  opacity: 0.8; 
+}
+.fourth_col {
   background: #8BD393 url("images/recorder_hoever.jpg") no-repeat 472px 17px;
   border-top: 4px solid #3EB551;
-  z-index: 100; 
+  z-index: 9; 
 }
 .fourth_col:hover .title1,.fifth_col:hover .title1 {
     color: #000;
@@ -116,7 +120,7 @@
   color: #046286;
  }
  .title1 {
-  color: red;
+  color: #e40c23;
   font-family: gotham;
   font-size: 14px;
   font-weight: bold;
@@ -146,6 +150,7 @@
   text-transform: capitalize;
   font-size: 13px;
   color: #9c9c9c;
+  margin-top: -6px;
 }
 .day_time {
   color: #9c9c9c;
@@ -204,13 +209,19 @@
   float: left;
   margin-top: 36px;
 }
+.recorder2 {
+  float: left;
+  margin-top: 36px;
+  margin-left: 21px;
+}
 .recorder4 {
   background: none repeat scroll 0 0 #CCC;
   float: left;
   margin-top: 15px;
   text-align: center;
   width: 90px;
-  min-height: 65px
+  min-height: 70px;
+  z-index:-1;
 }
 .recorder4 .recorder_text {
   display: inline-block;
@@ -222,15 +233,20 @@
   font-family: gothan;
   font-size: 14px
 }
-.cmpny_logo {
+.cmpny_logo2 {
   float:left;
   margin-top:36px;
-  margin-left: 100px;
+  margin-left: 65px;
+} 
+.cmpny_logo3 ,.cmpny_logo4,.cmpny_logo6,.cmpny_logo7{
+    float: left;
+    margin-left: 128px;
+    margin-top: 36px;
 }
-.cmpny_logo4 {
+.cmpny_logo5{
   float: left;
   margin-top:36px;
-  margin-left: 30px;
+  margin-left: 35px;
 }
 .health-matters {
   float:left;
@@ -265,6 +281,17 @@
 .latest_news_content {
   float: left;
   margin-top: 33px;
+  background-color: #000000;
+  min-height: 60px;
+  width: 100%;
+  text-align: center;
+  color: #faf037;
+}
+.latest_news_content span {
+  text-align: center;
+  font-size: 12px;
+  font-family: gothambold;
+  line-height: 55px;
 }
 .health-matters:hover {
   background:none repeat scroll 0 0 #faf037;
@@ -276,7 +303,7 @@
   opacity: 0.8;
 }
 .on_air {
-  background: none repeat scroll 0 0 #ccc;
+  background: none repeat scroll 0 0 #000000;
   color: #FAF037;
   float: right;
   font-family: GOTHAMbold;
@@ -287,6 +314,8 @@
 }
 .latest_news_content:hover {
   background:#faf037;
+  color: #000000;
+  opacity: .8;
 }
 .primary-content {
   margin-bottom: 60px;
