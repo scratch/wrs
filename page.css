@@ -731,6 +731,7 @@ background: url(images/listen-hover.png) no-repeat 5px 4px;
 
 #footer .footer-menu li.sports a {
  padding:9px 44px;
+ padding-right: 45px;
 }
 
 #footer li a:hover {
