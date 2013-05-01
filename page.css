@@ -466,11 +466,14 @@ body  {
   font-family: DIN;
 }
 
-/**.affair-wrs-img {
+.affair-wrs-img {
   float: right;
-  margin-top: -27px;
-  margin-right: -21px;
-}**/
+  background: url(images/wrs-next.png) no-repeat;
+  width: 56px;
+  height: 23px;
+  margin-top: 10px;
+  margin-right: 26px;
+}
 
 .listen-img {
   background: url(images/listen.png) no-repeat 5px 4px;
