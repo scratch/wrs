@@ -485,7 +485,7 @@ body  {
   color: #fff;
   font-family: DIN;
   font-size: 30px;
-  margin-left: 8%;
+  margin-left: 6%;
   line-height: 26px;
 }
 
@@ -495,7 +495,7 @@ body  {
   font-family: GOTHAMbold;
   color: #f8f943;
   margin-top: 41px;
-  margin-left: 8%;
+  margin-left: 6%;
   width: 105px;
 }
 
@@ -503,7 +503,7 @@ body  {
   background: #000;
   margin-top: 30px;
   display: block;
-  margin-left: 8%;
+  margin-left: 6%;
   line-height: 18px;
   width: 105px;
 }
@@ -695,7 +695,7 @@ background: url(images/listen-hover.png) no-repeat 5px 4px;
   font-size: 12px;
   color: #fff227;
   display: inline-block;
-  padding: 9px 39px;
+  padding: 9px 19px;
 }
 
 #footer .footer-menu li.news {
@@ -732,7 +732,7 @@ background: url(images/listen-hover.png) no-repeat 5px 4px;
 
 #footer .footer-menu li.sports a {
  padding:9px 44px;
- padding-right: 45px;
+ padding-right: 46px;
 }
 
 #footer li a:hover {
@@ -813,6 +813,12 @@ background: url(images/listen-hover.png) no-repeat 5px 4px;
   overflow: hidden;
   float: left;
   width: 100%;
+}
+
+.footer-main-menu {
+  max-width: 1024px;
+  width: 100%;
+  margin: 0 auto;
 }
 /** css for content bottom */
 .content-bottom-first,
