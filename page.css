@@ -177,12 +177,20 @@ body  {
   float: right;
   margin-top: -32px;
   margin-right: 3.2%;
+  width: 14.7%;
 }
 
+.media-partners li {
+  display: inline-block;
+}
 .header-tabs li a.community {
   background: #ff8201;
   padding: 15px 26px;
   color: #fff;
+}
+
+.media-partners .partners2{
+  text-align: center;
 }
 
 .header-tabs li a.events {
@@ -293,33 +301,32 @@ body  {
   height: 381px;
 }
 
-.slider-text-country {
-  background: #e30d29;
-  position: absolute;
-  top: 8px;
-  color: #fff;
-  font-size: 12px;
-  font-family: GOTHAMbold;
-  margin-left: 8px;
-  padding: 4px 7px 4px 6px;
-
-}
-
-.front .slider-text-country {
-  width: :120px;
-  text-align: center;
-}
-
-.slider-date {
+.slider-top-content {
   position: absolute;
   top: 8px;
   background: #f1f1f1;
+  width: 96.5%;
+  left: 8px;
+}
+
+.slider-text-country {
+  background: #e30d29;
+  color: #fff;
+  font-size: 12px;
+  font-family: GOTHAMbold;
+  padding: 4px 7px 4px 6px;
+  float: left;
+}
+
+
+.slider-date {
   color: #3c3c3c;
   font-size: 12px;
   font-family: GOTHAMbold;
   padding: 4px 11px;
   width: 62%;
   right: 8px;
+  float: left;
 }
 
 .front .slider-date {
@@ -1282,7 +1289,7 @@ color: #1f1f1f;
   background: url(images/wrs-hover.png);
 }**/
 .slides:hover .slider-text-country,
-.slides:hover .slider-date {
+.slides:hover .slider-top-content {
   background: #faf037;
   color: #3c3c3c;
 }
