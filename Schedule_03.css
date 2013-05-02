@@ -102,7 +102,7 @@
  }
  .title {
   font-size: 18px;
-  font-family: gothambold;
+  font-family: GOTHAMbold;
   text-transform: uppercase;
   line-height: 48px;
   margin-left: 10px;
@@ -113,10 +113,8 @@
  }
  .title1 {
   color: #e40c23;
-  font-family: gotham;
-<<<<<<< HEAD
-  font-size: 15px;
-  font-weight: bold;
+  font-family: GOTHAMbold;
+  font-size: 14px;
   line-height: 33px;
   text-transform: uppercase;
 }
@@ -128,7 +126,6 @@
 }
 .eighth_col_div .title1 {
   color: #025C75;
-<<<<<<< HEAD
   font-size: 18px;
   font-family: gothan;
 
@@ -136,7 +133,7 @@
  .author {
   display: block;
   font-size: 13px;
-  font-family: gothambold;
+  font-family: GOTHAMbook;
   margin-left: 10px; 
   margin-top: -15px;
   text-transform: uppercase;
@@ -147,6 +144,9 @@
   font-size: 13px;
   color: #9c9c9c;
   margin-top: -6px;
+}
+.fourth_col_div .authors {
+  color: #000000;
 }
 .day_time {
   color: #9c9c9c;
@@ -171,7 +171,8 @@
   margin-left: 20px;
 }
 .company {
-  font-size: 12px;
+  font-family: GOTHAMbook;
+  font-size: 13px;
   line-height: 21px;
 }
 .eight_col_div {
@@ -251,7 +252,6 @@
   margin-top: 10px;
 }
 .health-matters .dr-name {
-  color: #F8F943;
   line-height: 90px;
   font-family: GOTHAMbold;
   font-size: 11px;
@@ -263,18 +263,19 @@
   margin-top: 7px;
 } 
 .health-content {
-  min-width: 200px;
+  min-width: 241px;
   position: absolute;
-  top: 560px;
+  top: 528px;
+  height: 197px;
+  color:#F8F943;
 }
 .health-matters .health-text1 {
   display: inline-block;
-  font-family: gothambold;
+  font-family: GOTHAMbold;
   font-size: 20px;
   margin-left: 8.2%;
   position: relative;
   top: 10px;
-  color: #F8F943;
 }
 .latest_news_content {
   float: left;
@@ -288,17 +289,19 @@
 .latest_news_content span {
   text-align: center;
   font-size: 12px;
-  font-family: gothambold;
+  font-family: GOTHAMbold;
   line-height: 55px;
 }
-.health-matters:hover {
-  background:none repeat scroll 0 0 #faf037;
-  opacity: 0.9;
+.health-matters:visited {
+  background: transparent;
 }
-.health-text1:hover,.health-text:hover,.dr-name:hover {
-  background:#faf037;
-  color:#000000;
+.health-matters:hover .health-content{
+  background:none repeat scroll 0 0 #faf037;
   opacity: 0.8;
+  color: #3c3c3c;
+}
+.health-matters:hover .health-text {
+  color:#3c3c3c ;
 }
 .on_air {
   background: none repeat scroll 0 0 #000000;
@@ -313,7 +316,7 @@
 .latest_news_content:hover {
   background:#faf037;
   color: #000000;
-  opacity: .8;
+  opacity: 0.8;
 }
 .primary-content {
   margin-bottom: 60px;

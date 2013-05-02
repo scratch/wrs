@@ -268,7 +268,7 @@ background-color:#FDF9B0;
 {
 float:left;
 text-decoration:none;
-margin-left:100px;
+margin-left:194px;
 
 }
 .sub-menu ul li
@@ -305,9 +305,9 @@ height:32px;
 {
 float:left;
 text-decoration:none;
-margin-left:100px;
-
+margin-left:194px;
 }
+
 .sub-menu1 ul li
 {
 display:block;
@@ -370,15 +370,17 @@ float:left;
 width:620px;
 position:relative;
 }
-.left-center-content
+.left-center-content img
 {
 float:left;
-width:310px;
+width:308px;
+height:152px;
 }
-.right-center-content
+.right-center-content img
 {
 float:right;
 width:310px;
+height:152px;
 }
 
 
@@ -454,7 +456,8 @@ height:50px;
 }
 .left-center-content1 h1
 {
-margin-top:10px;
+    margin-left: 12px;
+    margin-top: 16px;
 font-size:12pt;
 font-family:Arial, Helvetica, sans-serif;
 font-weight:bold;
@@ -463,7 +466,8 @@ color:white;
 }
 .right-center-content2 h1
 {
-margin-top:10px;
+margin-left: 16px;
+    margin-top: 12px;
 font-size:12pt;
 font-weight:bold;
 color:white;
@@ -478,27 +482,26 @@ height:50px;
 }
 .right-content3
 {
-height:410px;
+height:402px;
 float:right;
-width:305px;
+width:308px;
 background-color:#E0E0E0;
 font-family:GOTHAMbook;
 margin-right:5px;
-
+padding: 12px 6px 0 1px;
 
 }
 .right-content31 h2
 {
 font-family:GOTHAMbold;
 color:#009999;
-margin-left:10px;
-text-align:justify;
+margin-left:8px;
 }
 .right-content4
 {
 float:right;
 width:320px;
-height:100px;
+height:90px;
 margin-right:-20px;
 text-align:justify;
 font-size:12px;
@@ -508,7 +511,7 @@ font-size:12px;
 {
 float:right;
 width:320px;
-height:100px;
+height:90px;
 margin-right:-20px;
 text-align:justify;
 font-size:12px;
@@ -547,12 +550,13 @@ background-color:#E2E2E2;
 height:25px;
 margin-top:5px;
 text-align: center;
+ margin-top: 15px;
 
 }
 .right-center-footer
 {
 float:right;
-width:305px;
+width:314px;
 background-color:#E2E2E2;
 height:25px;
 margin-top:5px;
@@ -1115,6 +1119,7 @@ text-align:justify;;
 
 .content-bottom-middle {
 width:1000px;
+margin-top: 30px;
 }
 
 .wrs-selection-rows.rows1 {
@@ -1607,3 +1612,180 @@ color: #1f1f1f;
     -o-transition: all .3s linear;
     transition: all .3s linear;**/
   }
+
+/* Brahminder Singh */
+
+
+#upper {
+  border:red solid thin none;
+  width:944px;
+  height:500px
+}
+
+#text-food {
+ width:944px;
+ height:55px;
+ border:#000000 solid thin none;
+ font-family:GOTHAMbold;
+ font-size:30px;
+ margin-top:25px; 
+}
+
+#image-wrapper {
+  border:green solid thin none;
+  width:944px;
+  height:417px;
+}
+
+#image-left {
+  border:red solid thin none;
+  width:630px;
+  height:417px;
+  float:left;
+  position:relative;
+}
+
+#lft-i {
+  
+  width:630px;
+  height:410px;
+  margin-top:4px;
+  position:relative;
+}
+
+#lft-i img
+{
+ width:630px;
+  height:410px;
+  }
+  
+#on-image {
+  border:red solid thin none;
+  width:600px;
+  height:260px;
+  position:absolute;
+  top:130px;
+  left:17px;
+}
+
+#on-img-one {
+  border: thin solid blue none;
+    color: WHITE;
+    font-family: GOTHAMbold;
+    font-size: 50px;
+    height: 73px;
+    padding: 12px 0 0;
+    text-align: center;
+    width: 600px;
+} 
+
+#on-img-two {
+   border: thin solid blue none;
+    font-family: GOTHAMbold;
+    font-size: 18px;
+    height: 28px;
+    padding-top: 4px;
+    text-align: center;
+    width: 600px;
+	}
+
+#on-img-three {
+   border: thin solid blue none;
+    font-family: GOTHAMbook;
+    font-size: 20px;
+    font-weight: bold;
+    height: 24px;
+    padding-top: 6px;
+    text-align: center;
+    width: 600px;
+}   
+
+#on-img-four {
+   border: thin solid blue none;
+    color: red;
+    font-family: GOTHAMbook;
+    font-size: 16px;
+    font-weight: bold;
+    height: 40px;
+    padding-top: 6px;
+    text-align: center;
+    width: 600px;
+}   
+  
+#image-right {
+  border:red solid thin none;
+  width:298px;
+  height:417px;
+  float:right;
+  position:relative;
+}
+
+#rgt-i {
+ 
+  width:298px;
+  height:410px;
+  margin-top:4px;
+  position:relative;
+}
+
+#rgt-i img {
+  width:298px;
+  height:410px;
+}
+
+#on-r-img {
+ 
+  height: 190px;
+    position: absolute;
+    right: 22px;
+    top: 223px;
+    width: 248px;
+}
+
+#on-r-img-one {
+    color: white;
+    font-family: GOTHAMbook;
+    font-size: 29px;
+    height: 31px;
+    padding-top: 10px;
+    text-align: center;
+    width: 248px;
+	font-weight:bold;
+	}
+	
+	
+	
+	#on-r-img-two {
+    font-family: GOTHAMbook;
+    font-size: 16px;
+    height: 20px;
+    text-align: center;
+    width: 248px;
+	font-weight:bold;
+	}
+	
+#on-r-img-three {
+    font-family: GOTHAMbook;
+    font-size: 15px;
+    font-weight: bold;
+    margin-top: 5px;
+    text-align: center;
+}
+
+
+#on-r-img-four {
+   border: thin solid red;
+    height: 20px;
+    margin-left: 90px;
+    margin-top: 7px;
+    width: 48px;
+}
+
+.wrs-selection {
+  margin-top: 11px;
+}
+
+.content-bottom-middle h1 {
+  font-family:Gothambold;
+}
+

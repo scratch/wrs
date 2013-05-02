@@ -11,41 +11,76 @@ float:left;
 width:60%;
 font: GOTHAMbook;;
 font-size:20px;
+
 }
 .right-content1
 {
 float:right;
-width:38%;
+width:35%;
 background-color:#EEEEEE;
 margin-bottom: 100px;
    
 }
 .right-content h1 {
-    float: right;
-    font-family: GOTHAMbook;;
-    font-size: 17px;
-    font-weight: bold;
+     float: right;
+    font-family: GOTHAMbold;
+    font-size: 16px;
+    
     margin-bottom: 30px;
-    margin-right: 71px;
-    margin-top: 50px;
+    margin-right: 78px;
+    margin-top: 100px;
     width: 27%;
+}
+.main-menu-sub-top {
+  line-height: 28px;
+  max-width: 1024px;
+  width: 100%;
+  margin: 0 auto;
+  background: #fdf9b0;
+}
+#main-menu-sub li a {
+  font-family: GOTHAMbook;
+  text-decoration: none;
+  color: #015b7e;
+    font-size: 12px;
+}
+
+#main-menu-sub li a:hover {
+  color: #000;
+}
+
+#main-menu-sub li {
+  display: inline-block;
+  padding-right: 1.4%;
+}
+
+#main-menu-sub li.first {
+padding-left: 3.3%;
+}
+
+
+#main-menu-sub li a.active {
+  font-family: GOTHAMbold;
+  color: #000;
 }
 .recentpost{
  padding:-2px 20px -2px 20px;
  font-family: GOTHAMbook;
+ font-size:14px;
  }
  #recent{
  margin-top:10px;
+ padding: 8px 18px 0 11px;
  }
 .recentpost b{
 margin-top:20px;
  
 }
 .heading {
-	padding-top:30px;
+	padding-top:20px;
     font-family: GOTHAMbold;
-    font-size: 35px;
-	margin-bottom:10px;
+    font-size: 30px;
+	margin-bottom:8px;
 }
 .heading p
 {
@@ -64,8 +99,9 @@ border-bottom: thin solid ;
 }
 .p-content
 {
-margin-bottom:25px;
+margin-bottom:45px;
 font-family: GotHAMbook;
+font-size:16px;
 }
 hr {
   border-top: 1px dotted #000000;
@@ -74,7 +110,7 @@ hr {
 }
 .recentpost b {
     font-family: GOTHAMbook;
-    font-size: 20px;
+    font-size: 14px;
     font-weight: bold;
     margin-left: 40px;
 }
@@ -263,12 +299,10 @@ body  {
   color: #fff;
 }
 
-/*
 #main-menu {
   background: #ffe100;
   line-height: 38px;
 }
-*/
 
 #main-menu li {
   display: inline-block;
@@ -293,7 +327,6 @@ body  {
 }
 #main-content{
   overflow: hidden;
-  float: left;
 }
 
 .primary-content {
@@ -310,13 +343,22 @@ body  {
 {
 font-size:16px;
 font-family: GOTHAMbook;
- 
+ }
 .heading1 h1
 {
 font-size:14px;
-font-family: GOTHAMbook;
+font-family: GOTHAMbold;
 font-weight:bold;
- margin-bottom: 10px;
+ margin-bottom: 6px;
+ padding-top:12px;
+}
+.heading1 h2
+{
+font-size:14px;
+font-family: GOTHAMbold;
+font-weight:bold;
+ margin-bottom: 6px;
+ padding-top:3px;
 }
 .heading1 > p {
     font-size: 16px;
@@ -871,6 +913,18 @@ body  {
   padding-left: 10px;
 }
 
+.main-region {
+  width: 1024px;
+  margin: 0 auto;
+}
+
+#main-content{
+  overflow: hidden;
+  padding: 0 3.5%;
+  background: #fff;
+  padding-bottom: 52px;
+}
+
 #main-menu form {
   float: left;
   width: 235px;
@@ -892,52 +946,6 @@ body  {
   max-width: 1024px;
   width: 100%;
 }
-
-
-
-#main-menu-2  {
-  background: #FDF9B0;
-  line-height: 38px;
-  height:  35px;
-  width: 100%;
-  float: left;
-}
-
-
-#main-menu-2 li {
-  display: inline-block;
-  padding-right: 1.5%;
-	float: left;
-}
-
-#main-menu-2 li a {
-  /*color: #8DB590;
-	 */
-  font-family: GOTHAM-Light;
-  font-size: 13px;
-  display: inline-block;
-  text-decoration: none;
-}
-
-#main-menu-2 li.first {
-  padding-left: 3.3%;
-}
-
-
-
-.main-region {
-  width: 100%;
-  margin: 0 auto;
-}
-
-#main-content{
-  overflow: hidden;
-  padding: 0 3.5%;
-  background: #fff;
-  padding-bottom: 52px;
-}
-
-
 .primary-content {
   float: left;
   width: 72.5%;
