@@ -305,7 +305,7 @@ body  {
   position: absolute;
   top: 8px;
   background: #f1f1f1;
-  width: 96.5%;
+  width: 97.5%;
   left: 8px;
 }
 
@@ -318,20 +318,19 @@ body  {
   float: left;
 }
 
+.front .slider-top-content{
+  width: 96.5%;
+}
 
 .slider-date {
   color: #3c3c3c;
   font-size: 12px;
   font-family: GOTHAMbold;
   padding: 4px 11px;
-  width: 62%;
   right: 8px;
   float: left;
 }
 
-.front .slider-date {
-  width: 69%;
-}
 .slider-content {
   position: absolute;
   bottom: 0;
