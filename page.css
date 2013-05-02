@@ -1069,7 +1069,7 @@ width: 240px;
   font-family: GOTHAMbook;
   text-decoration: none;
   color: #868686;
-  padding-left: 16%;
+  margin-left: 16%;
 }
 
 .posts-view-all a:hover {
