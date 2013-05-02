@@ -370,10 +370,11 @@ float:left;
 width:620px;
 position:relative;
 }
-.left-center-content
+.left-center-content img
 {
 float:left;
-width:310px;
+width:308px;
+height:152px;
 }
 .right-center-content img
 {
@@ -455,7 +456,8 @@ height:50px;
 }
 .left-center-content1 h1
 {
-margin-top:10px;
+    margin-left: 12px;
+    margin-top: 16px;
 font-size:12pt;
 font-family:Arial, Helvetica, sans-serif;
 font-weight:bold;
@@ -464,7 +466,8 @@ color:white;
 }
 .right-center-content2 h1
 {
-margin-top:10px;
+margin-left: 16px;
+    margin-top: 12px;
 font-size:12pt;
 font-weight:bold;
 color:white;
@@ -479,27 +482,26 @@ height:50px;
 }
 .right-content3
 {
-height:410px;
+height:402px;
 float:right;
-width:305px;
+width:308px;
 background-color:#E0E0E0;
 font-family:GOTHAMbook;
 margin-right:5px;
-
+padding: 12px 6px 0 1px;
 
 }
 .right-content31 h2
 {
 font-family:GOTHAMbold;
 color:#009999;
-margin-left:10px;
-text-align:justify;
+margin-left:8px;
 }
 .right-content4
 {
 float:right;
 width:320px;
-height:100px;
+height:90px;
 margin-right:-20px;
 text-align:justify;
 font-size:12px;
@@ -509,7 +511,7 @@ font-size:12px;
 {
 float:right;
 width:320px;
-height:100px;
+height:90px;
 margin-right:-20px;
 text-align:justify;
 font-size:12px;
@@ -523,7 +525,7 @@ height:100px;
 margin-right:-20px;
 text-align:justify;
 font-size:12px;
-}  
+}
 
 .right-content8
 {
@@ -548,12 +550,13 @@ background-color:#E2E2E2;
 height:25px;
 margin-top:5px;
 text-align: center;
+ margin-top: 15px;
 
 }
 .right-center-footer
 {
 float:right;
-width:305px;
+width:314px;
 background-color:#E2E2E2;
 height:25px;
 margin-top:5px;
@@ -566,7 +569,7 @@ margin-right:5px;
     height: 8px;
     width: 6px;
 	text-indent: -9999em;
-	
+
 }
 .center-footer .pager1 a, .center-footer .pager2 a, .center-footer .pager3 a {
     background: url("images/pager.jpg") no-repeat scroll 0 0 transparent;
@@ -589,7 +592,7 @@ margin-top:12px;
 }
 .right-center-footer h2
 {
- 
+
 margin-top:7px;
 margin-left:120px;
 color:#3366CC;
@@ -599,7 +602,7 @@ color:#3366CC;
   width: 72.5%;
   height:auto;
   font-size:10px;
- 
+
 }
 .right-content
 {
@@ -1116,6 +1119,7 @@ text-align:justify;;
 
 .content-bottom-middle {
 width:1000px;
+margin-top: 30px;
 }
 
 .wrs-selection-rows.rows1 {
@@ -1233,8 +1237,8 @@ width:950px;
 background-color:#E9E9E9;
 float:left;
 }
-	   
-					   
+
+
 .wrs-selection-main-title {
   font-size: 10px;
   font-family: GOTHAMbold;
@@ -1624,7 +1628,7 @@ color: #1f1f1f;
  border:#000000 solid thin none;
  font-family:GOTHAMbold;
  font-size:30px;
- margin-top:25px; 
+ margin-top:25px;
 }
 
 #image-wrapper {
@@ -1642,7 +1646,7 @@ color: #1f1f1f;
 }
 
 #lft-i {
-  
+
   width:630px;
   height:410px;
   margin-top:4px;
@@ -1654,7 +1658,7 @@ color: #1f1f1f;
  width:630px;
   height:410px;
   }
-  
+
 #on-image {
   border:red solid thin none;
   width:600px;
@@ -1673,7 +1677,7 @@ color: #1f1f1f;
     padding: 12px 0 0;
     text-align: center;
     width: 600px;
-} 
+}
 
 #on-img-two {
    border: thin solid blue none;
@@ -1694,7 +1698,7 @@ color: #1f1f1f;
     padding-top: 6px;
     text-align: center;
     width: 600px;
-}   
+}
 
 #on-img-four {
    border: thin solid blue none;
@@ -1706,20 +1710,22 @@ color: #1f1f1f;
     padding-top: 6px;
     text-align: center;
     width: 600px;
-}   
-  
+}
+
 #image-right {
   border:red solid thin none;
   width:298px;
   height:417px;
   float:right;
+  position:relative;
 }
 
 #rgt-i {
- 
+
   width:298px;
   height:410px;
   margin-top:4px;
+  position:relative;
 }
 
 #rgt-i img {
@@ -1728,12 +1734,12 @@ color: #1f1f1f;
 }
 
 #on-r-img {
- 
-  width:248px;
-  height:190px;
-  position:absolute;
-  top:550px;
-  right:228px;
+
+  height: 190px;
+    position: absolute;
+    right: 22px;
+    top: 223px;
+    width: 248px;
 }
 
 #on-r-img-one {
@@ -1746,9 +1752,9 @@ color: #1f1f1f;
     width: 248px;
 	font-weight:bold;
 	}
-	
-	
-	
+
+
+
 	#on-r-img-two {
     font-family: GOTHAMbook;
     font-size: 16px;
@@ -1757,7 +1763,7 @@ color: #1f1f1f;
     width: 248px;
 	font-weight:bold;
 	}
-	
+
 #on-r-img-three {
     font-family: GOTHAMbook;
     font-size: 15px;
@@ -1768,9 +1774,19 @@ color: #1f1f1f;
 
 
 #on-r-img-four {
-   border: thin solid red;
     height: 20px;
-    margin-left: 90px;
     margin-top: 7px;
-    width: 48px;
+    text-align: center;
+}
+
+.wrs-selection {
+  margin-top: 11px;
+}
+
+.content-bottom-middle h1 {
+  font-family:Gothambold;
+}
+
+.programme .pager-wrs-selection {
+  background: none;
 }
