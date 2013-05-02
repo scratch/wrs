@@ -268,7 +268,7 @@ background-color:#FDF9B0;
 {
 float:left;
 text-decoration:none;
-margin-left:100px;
+margin-left:194px;
 
 }
 .sub-menu ul li
@@ -305,9 +305,9 @@ height:32px;
 {
 float:left;
 text-decoration:none;
-margin-left:100px;
-
+margin-left:194px;
 }
+
 .sub-menu1 ul li
 {
 display:block;
@@ -375,10 +375,11 @@ position:relative;
 float:left;
 width:310px;
 }
-.right-center-content
+.right-center-content img
 {
 float:right;
 width:310px;
+height:152px;
 }
 
 
@@ -1607,3 +1608,169 @@ color: #1f1f1f;
     -o-transition: all .3s linear;
     transition: all .3s linear;**/
   }
+
+/* Brahminder Singh */
+
+
+#upper {
+  border:red solid thin none;
+  width:944px;
+  height:500px
+}
+
+#text-food {
+ width:944px;
+ height:55px;
+ border:#000000 solid thin none;
+ font-family:GOTHAMbold;
+ font-size:30px;
+ margin-top:25px; 
+}
+
+#image-wrapper {
+  border:green solid thin none;
+  width:944px;
+  height:417px;
+}
+
+#image-left {
+  border:red solid thin none;
+  width:630px;
+  height:417px;
+  float:left;
+  position:relative;
+}
+
+#lft-i {
+  
+  width:630px;
+  height:410px;
+  margin-top:4px;
+  position:relative;
+}
+
+#lft-i img
+{
+ width:630px;
+  height:410px;
+  }
+  
+#on-image {
+  border:red solid thin none;
+  width:600px;
+  height:260px;
+  position:absolute;
+  top:130px;
+  left:17px;
+}
+
+#on-img-one {
+  border: thin solid blue none;
+    color: WHITE;
+    font-family: GOTHAMbold;
+    font-size: 50px;
+    height: 73px;
+    padding: 12px 0 0;
+    text-align: center;
+    width: 600px;
+} 
+
+#on-img-two {
+   border: thin solid blue none;
+    font-family: GOTHAMbold;
+    font-size: 18px;
+    height: 28px;
+    padding-top: 4px;
+    text-align: center;
+    width: 600px;
+	}
+
+#on-img-three {
+   border: thin solid blue none;
+    font-family: GOTHAMbook;
+    font-size: 20px;
+    font-weight: bold;
+    height: 24px;
+    padding-top: 6px;
+    text-align: center;
+    width: 600px;
+}   
+
+#on-img-four {
+   border: thin solid blue none;
+    color: red;
+    font-family: GOTHAMbook;
+    font-size: 16px;
+    font-weight: bold;
+    height: 40px;
+    padding-top: 6px;
+    text-align: center;
+    width: 600px;
+}   
+  
+#image-right {
+  border:red solid thin none;
+  width:298px;
+  height:417px;
+  float:right;
+}
+
+#rgt-i {
+ 
+  width:298px;
+  height:410px;
+  margin-top:4px;
+}
+
+#rgt-i img {
+  width:298px;
+  height:410px;
+}
+
+#on-r-img {
+ 
+  width:248px;
+  height:190px;
+  position:absolute;
+  top:550px;
+  right:228px;
+}
+
+#on-r-img-one {
+    color: white;
+    font-family: GOTHAMbook;
+    font-size: 29px;
+    height: 31px;
+    padding-top: 10px;
+    text-align: center;
+    width: 248px;
+	font-weight:bold;
+	}
+	
+	
+	
+	#on-r-img-two {
+    font-family: GOTHAMbook;
+    font-size: 16px;
+    height: 20px;
+    text-align: center;
+    width: 248px;
+	font-weight:bold;
+	}
+	
+#on-r-img-three {
+    font-family: GOTHAMbook;
+    font-size: 15px;
+    font-weight: bold;
+    margin-top: 5px;
+    text-align: center;
+}
+
+
+#on-r-img-four {
+   border: thin solid red;
+    height: 20px;
+    margin-left: 90px;
+    margin-top: 7px;
+    width: 48px;
+}
