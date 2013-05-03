@@ -1,0 +1,256 @@
+@font-face {
+  font-family: DIN;
+  src: url(font/DIN/din1451engschrift.ttf);
+}
+
+@font-face {
+  font-family: GOTHAMbold;
+  src: url(font/Gotham/Gotham-Bold.otf);
+}
+
+@font-face {
+  font-family: GOTHAMbook;
+  src: url(font/Gotham/Gotham-Book.otf);
+}
+
+#shows{
+    width:  100%;
+    background: #fef773;
+}
+#shows #title{
+  font-family: GOTHAMbold;
+  font-size: 30px;
+  margin-top: 37px;
+  margin-bottom: 35px;
+  word-spacing: -3px;
+  }
+#shows .row{
+  /**float: left;
+  height: 185px;
+  margin-left: -9px;
+  margin-top: 2px;
+  padding-left: 3px; **/
+ }
+
+ #shows .span{
+  width: 25%;
+  float: left;
+ }
+ #shows .col{
+  float: left;
+  height: 201px;
+  margin-bottom: 1px;
+ }
+
+#shows .pic{
+  width: 235px;
+  height: 117px;
+}
+#shows .pic img{
+   width: 235px;
+   height: 117px;
+}
+
+#shows .intro{
+  width: 217px;
+  height: 79px;
+  background-color:#e6e8fa;
+  color: #bababa;
+  font-family: GOTHAMbold;
+  font-size: 10px;
+  padding-left: 10px;
+  padding-top: 5px;
+  padding-right: 8px;
+}
+
+#shows .intro label,
+#shows #show-time label{
+  font-size: 12px;
+  color: #9c9c9c;
+  font-family: GOTHAMbook;
+}
+
+ #shows .show-menu-col{
+  width: 235px;
+  height:5px;
+  margin-bottom: 60px;
+ }
+ #shows .red-line{
+  width: 100%;
+  height: 5px;
+  background-color: #FF0000;
+ }
+ #shows .green-line{
+  width: 100%;
+  height: 5px;
+  background-color: #3bb345;
+ }
+ #shows .blue-line{
+  width: 100%;
+  height: 5px;
+  background-color: #0054aa;
+ }
+ #shows .purple-line{
+  width: 100%;
+  height: 5px;
+  background-color: #6d35d4;
+ }
+  #shows .orange-line{
+  width: 100%;
+  height: 5px;
+  background-color: #ED501D;
+ }
+  #shows .grey-line{
+  width: 100%;
+  height: 5px;
+  background-color: #68635f;
+ }
+  #shows .green-line{
+  width: 100%;
+  height: 5px;
+  background-color: #3bb345;
+ }
+ #shows #grey-title a{
+  color: #68635f;
+  font-family: GOTHAMbold;
+  margin-top: 6px;
+  margin-left: 4px;
+  letter-spacing: -1px;
+  word-spacing: -2px;
+
+ }
+ #shows #green-title a{
+  color: #3bb345;
+  font-family: GOTHAMbold;
+  margin-top: 6px;
+  margin-left: 4px;
+  letter-spacing: -1px;
+  word-spacing: -2px;
+
+ }
+
+ #shows #orange-title a{
+  color: #ED501D;
+  font-family: GOTHAMbold;
+  margin-top: 6px;
+  margin-left: 4px;
+  letter-spacing: -1px;
+  word-spacing: -2px;
+
+ }
+
+ #shows #red-title a{
+  color: #FF0000;
+  font-family: GOTHAMbold;
+  margin-top: 6px;
+  margin-left: 4px;
+  letter-spacing: -1px;
+  word-spacing: -2px;
+
+ }
+  #shows #green-title a{
+  color: #3bb345;
+   font-family: GOTHAMbold;
+  margin-top: 6px;
+  margin-left: 4px;
+  letter-spacing: -1px;
+  word-spacing: -2px;
+ }
+  #shows #blue-title a{
+  color: #0054aa;
+  font-family: GOTHAMbold;
+  margin-top: 6px;
+  margin-left: 4px;
+  letter-spacing: -1px;
+  word-spacing: -2px;
+ }
+  #shows #purple-title a{
+  color: #6d35d4;
+  font-family: GOTHAMbold;
+  margin-top: 6px;
+  margin-left: 4px;
+  letter-spacing: -1px;
+  word-spacing: -2px;
+ }
+ #shows #show-time{
+  font-family: GOTHAMbook;
+  margin-left: 4px;
+  margin-top: 4px;
+  font-size: 13px;
+  word-spacing: -2px;
+ }
+
+ #shows #show-menu-img{
+  float: right;
+  width: 20%;
+  margin-top:10px;
+ }
+
+ #shows #show-menu-text{
+  width: 80%;
+  float: left;
+  margin-top: 6px;
+ }
+ 
+ #shows .span .col:hover .intro{
+  background: url(images/listen-new.jpg) #faf037 no-repeat right bottom;
+  opacity: .9;
+ }
+
+ #shows .span .col:hover .intro .intro-listen,
+ #shows .span .col:hover .intro .intro-text .intro-name
+ {
+  color: #000;
+  visibility: visible;
+ }
+
+ #shows #show-menu-text a{
+  text-decoration: none;
+ }
+
+ #shows .intro-text{
+  width: 84%;
+  float: left;
+ }
+#shows .intro-listen{
+  width: 16%;
+  float:right;
+  text-align: right;
+  visibility: hidden;
+}
+
+#shows .span .show-menu-col:hover #show-menu-text #purple-title a,
+#shows .span .show-menu-col:hover #show-menu-text #orange-title a,
+#shows .span .show-menu-col:hover #show-menu-text #red-title a,
+#shows .span .show-menu-col:hover #show-menu-text #grey-title a,
+#shows .span .show-menu-col:hover #show-menu-text #green-title a,
+#shows .span .show-menu-col:hover #show-menu-text #blue-title a
+{
+  color: #000;
+  text-decoration: underline;
+}
+
+#shows .span .col .pic img{
+  height: 116px;
+}
+
+#shows .intro-show-title{
+  color: #015b7e;
+  font-family: GOTHAMbold;
+  font-size: 18px;
+  margin:3px 0px;
+}
+
+#shows .intro-name{
+    font-size: 12px;
+  font-family: GOTHAMbold;
+  letter-spacing: 2px;
+  margin-bottom: 6px;
+  word-spacing: 4px;
+}
+
+#shows .intro-show-time{
+   font-size: 12px;
+  color: #9c9c9c;
+  font-family: GOTHAMbook;
+}

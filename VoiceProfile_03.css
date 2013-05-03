@@ -1,8 +1,3 @@
-/* page.css --  used with page.html for template.
-
-   Impt: Use with reset.css OR  normailise.css
- */
-
 @font-face {
   font-family: DIN;
   src: url(font/DIN/din1451engschrift.ttf);
@@ -18,1061 +13,134 @@
   src: url(font/Gotham/Gotham-Book.otf);
 }
 
-body  {
-    margin:    0;
-    border:    0;
-    padding:   0;
-    font-size: 100%;
-}
 
-
-#page  {
+#voiceProfile  {
     width:  100%;
     background: #fef773;
 }
-
-.header-top {
-  overflow: hidden;
-}
-
-.logo {
-  float: left;
-  margin-left: 0.6%;
-}
-
-.top-menu {
-  float: left;
-  width: 50%;
-}
-
-.top-nav-menu {
-  margin-top: 15px;
-  margin-left: 7.2%;
-}
-
-.top-menu li {
-  display: inline-block;
-  padding-right: 2.5%;
-}
-
-.sign {
-  float: right;
-  width: 12.7%;
-}
-
-.sign-in {
-  margin-top: 15px;
-}
-.sign li {
-  display: inline-block;
-}
-.sign li.first {
-  border-right: 1px solid;
-  padding-right: 7px;
- line-height: 11px;
-}
-.sign li a {
-    text-decoration: none;
-    color: #075a78;
-    font-family: GOTHAMbold;
-    font-size: 13px;
-}
-.top-menu .top-nav-menu li a{
-    text-decoration: none;
-    color: #075a78;
-    font-family: GOTHAMbold;
-    font-size: 11px;
-    background: url(images/down-arrow.jpg) no-repeat center right;
-    padding-right: 14px;
-}
-
-.header {
-  background: #f8f8f8;
-}
-
-#header-block {
-  min-height: 144px;
-  width: 100%;
-  max-width: 1024px;
-  margin: 0 auto;
-}
-
-
-#header-menu  {
-    background-color: #F9F035;
-    height:   63px;
-    width:    30%;
-    position: relative;
-    left:     23.5%;
-    top:      90px;
-}
-
-
-#header-menu li  {
-   float:           left;
-   list-style-type: none;
-   width:           32%;
-   background:      #666;
-   text-align:      center;
-   border-right:    3px solid #ccc; /* TODO:last menu shouldn't have a border */
-}
-
-.radios {
-  margin-left: 5.8%;
-  margin-top: 9px;
-  float: left;
-  width: 7.8%;
-}
-
-.listen {
-  float: left;
-  margin-top: 21px;
-}
-
-.listen a {
-  text-decoration: none;
-  color: #015b7e;
+#voiceProfile #title{
   font-family: GOTHAMbold;
-  font-size: 14px;
-  letter-spacing: 2px;
-}
-/* Not used */
-.mid-border  {
-  border-left: 1px solid #ccc;
-  border-right:1px solid #ccc; /* TODO:last menu shouldn't have a border */
-}
-
-/**css for header tabs **/
-.header-tabs ul li {
-  display: inline-block;
-}
-
-.header-tabs {
-  float: left;
-  margin-left: 4.7%;
-}
-
-.header-tabs li a.radio {
-  color: #0054a5;
-  background: #ffe102;
-  padding: 15px 30px;
-  line-height: 46px;
-}
-
-.header-tabs li a {
-  text-decoration: none;
-  font-family: GOTHAMbold;
-  font-size: 22px;
-}
-
-.header-tabs li.community {
-  margin-left: -2px;
-}
-
-.header-tabs li.events {
-  margin-left: -2px;
-}
-
-.header-bottom-media {
-  float: right;
-  margin-top: -32px;
-  margin-right: 3.2%;
-}
-
-.header-tabs li a.community {
-  background: #ff8201;
-  padding: 15px 26px;
-  color: #fff;
-}
-
-.header-tabs li a.events {
-  background: #015b7e;
-  padding: 15px 23px;
-  color: #fff;
-}
-
-#main-menu {
-  background: #ffe100;
-  line-height: 38px;
-}
-
-#main-menu li {
-  display: inline-block;
-  padding-right: 1.5%;
-}
-
-#main-menu li a {
-  color: #0054a5;
-  font-family: GOTHAMbold;
-  font-size: 13px;
-  display: inline-block;
-  text-decoration: none;
-}
-
-#main-menu li.first {
-  padding-left: 3.3%;
-}
-#main-menu input.search {
-  margin-left: 16.5%;
-  border: 0px;
-  padding: 4px;
-  width: 150px;
-  outline: none;
-  padding-left: 10px;
-}
-
-.main-region {
-  width: 1024px;
-  margin: 0 auto;
-}
-
-#main-content{
-  overflow: hidden;
-  padding: 0 3.5%;
-  background: #fff;
-  padding-bottom: 52px;
-}
-
-#main-menu form {
-  float: left;
-  width: 235px;
-  height: 24px;
-}
-
-#main-menu .submit {
-  display: inline-block;
-  border: none;
-  width: 28px;
-  background: url(images/search.jpg);
-  height: 23px;
-  text-indent: -9999em;
-  margin-left: -4px;
-}
-
-#main-menu ul {
-  margin: 0 auto;
-  max-width: 1024px;
-  width: 100%;
-}
-.primary-content {
-  float: left;
-  width: 65%;
-  height:740px;
-  font-size:10px;
-  margin-top:70px;
-  position:relative;
- 
-}
-
-.primary-content1 {
-  float: left;
-  width: 65%;
+  font-size: 30px;
+  margin-top: 40px;
+  margin-bottom: 34px;
   }
-.reporter
-{
-position:absolute;
-margin-top:144px;
-font-size:12px;
-color:white;
-background-color:#00607C;
-height:px;
-width:132px;
-margin-left:10px;
-padding-top:5px;
-padding-left:5px;
-}
-.wrs-repoter
-{
-float:left;
-width:1000px;
-}
-.wrs-repoter-place
-{
-float:left;
-width:1000px;
+
+#voiceProfile .vpslider{
+  height: 408px;
 }
 
-
-
-.wrs-repoter-place1
-{
- float:left;
-width:250px;
+#voiceProfile .text{
+	background-color: #f1f1f1;
+	padding: 14px 5px;
+	width: 615px;
+  height: 754px;
+  text-align: left;
+  border-bottom: 6px solid #697273;
 }
-.wrs-repoter-place2
-{
- float:left;
-width:250px;
-
-}
-.wrs-repoter-place3
-{
-float:left;
-width:250px;
-}
-.wrs-repoter-place4
-{
-float:left;
-width:250px;
-}
-
-.wrs-repoter-place h2
-{
-font-family: GOTHAMbold;
-font-size:12px;
-color:#999999;
-width:235px;
-background-color:#E9E9E9;
-}
-
-.wrs-repoter-place h1
-{
-font-family: GOTHAMbold;
-font-size:14px;
-color:#0033CC;
-width:235px;
-background-color:#E9E9E9;
-}
-
-
-
-
-.wrs-repoter1
-{
-float:left;
-width:250px;
-}
-.wrs-repoter2
-{
-float:left;
-width:250px;
-}
-.wrs-repoter3
-{
-float:left;
-width:250px;
-}
-.wrs-repoter4
-{
-float:left;
-width:250px;
-}
-
-
-.right-content
-{
-width:28%
-float:right;
-}
-
-.right-top1
-{
-margin-top:135px;
-width:300px;
-float:right;
-height:78px;
-margin-left:25px;
-margin-bottom:30px;
-background-color:#000000;
-color:#FFFF00;
-font-family: GOTHAMbold;
-}
-.right-top1 h1
-{margin-top:30px;
-margin-left:70px;
-}
-.right-top2 h1
-{
-font-family: GOTHAMbold;
-font-size:11pt;
-font-weight:bold;
-width:200px;
-float:right;
-margin-right:100px;
-}
-
- 
-
-}
-.right-top3 img
-{
-margin-right:4px;
-float:right;
-margin-top:5px;
-
-}
-.right-footer
-{
-float:right;
-margin-right:2px;
-margin-top:5px;
-}
-
-.h1-content
-{
-font-size:24pt;
-font-family: GOTHAMbold;
-font-weight:bold;
-
-margin-bottom:30px;
-}
-.primary-content p
-{
-font-family:GOTHAMbook;
-font-size:12pt;
-text-align:justify;
-line-height:1.0em;
- 
-}
-
-.content-bottom-middle h1
-{
-margin-bottom:30px;
-font-family: GOTHAMbold;
-}
-.news-today {
-  margin-top: 34px;
-}
-
-.news-today h1 {
-  color: #1f1f1f;
-  font-size: 20px;
+#voiceProfile .text p{
   font-family: GOTHAMbold;
-  display: inline-block;
-}
-
-.news-date {
-  color: #bababa;
-  font-family: GOTHAMbook;
-  font-size: 20px;
-  margin-left: 0.6%;
-}
-
-.slider {
-  float: left;
-  margin-top: 14px;
-  width: 444px;
-  height: 401px;
-}
-
-.latest-news-bulletion {
-  float: left;
-  margin-top: 15px;
-  margin-left: 0.3%;
-  background: #f1f1f1;
-  width: 34.6%;
-  padding-bottom: 7px;
-}
-
-.latest-news-bulletion li {
-  display: inline-block;
-  border-bottom: 1px solid #9c9c9c;
-  padding-bottom: 8px;
-  padding-top: 5px;
-  width: 100%;
-}
-
-.latest-news {
-  padding: 0px 3.6%;
-}
-
-.latest-news-bulletion .news-label {
-  font-family: GOTHAMbold;
-  font-size: 12px;
-  color: #0054a5;
-  display: block;
-  margin-top: 10px;
-  margin-bottom: 8px;
-}
-
-.latest-news-bulletion .news-bulletion-label {
-  display: block;
-  background: #242021;
-  line-height: 29px;
-  margin-left: 2px;
-  margin-right: 1px;
-  text-align: center;
-  color: #f2f33d;
-  font-size: 13px;
-  font-family: GOTHAMbold;
-  padding-left: 3.8%;
-}
-
-.latest-news-bulletion li a {
-  font-family: GOTHAMbook;
   font-size: 13px;
   color: #242223;
-  padding-left: 0.8%;
-  text-decoration: none;
+  padding-left: 2%;
+  padding-right: 2%;
+  line-height: 1.9em;
+  margin-bottom: 9px;
+}
+#voiceProfile .primary-content {
+  float: left;
+  width: 66%;
 }
 
-.on-air {
-  margin-top: 34px;
-  margin-bottom: 14px;
-}
-
-.on-air h1 {
-  color: #1f1f1f;
-  font-size: 20px;
-  font-family: GOTHAMbold;
-}
-
-.sidebar-second {
+#voiceProfile .sidebar {
   float: left;
   margin-left: 2.1%;
-  width: 240px;
+  padding-left: 2px;
+  margin-bottom: 32px;
 }
 
-.foriegn-affair {
-  position: relative;
-}
-
-.affair-content{
-  position: absolute;
-  top: 0;
-  min-width: 200px;
-}
-
-.affair-text1 {
-  color: #fff;
-  margin-top: 17px;
-  display: inline-block;
-  margin-left: 8.2%;
-  font-size: 20px;
-  font-family: DIN;
-}
-
-.foriegn-affair .affair-text {
-  display: block;
-  width: 100px;
-  color: #fff;
-  font-family: DIN;
-  font-size: 30px;
-  margin-left: 10%;
-  line-height: 26px;
-}
-
-.foriegn-affair .philip-mottaz {
-  display: inline-block;
-  font-size: 11px;
-  font-family: GOTHAMbold;
-  color: #f8f943;
-  margin-top: 41px;
-  margin-left: 9.6%;
-  width: 105px;
-}
-
-.foriegn-affair .listen-live {
-  background: #fcee36;
-  margin-top: 30px;
-  display: block;
-  margin-left: 4%;
-  line-height: 18px;
-  width: 105px;
-}
-
-.foriegn-affair .listen-live img {
-  margin-left: 5%;
-  margin-top: 3px;
-}
-
-.foriegn-affair .listen-live a {
-  text-decoration: none;
-  font-size: 12px;
-  font-family: GOTHAMbold;
-  color: #28181b;
-  padding-left: 4px;
-}
-
-.sidebar-second .next-content {
-  background: #e40c23;
-  padding: 12px 5.5% 15px;
-  box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  -webkit-box-sizing: border-box;
-}
-
-.sidebar-second .next-label, .next-description {
+#voiceProfile .episodes{
   font-family: GOTHAMbold;
   font-size: 14px;
-  color: #f9e838;
-  margin-bottom: 4px;
+  margin-bottom: 26px;
 }
-
-.sidebar-second .next-name {
-  font-size: 18px;
-  font-family: GOTHAMbold;
-  color: #fff;
-  margin-bottom: 4px;
-}
-
-.sidebar-second .later-content {
-  background: #015b7e;
-  margin-top: 3px;
-  padding: 14px 5% 8px;
-}
-
-.later-content .later-label {
-  color: #FFF;
-  font-size: 14px;
-  font-family: GOTHAMbold;
-  line-height: 9px;
-}
-
-.later-content .later-description {
-  line-height: 22px;
-}
-
-.later-content .later-time {
-  font-size: 14px;
+#voiceProfile .episodes label{
   font-family: GOTHAMbook;
-  color: #fff;
-  padding-right: 12px;
 }
 
-.later-content .later-text {
-  color: #fff63d;
-  font-size: 14px;
-  font-family: GOTHAMbold;
-}
-
-.content-bottom-banner {
-  margin-top: 35px;
-  float: left;
-}
-
-/** css for footer **/
-#footer .footer-menu li {
-  display: inline-block;
-  padding: 9px 2.2%;
-  float: left;
-}
-
-#footer .footer-menu li a {
-  text-decoration: none;
-  font-family: GOTHAMbold;
-  font-size: 12px;
-  color: #fff227;
-}
-
-#footer .footer-menu li.news {
-  background: #e40c23;
-}
-
-#footer .footer-menu li.arts {
-  background: #6a37d4;
-}
-
-#footer .footer-menu li.business {
-  background: #0153a5;
-}
-
-#footer .footer-menu li.home-family {
-  background: #ef4f1d;
-}
-
-#footer .footer-menu li.life {
-  background: #646464;
-}
-
-#footer .footer-menu li.science-tech {
-  background: #34b751;
-}
-
-#footer .footer-menu li.sports {
-  background: #1d58f0;
-}
-
-.footer-bottom {
-  background: #f8f8f8;
-  float: left;
-  width: 100%;
-}
-
-.footer-bottom-menu ul {
-  color: #1b1b1b;
-  font-size: 12px;
-  font-family: GOTHAMbold;
-}
-
-.footer-bottom-menu ul h1 {
-  margin-bottom: 4px;
-}
-
-.footer-content-partners ul h1{
-  margin-bottom: 20px;
-}
-
-.footer-bottom-menu li {
-  line-height: 17px;
-}
-
-.footer-bottom-menu li a{
-  text-decoration: none;
-  font-size: 12px;
-  font-family: GOTHAMbook;
-  color: #065983;
-}
-
-.footer-bottom-menu {
-  float: left;
-  width: 100%;
-  padding-top: 50px;
-}
-
-.footer-wrs {
-  float: left;
-  width: 26.1%;
-}
-
-.footer-wrs li {
-  padding-left: 8.2%;
-}
-.footer-radio {
-  float: left;
-  width: 14.1%;
-}
-
-.footer-community {
-  float: left;
-  width: 14.1%;
-}
-
-.footer-events {
-  float: left;
-  width: 14%;
-}
-
-.footer-about {
-  float: left;
-  width: 12%;
-}
-
-.footer-content-partners {
-  float: left;
-}
-
-
-/** css for content bottom */
-.content-bottom-first,
-.content-bottom-middle,
-.content-bottom-last{
-  width: 300px;
-  float:right;
-}
-.right-content
-{
-float:right;
-}
-
-.content-bottom-first,
-.content-bottom-middle {
-  padding-left:30px;
-  margin-right:-20px;
-  margin-top:100px;
-}
-
-.content-bottom {
-  float: left;
-  width: 100%;
-  margin-top: 35px;
-}
-
-.content-bottom h1.title {
-  color: #222021;
-  font-size: 14px;
-  font-family: GOTHAMbold;
-  margin-bottom: 10px;
-}
-
-.wrs-platlist-img {
-  height: 97px;
-}
-
-.wrs-playlist-content {
-  background: #6a37d4;
-  text-align: center;
-  padding-bottom: 4px;
-}
-
-.wrs-playlist-main {
-  padding-top: 9px;
-  padding-bottom: 3px;
-}
-
-.wrs-playlist {
-  margin-bottom: 7px;
-}
-.wrs-playlist-name {
-  font-size: 12px;
-  font-family: GOTHAMbook;
-  color: #fff;
-  padding-bottom: 5px;
-}
-
-.wrs-playlist-user {
-  font-size: 12px;
-  font-family: GOTHAMbold;
-  color: #fff;
-  padding-bottom: 2px;
-}
-
-.wrs-selection-img {
-  float: left;
-  width: 150px;
-  height: 98px;
-}
-
-.wrs-selection-content {
+#voiceProfile .wrs-selection-content {
   float: left;
   width: 140px;
   padding-left: 10px;
   height: 98px;
+  background: #0054a5;
 }
 
-.wrs-selection-rows {
+#voiceProfile .wrs-selection-rows {
 float: left;
 width: 100%;
 margin-bottom: 6px;
 }
-
-.wrs-selection-rows.rows1 .wrs-selection-content {
-  background: #0153a5;
+#voiceProfile .wrs-selection-img {
+  float: left;
+  width: 150px;
+  height: 98px;
 }
 
-.wrs-selection-rows.rows2 .wrs-selection-content {
-  background: #3ab54b;
+#voiceProfile .wrs-selection-main-time {
+ font-size: 10px;
+color: #fff;
+font-family: GOTHAMbook;
+padding-bottom: 4px;
+width: 105px;
 }
 
-.wrs-selection-rows.rows3 .wrs-selection-content {
-  background: #6a33d7;
-}
-
-.wrs-selection-rows.rows4 .wrs-selection-content {
-  background: #0054a5
-}
-
-.wrs-selection-rows.rows5 .wrs-selection-content {
-  background: #646464;
-}
-
-.wrs-selection-rows.rows6 .wrs-selection-content {
-  background: #1d58f0;
-}
-
-.wrs-selection-main-title {
-  font-size: 10px;
-  font-family: GOTHAMbold;
-  color: #fff;
-  text-transform: uppercase;
-}
-
-.wrs-selection-main-time {
-  font-size: 10px;
-  color: #fff;
-  font-family: GOTHAMbook;
-}
-
-.wrs-selection-main-desc {
+#voiceProfile .wrs-selection-main-desc {
   font-size: 14px;
-  font-family: GOTHAMbold;
-  color: #fff;
+font-family: GOTHAMbold;
+color: #fff;
+width: 130px;
+line-height: 16px;
 }
 
-.wrs-selction-main {
-  padding-top: 9px;
+#voiceProfile .wrs-selction-main {
+  padding-top: 8px;
 }
 
-.wrs-selection-main-title {
+#voiceProfile .wrs-selection-main-title {
   font-size: 10px;
   font-family: GOTHAMbold;
   color: #fff;
   text-transform: uppercase;
   line-height: 12px;
-  width: 95px;
+  width: 97px;
   float: left;
 }
 
-.wrs-channel-img {
+#voiceProfile .wrs-channel-img {
   margin-top: -4px;
   background: url(images/bbc.png);
   width: 35px;
   height: 12px;
   float: right;
-  margin-right: 6px;
+  margin-right: 4px;
 }
 
-.wrs-selection-rows:hover .wrs-channel-img{
-  background: url(images/bbc-hiver.png);
+#voiceProfile .wrs-selection-rows:hover .wrs-selection-content {
+background: #faf037;
 }
-.wrs-selection-main-time {
-  font-size: 10px;
-  color: #fff;
-  font-family: GOTHAMbook;
-  padding-bottom: 4px;
-  width: 105px;
+#voiceProfile .wrs-selection-rows:hover .wrs-selection-content .wrs-selection-main-title,
+#voiceProfile .wrs-selection-rows:hover .wrs-selection-content .wrs-selection-main-time,
+#voiceProfile .wrs-selection-rows:hover .wrs-selection-content .wrs-selection-main-desc {
+color: #000000;
 }
-
-.wrs-selection-main-desc {
-  font-size: 14px;
-  font-family: GOTHAMbold;
-  color: #fff;
-  width: 130px;
-  line-height: 16px;
+/**#voiceProfile .wrs-selection-rows:hover .wrs-channel-img{
+  background: url(images/bbc-hiver.png);**/
+}
+#voiceProfile .sidelink{
+  float: left;
 }
 
-.classifieds-recent-posts {
-  background: #f1f1f1;
-  padding: 16px;
-  padding-bottom: 12px;
-}
-
-.recent-post-title {
-  font-size: 12px;
-  font-family: GOTHAMbold;
-  color: #065775;
-}
-
-.recent-post-img {
-width: 41px;
-float: left;
-}
-
-.recent-post-text {
-  font-family: GOTHAMbook;
-  font-size: 12px;
-  color: #626262;
-}
-
-.recent-post-title {
-font-size: 12px;
-font-family: GOTHAMbold;
-color: #065775;
-margin-bottom: 4px;
-}
-
-.recent-classifieds {
-border-bottom: 1px dotted;
-padding-bottom: 6px;
-padding-top: 6px;
-position: relative;
-}
-
-.posts-view-all {
-  padding-top: 6px;
-}
-.classifieds-post-label {
-font-family: GOTHAMbold;
-font-size: 12px;
-float: left;
-margin-right: 4px;
-}
-.recent-post-text {
-font-family: GOTHAMbook;
-font-size: 12px;
-color: #626262;
-line-height: 15px;
-width: 240px;
-}
-
-.posts-view-all a {
-  font-size: 12px;
-  font-family: GOTHAMbook;
-  text-decoration: none;
-  color: #868686;
-  padding-left: 16%;
-}
-
-.posts-view-all a:hover {
-  color: #000;
-  font-weight: bold;
-}
-.recent-post-channel {
-position: absolute;
-right: 0;
-top: 11px;
-background: url(images/camera.png) no-repeat;
-height: 21px;
-float: right;
-width: 23px;
-}
-
-.browse-by-categories {
-background: #dce5ec;
-float: left;
-width: 271px;
-padding-left: 16px;
-padding-right: 13px;
-padding-bottom: 10px;
-}
-.browse-categories-label {
-color: #005d80;
-font-family: GOTHAMbold;
-font-size: 12px;
-text-transform: uppercase;
-padding-top: 16px;
-margin-bottom: 11px;
-}
-
-.cate-1 {
-float: left;
-width: 49%;
-border-bottom: 2px solid #367d99;
-margin-right: 2%;
-padding-bottom: 0px;
-padding-top: 9px;
-}
-
-.cate-2 {
-float: left;
-width: 48%;
-border-bottom: 2px solid #367d99;
-}
-
-.categories.last .cate-1,
-.categories.last .cate-2 {
-  border: none;
-}
-.cate-img {
-width: 37px;
-float: left;
-padding-left: 5px;
-}
-.cate-text {
-padding-bottom: 7px;
-padding-top: 0px;
-padding-left: 41px;
-}
-
-.cate-label {
-font-family: GOTHAMbold;
-font-size: 12px;
-color: #1e1f24;
-display: block;
-}
-.cate-number {
-font-size: 12px;
-font-family: GOTHAMbook;
-color: #686f75;
-}
-.cate-2 {
-float: left;
-width: 48%;
-border-bottom: 2px solid #367d99;
-padding-top: 9px;
-}
-
-#footer {
-width: 1024px;
-margin: 0 auto;
-overflow: hidden;
-}
-
-#footer li.sports a {
-  padding-right: 2px;
-}
-
-.pager-wrs-selection {
+#voiceProfile .pager-wrs-selection {
   background: #f1f1f1;
   float: left;
   width: 100%;
@@ -1080,9 +148,9 @@ overflow: hidden;
   text-align: center;
 }
 
-.pager-wrs-selection .pager1 a,
-.pager-wrs-selection .pager2 a,
-.pager-wrs-selection .pager3 a{
+#voiceProfile .pager-wrs-selection .pager1 a,
+#voiceProfile .pager-wrs-selection .pager2 a,
+#voiceProfile .pager-wrs-selection .pager3 a{
   text-indent: -9999em;
   background: url(images/pager.jpg) no-repeat;
   display: inline-block;
@@ -1090,146 +158,119 @@ overflow: hidden;
   height: 8px;
 }
 
-.footer-world-radio {
-  float: left;
-  width: 57.5%;
-  text-align: center;
-  margin-left: 11%;
-  line-height: 28px;
-  margin-top: 7px;
-}
-
-.footer-world-radio h1 {
-  font-size: 18px;
+#voiceProfile .subtitle{
+  margin-bottom: 16px;
   font-family: GOTHAMbold;
-  color: #6c7476;
-  text-transform: uppercase;
-}
-
-.footer-world-radio p {
   font-size: 14px;
-  font-family: GOTHAMbook;
-  color: #9b9b9b;
-  text-transform: uppercase;
 }
 
-.social {
+#voiceProfile .row{
   float: left;
-  margin-top: 7px;
+  height: 185px;
+  margin-left: -9px;
+  margin-top: 2px;
+  padding-left: 3px;
+ }
+ #voiceProfile .col{
+  float: left;
+  margin-left: 5px;
+  height: 183px;
+ }
+
+#voiceProfile .pic{
+  width: 234px;
+  height: 117px;
+}
+#voiceProfile .pic img{
+   border-bottom: 4px solid #697273;
+   width: 234px;
+   height: 117px;
 }
 
-/**css for hover **/
-.latest-news li:hover {
-background: #faf037;
+#voiceProfile .intro{
+  width: 223px;
+  height: 47px;
+  background-color:#e6e8fa;
+  color: #bababa;
+  font-family: GOTHAMbook;
+  font-size: 10px;
+  padding-left: 11px;
+  padding-top: 10px;
+  margin-bottom: 10px;
 }
 
-.news-bulletion-label:hover {
-background: #faf037;
-color: #1f1f1f;
+#voiceProfile .intro .intro-place{
+  font-size: 10px;
+  color: #9c9c9c;
+  font-family: GOTHAMbold;
 }
+#voiceProfile .intro .intro-name{margin:7px 0px;}
+#voiceProfile .intro .intro-name a{
+  color: #015b7e;
+  font-family: GOTHAMbold;
+  font-size: 14px;
+  text-decoration: none;
+  }
+ #voiceProfile .vpslider-text-city {
+  background: #015b7e;
+  position: absolute;
+  top: 14px;
+  color: #fff;
+  font-size: 10px;
+  font-family: GOTHAMbook;
+  margin-left: 12px;
+  padding: 4px 3px 4px 6px;
+  width: 121px;
 
-.sidebar-second .next-content:hover {
-background: #faf037;
-color: #1f1f1f;
 }
-
-.sidebar-second .next-content:hover > div {
-  color: #1f1f1f;
-}
-
-.sidebar-second .later-content:hover,
-.recent-classifieds:hover,
-.categories .cate-1:hover,
-.categories .cate-2:hover,
-.wrs-selection-rows .wrs-selection-content:hover  {
-  background: #faf037;
-}
-
-.sidebar-second .later-content:hover > div {
-  color: #1f1f1f;
-}
-
-.sidebar-second .later-content:hover > div > span {
-  color: #1f1f1f;
-}
-
-.content-middle-banner,
-.wrs-selection-img {
+#voiceProfile .vpslider {
+  float: left;
+  height: 422px;
   position: relative;
 }
 
-.content-middle-banner:hover:before {
-  background: url(images/Banner-hover.jpg);
+#voiceProfile .vpslides {
+  height: 388px;
 }
 
-.slides:hover:before,
-.foriegn-affair:hover:before,
-.wrs-selection-img:hover:before {
-  background: #faf037;
-  opacity: .8;
-  }
-
-.slides:hover:before {
-  background: url(images/slider-hover.png) #faf037 no-repeat center 138px;
+#voiceProfile .vpslider-col{
+  background: url(images/Identity_Movie01.jpg);
+  position: absolute;
+  margin-left: 379px;
+  top: 19px;
+  width: 229px;
+  height: 350px;
 }
 
-.slides:before,
-.foriegn-affair:before,
-.content-middle-banner:before,
-.wrs-selection-img:before {
-    content: "";
-    display: block;
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    /**-moz-transition: all .3s linear;
-    -webkit-transition: all .3s linear;
-    -ms-transition: all .3s linear;
-    -o-transition: all .3s linear;
-    transition: all .3s linear;**/
-  }
-
-.later-description:hover .later-wrs {
-  background: url(images/wrs-hover.png);
-}
-.slides:hover .slider-text-country,
-.slides:hover .slider-date {
-  background: #faf037;
-  color: #3c3c3c;
+#voiceProfile .vpslider-col-text{
+  
+  color: #ffffff;
+  padding: 68px 25px;
+  letter-spacing: 0px;
+  text-align: center;
 }
 
-.foriegn-affair:hover .affair-content > span,
-.wrs-selection-rows .wrs-selection-content:hover div{
-  color: #3c3c3c;
-  }
-
-.wrs-selection-rows:hover .wrs-selection-content div {
-  color: #3c3c3c;
+#voiceProfile .vpslider-col-text-row1
+{
+  font-size: 47px;
+  font-family: DIN;
 }
 
-.wrs-selection-rows:hover .wrs-selection-content {
-  background: #faf037;
+#voiceProfile .vpslider-col-text-row2
+{
+  font-size: 14px;
+  font-family: GOTHAMbold;
+  margin-top: 8px;
 }
-
-
-.wrs-selection-rows:hover .wrs-selection-img:before {
-  background: url(images/classifieds-image-hover.png) #faf037 no-repeat center ;
-  opacity: .8;
-  }
-
-.wrs-selection-img:before {
-    content: "";
-    display: block;
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    /**-moz-transition: all .3s linear;
-    -webkit-transition: all .3s linear;
-    -ms-transition: all .3s linear;
-    -o-transition: all .3s linear;
-    transition: all .3s linear;**/
-  }
+#voiceProfile .vpslider-col-text-row3
+{
+  font-size: 17px;
+  font-family: DIN;
+  margin-top: 32px;
+}
+#voiceProfile .vpslider-col-text-row4
+{
+  font-size: 14px;
+  margin-top: 16px;
+  font-family: DIN;
+}
