@@ -16,10 +16,10 @@ font-size:20px;
 .right-content1
 {
 float:right;
-width:35%;
+width:33%;
 background-color:#EEEEEE;
 margin-bottom: 100px;
-
+ padding: 14px;
 }
 .right-content h1 {
      float: right;
@@ -27,7 +27,7 @@ margin-bottom: 100px;
     font-size: 16px;
 
     margin-bottom: 30px;
-    margin-right: 78px;
+    margin-right: 88px;
     margin-top: 100px;
     width: 27%;
 }
@@ -416,119 +416,7 @@ font-family: GOTHAMbook;
 }
 
 /** css for footer **/
-#footer .footer-menu li {
-  display: inline-block;
-  padding: 9px 2.2%;
-  float: left;
-}
 
-#footer .footer-menu li a {
-  text-decoration: none;
-  font-family: GOTHAMbold;
-  font-size: 12px;
-  color: #fff227;
-}
-
-#footer .footer-menu li.news {
-  background: #e40c23;
-}
-
-#footer .footer-menu li.arts {
-  background: #6a37d4;
-}
-
-#footer .footer-menu li.business {
-  background: #0153a5;
-}
-
-#footer .footer-menu li.home-family {
-  background: #ef4f1d;
-}
-
-#footer .footer-menu li.life {
-  background: #646464;
-}
-
-#footer .footer-menu li.science-tech {
-  background: #34b751;
-}
-
-#footer .footer-menu li.sports {
-  background: #1d58f0;
-}
-
-.footer-bottom {
-  background: #f8f8f8;
-  float: left;
-  width: 100%;
-}
-
-.footer-bottom-menu ul {
-  color: #1b1b1b;
-  font-size: 12px;
-  font-family: GOTHAMbold;
-}
-
-.footer-bottom-menu ul h1 {
-  margin-bottom: 4px;
-}
-
-.footer-content-partners ul h1{
-  margin-bottom: 20px;
-}
-
-.footer-bottom-menu li {
-  line-height: 17px;
-}
-
-.footer-bottom-menu li a{
-  text-decoration: none;
-  font-size: 12px;
-  font-family: GOTHAMbook;
-  color: #065983;
-}
-
-.footer-bottom-menu {
-  float: left;
-  width: 100%;
-  padding-top: 50px;
-}
-
-.footer-wrs {
-  float: left;
-  width: 26.1%;
-}
-
-.footer-wrs li {
-  padding-left: 8.2%;
-}
-.footer-radio {
-  float: left;
-  width: 14.1%;
-}
-
-.footer-community {
-  float: left;
-  width: 14.1%;
-}
-
-.footer-events {
-  float: left;
-  width: 14%;
-}
-
-.footer-about {
-  float: left;
-  width: 12%;
-}
-
-.footer-content-partners {
-  float: left;
-}
-
-#footer {
-        width: 100%;
-}
 /* page.css --  used with page.html for template.
 
    Impt: Use with reset.css OR  normailise.css
@@ -549,178 +437,7 @@ font-family: GOTHAMbook;
   src: url(font/Gotham/Gotham-Book.otf);
 }
 
-body  {
-    margin:    0;
-    border:    0;
-    padding:   0;
-    font-size: 100%;
-}
 
-
-#page  {
-    width:  100%;
-    background: #fef773;
-}
-
-.header-top {
-  overflow: hidden;
-}
-
-.logo {
-  float: left;
-  margin-left: 0.6%;
-}
-
-.top-menu {
-  float: left;
-  width: 50%;
-}
-
-.top-nav-menu {
-  margin-top: 15px;
-  margin-left: 7.2%;
-}
-
-.top-menu li {
-  display: inline-block;
-  padding-right: 2.5%;
-}
-
-.sign {
-  float: right;
-  width: 12.7%;
-}
-
-.sign-in {
-  margin-top: 15px;
-}
-.sign li {
-  display: inline-block;
-}
-.sign li.first {
-  border-right: 1px solid;
-  padding-right: 7px;
- line-height: 11px;
-}
-.sign li a {
-    text-decoration: none;
-    color: #075a78;
-    font-family: GOTHAMbold;
-    font-size: 13px;
-}
-.top-menu .top-nav-menu li a{
-    text-decoration: none;
-    color: #075a78;
-    font-family: GOTHAMbold;
-    font-size: 11px;
-    background: url(images/down-arrow.jpg) no-repeat center right;
-    padding-right: 14px;
-}
-
-.header {
-  background: #f8f8f8;
-}
-
-#header-block {
-  min-height: 144px;
-  width: 100%;
-  max-width: 1024px;
-  margin: 0 auto;
-}
-
-
-#header-menu  {
-    background-color: #F9F035;
-    height:   63px;
-    width:    30%;
-    position: relative;
-    left:     23.5%;
-    top:      90px;
-}
-
-
-#header-menu li  {
-   float:           left;
-   list-style-type: none;
-   width:           32%;
-   background:      #666;
-   text-align:      center;
-   border-right:    3px solid #ccc; /* TODO:last menu shouldn't have a border */
-}
-
-.radios {
-  margin-left: 5.8%;
-  margin-top: 9px;
-  float: left;
-  width: 7.8%;
-}
-
-.listen {
-  float: left;
-  margin-top: 21px;
-}
-
-.listen a {
-  text-decoration: none;
-  color: #015b7e;
-  font-family: GOTHAMbold;
-  font-size: 14px;
-  letter-spacing: 2px;
-}
-/* Not used */
-.mid-border  {
-  border-left: 1px solid #ccc;
-  border-right:1px solid #ccc; /* TODO:last menu shouldn't have a border */
-}
-
-/**css for header tabs **/
-.header-tabs ul li {
-  display: inline-block;
-}
-
-.header-tabs {
-  float: left;
-  margin-left: 4.7%;
-}
-
-.header-tabs li a.radio {
-  color: #0054a5;
-  background: #ffe102;
-  padding: 15px 30px;
-  line-height: 46px;
-}
-
-.header-tabs li a {
-  text-decoration: none;
-  font-family: GOTHAMbold;
-  font-size: 22px;
-}
-
-.header-tabs li.community {
-  margin-left: -2px;
-}
-
-.header-tabs li.events {
-  margin-left: -2px;
-}
-
-.header-bottom-media {
-  float: right;
-  margin-top: -32px;
-  margin-right: 3.2%;
-}
-
-.header-tabs li a.community {
-  background: #ff8201;
-  padding: 15px 26px;
-  color: #fff;
-}
-
-.header-tabs li a.events {
-  background: #015b7e;
-  padding: 15px 23px;
-  color: #fff;
-}
 
 #main-menu {
   background: #ffe100;
@@ -1419,15 +1136,6 @@ border-bottom: 2px solid #367d99;
 padding-top: 9px;
 }
 
-#footer {
-width: 1024px;
-margin: 0 auto;
-overflow: hidden;
-}
-
-#footer li.sports a {
-  padding-right: 2px;
-}
 
 .pager-wrs-selection {
   background: #f1f1f1;
@@ -1495,7 +1203,7 @@ color: #1f1f1f;
 }
 
 .sidebar-second .later-content:hover,
-.recent-classifieds:hover,
+
 .categories .cate-1:hover,
 .categories .cate-2:hover,
 .wrs-selection-rows .wrs-selection-content:hover  {
