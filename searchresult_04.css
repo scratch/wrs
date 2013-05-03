@@ -287,7 +287,7 @@ searchresult .main-region {
   width: 222px;
   height: 1110px;
   font-size: 14px;
-  margin-top: 10px;
+  margin-top: 63px;
   }
   .searchresult .mainbar{
     float: right;
@@ -397,9 +397,10 @@ searchresult .main-region {
   .searchresult .numbering span {
     font-family: GOTHAMbook;
     font-size: 10px;
-    padding-left: 510px;
+    padding-left: 445px;
 
   }
+  
 .searchresult #row1
 {
   
@@ -439,8 +440,8 @@ height: 15px;
 margin-left: 4px;
 
 color: #7A4DDC;
-font-family: GOTHAMbook;
-font-weight: bold;
+font-family: GOTHAMbold;
+
 }
 
 .searchresult #newsline-B
@@ -452,8 +453,8 @@ height: 15px;
 margin-left: 4px;
 
 color: #0052B2;
-font-family: GOTHAMbook;
-font-weight: bold;
+font-family: GOTHAMbold;
+
 }
 
 .searchresult #newsline-R
@@ -464,9 +465,9 @@ width: 150px;
 height: 15px;
 margin-left: 4px;
 
-color: #E63C56;
-font-family: GOTHAMbook;
-font-weight: bold;
+color: red;
+font-family: GOTHAMbold;
+
 }
 
 .searchresult #news
@@ -485,6 +486,7 @@ font-weight: bold;
   width: 109px;
   margin-left: 39px;
   color: red;
+  font-weight: bold;
 }
 .searchresult #archi
 {
@@ -493,11 +495,12 @@ font-weight: bold;
   width: 101px;
   margin-left: 39px;
   color: #6847C9;
+  font-weight: bold;
 }
 .searchresult #sideimagerow1
 {
   float: right;
-  width: 58px;
+  
   height: 46px;
   
   margin-top: -10px;
@@ -509,11 +512,17 @@ font-weight: bold;
     float: left;
     font-family: GOTHAMbold;
     font-size: 14px;
-    font-weight: bold;
+    
     height: 16px;
     margin-left: 5px;
     width: 360px;
 }
+
+.searchresult #boldlinerow1 a {
+  text-decoration: none;
+  color: #000000;
+}
+
 .searchresult #timerow1
 {
     
