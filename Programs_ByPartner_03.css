@@ -1482,11 +1482,34 @@ color:#000;
   position:relative;
 }
 .listen-air {
-position: absolute;
-    right: 89px;
-    top: 18px;
+ 
+    height: 44px;
+    position: absolute;
+    right: 45px;
+    top: 25px;
+    width: 56px;
+	background-color:#FFFF00;
 }
 
+#listen-logo {
+
+ width: 30px;
+ height: 17px;
+ position:relative;
+ margin-left:12px;
+ background-color:#FFFF00;
+}
+
+#listen-text {
+
+ width: 38px;
+ height: 25px;
+ position:relative;
+ margin-left:8px;
+ color:#000000;
+ font-family:GOTHAMbold;
+ font-size:11px;
+}
 
 #t_two  span {
     color: #CCCCCC;
@@ -1610,10 +1633,26 @@ color:#646464;
  color:#0054aa;
 }
 
+#bbc a:hover {
+ color:#0054aa;
+ text-decoration:underline;
+}
+
+
 #npr a {
  color:#0054aa;
 }
 
+#npr a:hover {
+ color:#0054aa;
+ text-decoration:underline;
+}
+
 #pri a {
  color:#0054aa;
+}
+
+#pri a:hover {
+ color:#0054aa;
+ text-decoration:underline;
 }

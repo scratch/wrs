@@ -1253,9 +1253,33 @@ color: #1f1f1f;
 }
 
 .listen-air {
-position: absolute;
-    right: 89px;
-    top: 18px;
+ 
+    height: 44px;
+    position: absolute;
+    right: 72px;
+    top: 19px;
+    width: 56px;
+	background-color:#FFFF00;
+}
+
+#listen-logo {
+
+ width: 30px;
+ height: 17px;
+ position:relative;
+ margin-left:12px;
+ background-color:#FFFF00;
+}
+
+#listen-text {
+
+ width: 38px;
+ height: 25px;
+ position:relative;
+ margin-left:8px;
+ color:#000000;
+ font-family:GOTHAMbold;
+ font-size:11px;
 }
 
 #line_red {
