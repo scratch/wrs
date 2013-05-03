@@ -1679,3 +1679,12 @@ color:#646464;
     text-decoration:underline;
  color:#000000;
 }
+
+#title-w a {
+  color:#FFFFFF;
+}
+
+#title-w a:hover {
+  color:#000000;
+  text-decoration:underline;
+}
