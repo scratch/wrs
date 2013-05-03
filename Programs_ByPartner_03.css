@@ -1475,7 +1475,7 @@ color:#000;
 
 #mid-one-left-air {
   width:49%;
-  height:90px;
+  height:100px;
   float:left;
   background-color:#FF0000;
   color:#FFFFFF;
@@ -1604,4 +1604,16 @@ color:#646464;
 #title-white a:hover{
     text-decoration:underline;
  color:#000000;
+}
+
+#bbc a {
+ color:#0054aa;
+}
+
+#npr a {
+ color:#0054aa;
+}
+
+#pri a {
+ color:#0054aa;
 }
