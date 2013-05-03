@@ -482,13 +482,13 @@ height:50px;
 }
 .right-content3
 {
-height:402px;
+height:393px;
 float:right;
 width:308px;
 background-color:#E0E0E0;
 font-family:GOTHAMbook;
 margin-right:5px;
-padding: 12px 6px 0 1px;
+padding: 12px 8px 0 3px;
 
 }
 .right-content31 h2
@@ -521,7 +521,7 @@ font-size:12px;
 {
 float:right;
 width:320px;
-height:100px;
+height:90px;
 margin-right:-20px;
 text-align:justify;
 font-size:12px;
@@ -556,10 +556,10 @@ text-align: center;
 .right-center-footer
 {
 float:right;
-width:314px;
+width:320px;
 background-color:#E2E2E2;
 height:25px;
-margin-top:5px;
+margin-top:14px;
 margin-right:5px;
 
 }
@@ -1639,7 +1639,7 @@ color: #1f1f1f;
 
 #image-left {
   border:red solid thin none;
-  width:630px;
+  width:622px;
   height:417px;
   float:left;
   position:relative;
@@ -1647,7 +1647,7 @@ color: #1f1f1f;
 
 #lft-i {
 
-  width:630px;
+  width:622px;
   height:410px;
   margin-top:4px;
   position:relative;
@@ -1655,7 +1655,7 @@ color: #1f1f1f;
 
 #lft-i img
 {
- width:630px;
+ width:622px;
   height:410px;
   }
 
@@ -1713,8 +1713,8 @@ color: #1f1f1f;
 }
 
 #image-right {
-  border:red solid thin none;
-  width:298px;
+  
+  width:315px;
   height:417px;
   float:right;
   position:relative;
@@ -1722,14 +1722,14 @@ color: #1f1f1f;
 
 #rgt-i {
 
-  width:298px;
+  width:315px;
   height:410px;
   margin-top:4px;
   position:relative;
 }
 
 #rgt-i img {
-  width:298px;
+  width:315px;
   height:410px;
 }
 
