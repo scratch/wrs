@@ -35,105 +35,6 @@ body  {
 }
 
 
-#page  {
-    /**max-width: 1024px;
-    margin: 0 auto; **/
-    width:  100%;
-    background: #fef773;
-}
-
-.header-top {
-  overflow: hidden;
-}
-
-.logo {
-  float: left;
-  margin-left: 0.6%;
-}
-
-.top-menu {
-  float: left;
-  width: 50%;
-}
-
-.top-nav-menu {
-  margin-top: 15px;
-  margin-left: 7.2%;
-}
-
-.top-menu li {
-  display: inline-block;
-  padding-right: 2.5%;
-}
-
-.sign {
-  float: right;
-  width: 12.7%;
-}
-
-.sign-in {
-  margin-top: 15px;
-}
-.sign li {
-  display: inline-block;
-}
-.sign li.first {
-  border-right: 1px solid;
-  padding-right: 7px;
- line-height: 11px;
-}
-.sign li a {
-    text-decoration: none;
-    color: #075a78;
-    font-family: GOTHAMbold;
-    font-size: 13px;
-}
-.top-menu .top-nav-menu li a{
-    text-decoration: none;
-    color: #075a78;
-    font-family: GOTHAMbold;
-    font-size: 11px;
-    background: url(images/down-arrow.jpg) no-repeat center right;
-    padding-right: 14px;
-}
-
-.header {
-  background: #f8f8f8;
-}
-
-#header-block  {
-    min-height: 144px;
-    width:100%;
-    max-width: 1024px;
-    margin: 0 auto;
-}
-
-
-#header-menu  {
-    background-color: #F9F035;
-    height:   63px;
-    width:    30%;
-    position: relative;
-    left:     23.5%;
-    top:      90px;
-}
-
-
-#header-menu li  {
-   float:           left;
-   list-style-type: none;
-   width:           32%;
-   background:      #666;
-   text-align:      center;
-   border-right:    3px solid #ccc; /* TODO:last menu shouldn't have a border */
-}
-
-.radios {
-  margin-left: 5.8%;
-  margin-top: 9px;
-  float: left;
-  width: 7.8%;
-}
 
 .listen {
   float: left;
@@ -324,7 +225,7 @@ color: #000000;
 
 .voices .sidebar{
   float:left;
-  width: 222px;
+  width: 220px;
   height: 1110px;
   font-size: 14px;
   margin-top: 1px;
@@ -377,21 +278,18 @@ color: #000000;
 
 .voices .pic{
   width: 235px;
-  height: 117px;
+  height: 116px;
 }
 .voices .pic img{
    border-bottom: 4px solid #697273;
-   width: 234px;
-   height: 117px;
+   width: 235px;
+   height: 116px;
 }
 
 .voices .intro{
-  width: 223px;
+  width: 224px;
   height: 47px;
   background-color:#e6e8fa;
-  color: #bababa;
-  font-family: GOTHAMbook;
-  font-size: 10px;
   padding-left: 11px;
   padding-top: 12px;
   margin-bottom: 10px;
@@ -593,129 +491,16 @@ color: #000000;
 }
 
 /** css for footer **/
-#footer {
-width: 1024px;
-margin: 0 auto;
-overflow: hidden;
-}
-#footer .footer-menu li {
-  display: inline-block;
-  padding: 9px 2.2%;
-  float: left;
-}
 
-#footer .footer-menu li a {
-  text-decoration: none;
-  font-family: GOTHAMbold;
-  font-size: 12px;
-  color: #fff227;
-}
-
-#footer .footer-menu li.news {
-  background: #e40c23;
-}
-
-#footer .footer-menu li.arts {
-  background: #6a37d4;
-}
-
-#footer .footer-menu li.business {
-  background: #0153a5;
-}
-
-#footer .footer-menu li.home-family {
-  background: #ef4f1d;
-}
-
-#footer .footer-menu li.life {
-  background: #646464;
-}
-
-#footer .footer-menu li.science-tech {
-  background: #34b751;
-}
-
-#footer .footer-menu li.sports {
-  background: #1d58f0;
-}
-
-.footer-bottom {
-  background: #f8f8f8;
-  float: left;
-  width: 100%;
-}
-
-.footer-bottom-menu ul {
-  color: #1b1b1b;
-  font-size: 12px;
-  font-family: GOTHAMbold;
-}
-
-.footer-bottom-menu ul h1 {
-  margin-bottom: 4px;
-}
-
-.footer-content-partners ul h1{
-  margin-bottom: 20px;
-}
-
-.footer-bottom-menu li {
-  line-height: 17px;
-}
-
-.footer-bottom-menu li a{
-  text-decoration: none;
-  font-size: 12px;
-  font-family: GOTHAMbook;
-  color: #065983;
-}
-
-.footer-bottom-menu {
-  float: left;
-  width: 100%;
-  padding-top: 50px;
-}
-
-.footer-wrs {
-  float: left;
-  width: 26.1%;
-}
-
-.footer-wrs li {
-  padding-left: 8.2%;
-}
-.footer-radio {
-  float: left;
-  width: 14.1%;
-}
-
-.footer-community {
-  float: left;
-  width: 14.1%;
-}
-
-.footer-events {
-  float: left;
-  width: 14%;
-}
-
-.footer-about {
-  float: left;
-  width: 12%;
-}
-
-.footer-content-partners {
-  float: left;
-}
-
-.voices .col:hover .pic:before,
+/** .voices .col:hover .pic:before,**/
  .voices .col:hover .intro,
- .voices .col:hover .intro label,
- .voices .col:hover .intro p
+ .voices .col:hover .intro .role a,
+ .voices .col:hover .intro .name a,
+ .voices .col:hover .intro .programe a
  {
   background: #faf037 no-repeat center ;
   opacity: .9;
-  color: black;
+  color: #000;
   }
 
 .voices .col .pic:before {
@@ -736,14 +521,31 @@ overflow: hidden;
   position: relative;
 }
 
-.voices .col:hover img {
-  border-bottom: 4px solid #faf037;
+
+.voices .col .intro .role a{
+  font-size: 10px;
+  color: #9c9c9c;
+  font-family: GOTHAMbold;
+  float: left;
+  text-decoration: none;
 }
 
-.voices .col:hover .intro {
-  color: #000;
-}
+.voices .intro .name a{
+  color: #015b7e;
+  font-family: GOTHAMbold;
+  font-size: 14px;
+  margin:7px 0px;
+  text-decoration: none;
+  }
 
-.voices .col:hover .intro p {
-  color: #000;
-}
+  .voices .intro .programe a{
+    color: #bababa;
+  font-family: GOTHAMbook;
+  font-size: 10px;
+  text-decoration: none;
+  }
+  .voices .intro .programe{
+    padding-top: 0px;
+    margin-top: -4px;
+    margin-bottom: 5px;
+  }

@@ -271,6 +271,12 @@ body  {
   width: 72.5%;
 }
 
+.term-of-use .primary-content {
+  float: left;
+  width: 65.8%;
+}
+
+
 .news-today {
   margin-top: 34px;
 }
@@ -701,7 +707,7 @@ background: url(images/listen-hover.png) no-repeat 5px 4px;
   font-size: 12px;
   color: #fff227;
   display: inline-block;
-  padding: 9px 19px;
+  padding: 9px 22px;
 }
 
 #footer .footer-menu li.news {
@@ -737,8 +743,7 @@ background: url(images/listen-hover.png) no-repeat 5px 4px;
 }
 
 #footer .footer-menu li.sports a {
- padding:9px 44px;
- padding-right: 46px;
+ padding:9px 27px;
 }
 
 #footer li a:hover {
@@ -1075,7 +1080,7 @@ width: 240px;
   font-family: GOTHAMbook;
   text-decoration: none;
   color: #868686;
-  padding-left: 16%;
+  margin-left: 16%;
 }
 
 .posts-view-all a:hover {
@@ -1257,7 +1262,6 @@ color: #1f1f1f;
 /**.sidebar-second .later-content:hover > div > span {
   color: #1f1f1f;
 }**/
-
 .content-middle-banner,
 .wrs-selection-img {
   position: relative;
@@ -1268,7 +1272,9 @@ color: #1f1f1f;
 }
 
 .slides:before,
-.wrs-selection-img:before
+.wrs-selection-img:before,
+.wrs-playlist-content-1 .wrs-platlist-img:before,
+.wrs-playlist-content-2 .wrs-platlist-img:before
 {
     content: "";
     display: block;
@@ -1283,7 +1289,33 @@ color: #1f1f1f;
     -o-transition: all .3s linear;
     transition: all .3s linear;**/
   }
+#wrs-selection-rows-row1:hover .wrs-selection-img:before,
+#wrs-selection-rows-rows2:hover .wrs-selection-img:before,
+#wrs-selection-rows-rows3:hover .wrs-selection-img:before,
+#wrs-selection-rows-rows4:hover .wrs-selection-img:before
+{
+   background: url(images/classifieds-image-hover.png) #faf037 no-repeat center ;
+  opacity: .8;
+  }
 
+
+
+
+#wrs-selection-img:before,
+.left-center-content:before{
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    /**-moz-transition: all .3s linear;
+    -webkit-transition: all .3s linear;
+    -ms-transition: all .3s linear;
+    -o-transition: all .3s linear;
+    transition: all .3s linear;**/
+  }
 /**.later-description:hover .later-wrs {
   background: url(images/wrs-hover.png);
 }**/
@@ -1322,8 +1354,28 @@ color: #1f1f1f;
 
 
 .wrs-selection-rows:hover .wrs-selection-img:before,
-.voices .col:hover .pic:before  {
+.voices .col:hover .pic:before,
+.wrs-playlist-content-1:hover .wrs-platlist-img:before,
+.wrs-playlist-content-2:hover .wrs-platlist-img:before  {
   background: url(images/classifieds-images-hover.png) no-repeat center ;
+}
+
+.wrs-playlist-content-1:hover .wrs-playlist-content,
+.wrs-playlist-content-2:hover .wrs-playlist-content {
+  background: #faf037;
+}
+
+.wrs-playlist-content-1:hover .wrs-playlist-content .wrs-playlist-title a,
+.wrs-playlist-content-2:hover .wrs-playlist-content .wrs-playlist-title a {
+  color: #000;
+  text-decoration: underline;
+}
+
+.playlist_05 .wrs-playlist .wrs-playlist-content-1:hover .wrs-playlist-content .wrs-playlist-description,
+.playlist_05 .wrs-playlist .wrs-playlist-content-1:hover .wrs-playlist-content .wrs-playlist-time,
+.playlist_05 .wrs-playlist .wrs-playlist-content-2:hover .wrs-playlist-content .wrs-playlist-description,
+.playlist_05 .wrs-playlist .wrs-playlist-content-2:hover .wrs-playlist-content .wrs-playlist-time {
+  color: #000;
 }
 
 

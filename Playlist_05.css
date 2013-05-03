@@ -1,0 +1,194 @@
+/* page.css --  used with page.html for template.
+
+   Impt: Use with reset.css OR  normailise.css
+ */
+
+@font-face {
+  font-family: DIN;
+  src: url(font/DIN/din1451engschrift.ttf);
+}
+
+@font-face {
+  font-family: GOTHAMbold;
+  src: url(font/Gotham/Gotham-Bold.otf);
+}
+
+@font-face {
+  font-family: GOTHAMbook;
+  src: url(font/Gotham/Gotham-Book.otf);
+}
+
+body  {
+    margin:    0;
+    border:    0;
+    padding:   0;
+    font-size: 100%;
+}
+
+.playlist_05 #main-content h1.title {
+  font-size: 29px;
+  color: #1f1f1f;
+  font-family: GOTHAMbold;
+  margin-top: 1.3em;
+  font-family: GOTHAMbold;
+  margin-bottom: 1.2em;
+}
+
+.playlist_05 .wrs-platlist-img {
+  height: 200px;
+  position: relative;
+  width: 312px;
+}
+
+.playlist_05 .wrs-playlist-bbc-img {
+  position: absolute;
+  top: 16px;
+  right: 13px;
+}
+
+.playlist_05 .wrs-playlist .wrs-playlist-content {
+  width: 312px;
+  height: 167px;
+}
+
+.playlist_05 .wrs-playlist-content {
+  text-align: left;
+}
+
+.playlist_05 .wrs-playlist .wrs-playlist-content .wrs-playlist-title a {
+  font-family: GOTHAMbold;
+  font-size: 31px;
+  padding-left: 13px;
+  letter-spacing: -0.04em;
+}
+
+.playlist_05 .wrs-playlist .wrs-playlist-content .wrs-playlist-title a:hover,
+.playlist_05 .wrs-playlist-content .wrs-playlist-user a:hover,
+.playlist_05 .wrs-playlist .pager-wrs-selection span.view-all a:hover {
+  text-decoration: underline;
+}
+
+.playlist_05 .wrs-playlist .wrs-playlist-content .wrs-playlist-title {
+  margin-top: 5px;
+}
+
+.playlist_05 .wrs-playlist .wrs-playlist-content .wrs-playlist-description,
+.playlist_05 .wrs-playlist .wrs-playlist-content .wrs-playlist-time {
+  color: #fff;
+  font-family: GOTHAMbold;
+  font-size: 14px;
+  padding-left: 0.9em;
+  padding-top: 0.7em;
+  min-height: 5em;
+  width: 90%;
+}
+
+.playlist_05 .wrs-playlist .wrs-playlist-content .wrs-playlist-time {
+  font-family: GOTHAMbook;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 13px;
+  min-height: auto;
+  padding-top: 0.5em;
+  padding-left: 1.2em;
+}
+
+.playlist_05 .wrs-playlist .wrs-playlist-content-1 {
+  float: left;
+  margin-right: 2px;
+}
+
+.playlist_05 .wrs-playlist .wrs-playlist-content-2 {
+  display: inline-block;
+  float: left;
+  margin-right: 1.6em;
+}
+
+.playlist_05 .wrs-playlist .wrs-playlist-content-3 {
+  display: inline-block;
+}
+
+.playlist_05 .wrs-playlist .wrs-playlist-content-3 .wrs-playlist-img,
+.playlist_05 .wrs-playlist .wrs-playlist-content-3 .wrs-playlist-content {
+  width: 300px;
+}
+
+.playlist_05 .wrs-playlist .wrs-playlist-content-3 .wrs-playlist-img {
+  height: 97px;
+}
+
+.playlist_05 .wrs-playlist .wrs-playlist-content-3 .wrs-playlist-content {
+  min-height: 16.8em;
+  text-align: center;
+}
+
+.playlist_05 .wrs-playlist .wrs-playlist-content-3 .wrs-playlist-content .wrs-playlist-main.first .wrs-playlist-name {
+  padding-top: 2px;
+}
+
+.playlist_05 .wrs-playlist .wrs-playlist-content-main .pager-wrs-selection {
+  width: 65.8%;
+  margin-top: 0.3em;
+}
+
+.playlist_05 .wrs-playlist .wrs-playlist-content-3 .pager-wrs-selection span a {
+  color: #00597b;
+  text-decoration: none;
+}
+
+.playlist_05 .wrs-playlist .wrs-playlist-content-3 .pager-wrs-selection {
+  font-size: 14px;
+}
+
+.playlist_05 .content-middle-banner {
+  margin-top: 27px;
+}
+
+.playlist_05 .wrs-playlist .wrs-playlist-content-3 .wrs-playlist {
+  margin-bottom: 5px;
+}
+
+.playlist_05 .content-bottom-first {
+  width: 67%;
+  padding-right: 0;
+  padding-right: 14px;
+}
+
+.playlist_05 .wrs-selection-column-main .wrs-selection-column-1 {
+  display: block;
+  float: left;
+  width: 19em;
+  margin-right: 1.4em;
+}
+
+.playlist_05 .wrs-selection-column-main .wrs-selection-column-2 {
+  display: inline-block;
+  width: 19em;
+}
+
+.playlist_05 .content-bottom {
+  margin-top: 19px;
+}
+
+.playlist_05 .content-bottom .content-bottom-first h1.title,
+.playlist_05 .content-bottom .content-bottom-last h1.title {
+  padding: 0;
+  margin: 0;
+  font-size: 14px !important;
+  text-transform: uppercase;
+  margin-top: 8px !important;
+  margin-bottom: 13px !important;
+}
+
+.playlist_05 .content-bottom .content-bottom-first h1.title span.subtitle {
+  font-weight: normal !important;
+    font-family: GOTHAMBOOK;
+}
+
+.playlist_05 .content-bottom .pager-wrs-selection {
+  width: 98.2%;
+}
+
+.playlist_05 .classifieds {
+  padding-bottom: 11px;
+}

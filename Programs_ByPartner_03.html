@@ -5,6 +5,7 @@
     <link rel="stylesheet" type="text/css" href="reset.css">
     <link rel="stylesheet" type="text/css" href="Programs_ByPartner_03.css">
     <link rel="stylesheet" type="text/css" href="WRSnews_04.css">
+    <link rel="stylesheet" type="text/css" href="page.css">
   </head>
 
   <body>
@@ -48,7 +49,17 @@
         </ul>
         </div>
         <div class="header-bottom-media">
-          <a href="#"><img src="images/media-partners.jpg"></a>
+          <div class="media-partners">
+            <div class="partners1">
+              <li><a href="#"><img src="images/content-partner-logo-bbc.png"></a></li>
+            <li><a href="#"><img src="images/content-partner-logo-npr.png"></a></li>
+            </div>
+          <div class="partners2">
+            <li><a href="#"><img src="images/partner-abc-logo.png"></a></li>
+            <li><a href="#"><img src="images/partner-cbc-logo.png"></a></li>
+            <li><a href="#"><img src="images/partner-pri-logo.png"></a></li>
+          </div>
+        </div>
         </div>
       </div><!--end header -->
     </div>
@@ -98,7 +109,7 @@
 		</div>
 
 		<div id="bbc">
-		<p>BBC</p>
+		<p><a href="#">BBC</a></p>
 		</div>
 
 		<div id="mid-content">
@@ -154,7 +165,7 @@
 					</div>
 
 					<div id="mid-one-text">
-					<div id="title-red"><a href ="#">DOCUMENTARIES</a></div>
+					<div id="title-black"><a href ="#">DOCUMENTARIES</a></div>
 					<div id="t_one">08.30 | Wednesay</div>
 					<div id="t_two">11.10 | Thursday <span color="#CCCCCC"  style="span-size:12px;">REPEAT</span></div>
 					</div>
@@ -286,7 +297,16 @@
 					<div id="t_one">08.30 | Wednesay</div>
 					<div id="t_two">11.10 | Thursday <span color="#CCCCCC"  style="span-size:12px;">REPEAT</span></div>
 					</div>
-                      <div class="listen-air"><img src="images/recorder_hoever1.jpg"></div>
+                      <div class="listen-air">
+					  	<div id="listen-logo">
+						<img src="images/listen-new.png">
+						</div>
+
+						<div id="listen-text">
+						<pre>LISTEN
+  LIVE</pre>
+						</div>
+					  </div>
 					<div id="mid-one-logo">
 
 					</div>
@@ -354,7 +374,7 @@
 			</div>
 
 			<div id="npr">
-				<p>NPR</p>
+				<p><a href="#">NPR</a></p>
 			</div>
 
 			<br/>
@@ -400,7 +420,7 @@
 			</div>
 
 			<div id="pri">
-				<p>PRI</p>
+				<p><a href="#">PRI</a></p>
 			</div>
 			<br/>
 
@@ -517,11 +537,11 @@
 			<div id="blank">
 			</div>
     </div><!--main end -->
-				</div>
-    <div id="footer">
+				</div></div>
+     <div id="footer">
       <div class="footer-main-menu">
         <ul class="footer-menu">
-          <li class="news"><a href="#">NEWS</a></li>
+          <li class="news"><a href="WRSnews_04.html">NEWS</a></li>
           <li class="arts"><a href="#">ARTS & ENTERTAINMENT</a></li>
           <li class="business"><a href="#">BUSINESS & ECONOMY</a></li>
           <li class="home-family"><a href="#">HOME & FAMILY</a></li>
@@ -530,17 +550,18 @@
           <li class="sports"><a href="#">SPORTS</a></li>
         </ul>
      </div>
+     <div class="footer-region">
      <div class="footer-bottom">
        <div class="footer-bottom-menu">
         <div class="footer-wrs">
           <ul>
-            <li><a href="#"><img src="images/footer-logo.jpg"></a></li>
+            <li><a href="page.html"><img src="images/footer-logo.png"></a></li>
           </ul>
         </div>
         <div class="footer-radio">
           <ul><h1>RADIO</h1>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">WRS News</a></li>
+            <li><a href="page.html">Home</a></li>
+            <li><a href="WRSnews_04.html">WRS News</a></li>
             <li><a href="#">Schedule</a></li>
             <li><a href="#">Shows</a></li>
             <li><a href="#">Programmes</a></li>
@@ -574,9 +595,18 @@
           </ul>
         </div>
         <div class="footer-content-partners">
-          <ul><h1>CONTENT PARTNERS</h1>
-            <li><a href="#"><img src="images/media-partners.jpg"></a></li>
-          </ul>
+          <ul><h1>CONTENT PARTNERS</h1></ul>
+                      <div class="media-partners">
+            <div class="partners1">
+              <li><a href="#"><img src="images/content-partner-logo-bbc.png"></a></li>
+            <li><a href="#"><img src="images/content-partner-logo-npr.png"></a></li>
+            </div>
+          <div class="partners2">
+            <li><a href="#"><img src="images/partner-abc-logo.png"></a></li>
+            <li><a href="#"><img src="images/partner-cbc-logo.png"></a></li>
+            <li><a href="#"><img src="images/partner-pri-logo.png"></a></li>
+          </div>
+        </div>
         </div>
      </div>
      <div class="footer-world-radio">
@@ -589,5 +619,6 @@
       <span class="feed"><a href="#"><img src="images/feed.jpg"></a></span>
    </div>
   </div>
+</div>
   </body>
 </html>

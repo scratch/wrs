@@ -3,56 +3,9 @@
     margin-top: 0;
 }
 
-.artist-interview .news-today {
-  margin-top: 34px;
-  margin-left: -12px;
-}
-
 .artist-interview .news-today h1 {
-  color: #1f1f1f;
   font-size: 30px;
-  font-family: GOTHAMbold;
-  display: inline-block;
-  margin: 10px 10px 10px 10px;
 }
-
-.artist-interview .slider {
-  float: left;
-  margin-top: 24px;
-/*
- * margin-left: 11px;
- */
-  width: 444px;
-  height: 381px;
-  position: relative;
-}
-
-.artist-interview .slider-text-country {
-  background: #e30d29;
-  position: absolute;
-  top: 8px;
-  color: #fff;
-  font-size: 12px;
-  font-family: GOTHAMbold;
-  margin-left: 11px;
-  padding: 7px 0px 4px 0px;
-  width: 120px;
-  text-align: center;
-}
-
-.artist-interview .slider-date {
-  position: absolute;
-  top: 8px;
-  background: #f1f1f1;
-  color: #3c3c3c;
-  font-size: 12px;
-  font-family: GOTHAMbold;
-  padding: 5px 11px;
-  width: 100%;
-  left: 30%;
-}
-
-
 
 .artist-interview .primary-content {
   float: left;
@@ -76,7 +29,7 @@
   background: #f1f1f1;
   float: left;
   padding-left: 3%;
-  width: 88.8%;
+  width: 92.8%;
   padding-top: 19px;
   padding-right: 3%;
   min-height: 361px;
@@ -86,7 +39,6 @@
 .slider-player {
   float: left;
   width: 100%;
-  margin-top: 20px;
 }
 
 .slider-player ul li {
@@ -115,7 +67,7 @@ padding-top: 2px;
 
 .slide-player-center {
 float: left;
-width: 69.2%;
+width: 73.3%;
 background: #9c9c9c;
 padding-bottom: 17px;
 }
@@ -157,8 +109,9 @@ margin-top: 31px;
 .slider-player-closure h1 {
 font-family: GOTHAMbook;
 font-size: 18px;
-color: #e40c23;
+color: #000;
 padding-bottom: 3px;
+padding-top: 20px;
 }
 
 .slider-player-closure p{
@@ -209,7 +162,8 @@ font-size: 13px;
 }
 
 .news-sidebar-second-mod .top-block  {
-  height:  585px;
+  margin-bottom: 63px;
+  float: left;
 }
 
 .news-sidebar-second-mod .bottom-block  {
@@ -217,10 +171,10 @@ font-size: 13px;
   margin-bottom: 10px;
 }
 
-.news-sidebar-second-mod .title,  
+.news-sidebar-second-mod .title,
 .news-sidebar-second-mod .bottom-block .title {
   font-family: GOTHAMbold;
-  font-size: 16px;
+  font-size: 14px;
   margin-bottom: 26px;
 }
 
@@ -234,54 +188,23 @@ font-size: 13px;
     background: none repeat scroll 0 0 #6A33D7;
 }
 
-.news-sidebar-second-mod .wrs-channel-img-first {
-  float: right;
-  height: 15px;
-  margin-top: 5px;
-  background: url(images/wrs.png);
-  width: 45px;
-}
-
 .news-sidebar-second-mod .wrs-channel-img {
-  float: right;
   height: 15px;
-  margin-top: -25px;
-  background: url(images/wrs.png);
-  width: 45px;
+  background: url(images/wrs.png) no-repeat;
 }
 
+.news-sidebar-second-mod .bottom-block .wrs-channel-img {
+  background: url('images/bbc.png') no-repeat;
+}
+
+.news-sidebar-second-mod .bottom-block .wrs-selection-rows:hover .wrs-channel-img {
+  background: url("images/bbc-hiver.png") no-repeat;
+}
 
 .wrs-selection-rows:hover .wrs-channel-img{
-  background: url('images/wrs-hover.png');
+  background: url('images/wrs-hover-artist.png') no-repeat;
 }
 
-/*
- * sidebar code (not working)
-.news-sidebar-second-mod .box  {
-  height: 98px;
-  width: 100%;
-}
-
-.news-sidebar-second-mod .box .image  {
-  float: left;
-  width: 50%;
-  height: 98px;
-}
-
-
-
-.news-sidebar-second-mod .box .text  {
-  float: left;
-  background: #693AD3;
-  width: 50%;
-  height: 98px;
-
-  color: #fff;
-  font-size: 12px;
-  font-family: GOTHAMbold;
-}
-
-*/
 
 .artist-interview #footer  {
   margin: 0 auto;

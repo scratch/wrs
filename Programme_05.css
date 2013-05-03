@@ -26,170 +26,7 @@ body  {
 }
 
 
-#page  {
-    width:  100%;
-    background: #fef773;
-}
 
-.header-top {
-  overflow: hidden;
-}
-
-.logo {
-  float: left;
-  margin-left: 0.6%;
-}
-
-.top-menu {
-  float: left;
-  width: 50%;
-}
-
-.top-nav-menu {
-  margin-top: 15px;
-  margin-left: 7.2%;
-}
-
-.top-menu li {
-  display: inline-block;
-  padding-right: 2.5%;
-}
-
-.sign {
-  float: right;
-  width: 12.7%;
-}
-
-.sign-in {
-  margin-top: 15px;
-}
-.sign li {
-  display: inline-block;
-}
-.sign li.first {
-  border-right: 1px solid;
-  padding-right: 7px;
- line-height: 11px;
-}
-.sign li a {
-    text-decoration: none;
-    color: #075a78;
-    font-family: GOTHAMbold;
-    font-size: 13px;
-}
-.top-menu .top-nav-menu li a{
-    text-decoration: none;
-    color: #075a78;
-    font-family: GOTHAMbold;
-    font-size: 11px;
-    background: url(images/down-arrow.jpg) no-repeat center right;
-    padding-right: 14px;
-}
-
-.header {
-  background: #f8f8f8;
-}
-
-#header-block {
-  min-height: 144px;
-  width: 100%;
-  max-width: 1024px;
-  margin: 0 auto;
-}
-
-
-#header-menu  {
-    background-color: #F9F035;
-    height:   63px;
-    width:    30%;
-    position: relative;
-    left:     23.5%;
-    top:      90px;
-}
-
-
-#header-menu li  {
-   float:           left;
-   list-style-type: none;
-   width:           32%;
-   background:      #666;
-   text-align:      center;
-   border-right:    3px solid #ccc; /* TODO:last menu shouldn't have a border */
-}
-
-.radios {
-  margin-left: 5.8%;
-  margin-top: 9px;
-  float: left;
-  width: 7.8%;
-}
-
-.listen {
-  float: left;
-  margin-top: 21px;
-}
-
-.listen a {
-  text-decoration: none;
-  color: #015b7e;
-  font-family: GOTHAMbold;
-  font-size: 14px;
-  letter-spacing: 2px;
-}
-/* Not used */
-.mid-border  {
-  border-left: 1px solid #ccc;
-  border-right:1px solid #ccc; /* TODO:last menu shouldn't have a border */
-}
-
-/**css for header tabs **/
-.header-tabs ul li {
-  display: inline-block;
-}
-
-.header-tabs {
-  float: left;
-  margin-left: 4.7%;
-}
-
-.header-tabs li a.radio {
-  color: #0054a5;
-  background: #ffe102;
-  padding: 15px 30px;
-  line-height: 46px;
-}
-
-.header-tabs li a {
-  text-decoration: none;
-  font-family: GOTHAMbold;
-  font-size: 22px;
-}
-
-.header-tabs li.community {
-  margin-left: -2px;
-}
-
-.header-tabs li.events {
-  margin-left: -2px;
-}
-
-.header-bottom-media {
-  float: right;
-  margin-top: -32px;
-  margin-right: 3.2%;
-}
-
-.header-tabs li a.community {
-  background: #ff8201;
-  padding: 15px 26px;
-  color: #fff;
-}
-
-.header-tabs li a.events {
-  background: #015b7e;
-  padding: 15px 23px;
-  color: #fff;
-}
 
 #main-menu {
   background: #ffe100;
@@ -482,13 +319,13 @@ height:50px;
 }
 .right-content3
 {
-height:402px;
+height:393px;
 float:right;
 width:308px;
 background-color:#E0E0E0;
 font-family:GOTHAMbook;
 margin-right:5px;
-padding: 12px 6px 0 1px;
+padding: 12px 8px 0 3px;
 
 }
 .right-content31 h2
@@ -521,11 +358,11 @@ font-size:12px;
 {
 float:right;
 width:320px;
-height:100px;
+height:90px;
 margin-right:-20px;
 text-align:justify;
 font-size:12px;
-}  
+}
 
 .right-content8
 {
@@ -556,10 +393,10 @@ text-align: center;
 .right-center-footer
 {
 float:right;
-width:314px;
+width:320px;
 background-color:#E2E2E2;
 height:25px;
-margin-top:5px;
+margin-top:14px;
 margin-right:5px;
 
 }
@@ -569,7 +406,7 @@ margin-right:5px;
     height: 8px;
     width: 6px;
 	text-indent: -9999em;
-	
+
 }
 .center-footer .pager1 a, .center-footer .pager2 a, .center-footer .pager3 a {
     background: url("images/pager.jpg") no-repeat scroll 0 0 transparent;
@@ -592,7 +429,7 @@ margin-top:12px;
 }
 .right-center-footer h2
 {
- 
+
 margin-top:7px;
 margin-left:120px;
 color:#3366CC;
@@ -602,7 +439,7 @@ color:#3366CC;
   width: 72.5%;
   height:auto;
   font-size:10px;
- 
+
 }
 .right-content
 {
@@ -886,229 +723,6 @@ text-align:justify;;
 }
 
 /** css for footer **/
-#footer .footer-menu li {
-  display: inline-block;
-  padding: 9px 2.2%;
-  float: left;
-}
-
-#footer .footer-menu li a {
-  text-decoration: none;
-  font-family: GOTHAMbold;
-  font-size: 12px;
-  color: #fff227;
-}
-
-#footer .footer-menu li.news {
-  background: #e40c23;
-}
-
-#footer .footer-menu li.arts {
-  background: #6a37d4;
-}
-
-#footer .footer-menu li.business {
-  background: #0153a5;
-}
-
-#footer .footer-menu li.home-family {
-  background: #ef4f1d;
-}
-
-#footer .footer-menu li.life {
-  background: #646464;
-}
-
-#footer .footer-menu li.science-tech {
-  background: #34b751;
-}
-
-#footer .footer-menu li.sports {
-  background: #1d58f0;
-}
-
-.footer-bottom {
-  background: #f8f8f8;
-  float: left;
-  width: 100%;
-}
-
-.footer-bottom-menu ul {
-  color: #1b1b1b;
-  font-size: 12px;
-  font-family: GOTHAMbold;
-}
-
-.footer-bottom-menu ul h1 {
-  margin-bottom: 4px;
-}
-
-.footer-content-partners ul h1{
-  margin-bottom: 20px;
-}
-
-.footer-bottom-menu li {
-  line-height: 17px;
-}
-
-.footer-bottom-menu li a{
-  text-decoration: none;
-  font-size: 12px;
-  font-family: GOTHAMbook;
-  color: #065983;
-}
-
-.footer-bottom-menu {
-  float: left;
-  width: 100%;
-  padding-top: 50px;
-}
-
-.footer-wrs {
-  float: left;
-  width: 26.1%;
-}
-
-.footer-wrs li {
-  padding-left: 8.2%;
-}
-.footer-radio {
-  float: left;
-  width: 14.1%;
-}
-
-.footer-community {
-  float: left;
-  width: 14.1%;
-}
-
-.footer-events {
-  float: left;
-  width: 14%;
-}
-
-.footer-about {
-  float: left;
-  width: 12%;
-}
-
-.footer-content-partners {
-  float: left;
-}
-
-
-
-/** css for footer **/
-#footer .footer-menu li {
-  display: inline-block;
-  padding: 9px 2.2%;
-  float: left;
-}
-
-#footer .footer-menu li a {
-  text-decoration: none;
-  font-family: GOTHAMbold;
-  font-size: 12px;
-  color: #fff227;
-}
-
-#footer .footer-menu li.news {
-  background: #e40c23;
-}
-
-#footer .footer-menu li.arts {
-  background: #6a37d4;
-}
-
-#footer .footer-menu li.business {
-  background: #0153a5;
-}
-
-#footer .footer-menu li.home-family {
-  background: #ef4f1d;
-}
-
-#footer .footer-menu li.life {
-  background: #646464;
-}
-
-#footer .footer-menu li.science-tech {
-  background: #34b751;
-}
-
-#footer .footer-menu li.sports {
-  background: #1d58f0;
-}
-
-.footer-bottom {
-  background: #f8f8f8;
-  float: left;
-  width: 100%;
-}
-
-.footer-bottom-menu ul {
-  color: #1b1b1b;
-  font-size: 12px;
-  font-family: GOTHAMbold;
-}
-
-.footer-bottom-menu ul h1 {
-  margin-bottom: 4px;
-}
-
-.footer-content-partners ul h1{
-  margin-bottom: 20px;
-}
-
-.footer-bottom-menu li {
-  line-height: 17px;
-}
-
-.footer-bottom-menu li a{
-  text-decoration: none;
-  font-size: 12px;
-  font-family: GOTHAMbook;
-  color: #065983;
-}
-
-.footer-bottom-menu {
-  float: left;
-  width: 100%;
-  padding-top: 50px;
-}
-
-.footer-wrs {
-  float: left;
-  width: 26.1%;
-}
-
-.footer-wrs li {
-  padding-left: 8.2%;
-}
-.footer-radio {
-  float: left;
-  width: 14.1%;
-}
-
-.footer-community {
-  float: left;
-  width: 14.1%;
-}
-
-.footer-events {
-  float: left;
-  width: 14%;
-}
-
-.footer-about {
-  float: left;
-  width: 12%;
-}
-
-.footer-content-partners {
-  float: left;
-}
-
 
 /** css for content bottom */
 .content-bottom-first,
@@ -1122,27 +736,18 @@ width:1000px;
 margin-top: 30px;
 }
 
-.wrs-selection-rows.rows1 {
+.programme .wrs-selection-rows {
     width: 300px;
+    margin-right: 2.7%;
 }
-.wrs-selection-rows.rows2 {
-    width: 300px;
-	margin-left:23px;
+
+.programme .wrs-selection-rows.rows3,
+.programme .wrs-selection-rows.rows6 {
+  margin-right: 0;
 }
-.wrs-selection-rows.rows3 {
-    width: 325px;
-	margin-left:23px;
-}
-.wrs-selection-rows.rows4{
-    width: 300px;
-}
-.wrs-selection-rows.rows5 {
-    width: 300px;
-	margin-left:23px;
-}
-.wrs-selection-rows.rows6{
-    width: 325px;
-	margin-left:23px;
+
+.programme .content-bottom-middle {
+  width: 100%;
 }
 .content-bottom {
   float: left;
@@ -1237,8 +842,8 @@ width:950px;
 background-color:#E9E9E9;
 float:left;
 }
-	   
-					   
+
+
 .wrs-selection-main-title {
   font-size: 10px;
   font-family: GOTHAMbold;
@@ -1628,7 +1233,7 @@ color: #1f1f1f;
  border:#000000 solid thin none;
  font-family:GOTHAMbold;
  font-size:30px;
- margin-top:25px; 
+ margin-top:25px;
 }
 
 #image-wrapper {
@@ -1639,15 +1244,15 @@ color: #1f1f1f;
 
 #image-left {
   border:red solid thin none;
-  width:630px;
+  width:622px;
   height:417px;
   float:left;
   position:relative;
 }
 
 #lft-i {
-  
-  width:630px;
+
+  width:622px;
   height:410px;
   margin-top:4px;
   position:relative;
@@ -1655,10 +1260,10 @@ color: #1f1f1f;
 
 #lft-i img
 {
- width:630px;
+ width:622px;
   height:410px;
   }
-  
+
 #on-image {
   border:red solid thin none;
   width:600px;
@@ -1677,7 +1282,7 @@ color: #1f1f1f;
     padding: 12px 0 0;
     text-align: center;
     width: 600px;
-} 
+}
 
 #on-img-two {
    border: thin solid blue none;
@@ -1698,7 +1303,7 @@ color: #1f1f1f;
     padding-top: 6px;
     text-align: center;
     width: 600px;
-}   
+}
 
 #on-img-four {
    border: thin solid blue none;
@@ -1710,31 +1315,31 @@ color: #1f1f1f;
     padding-top: 6px;
     text-align: center;
     width: 600px;
-}   
-  
+}
+
 #image-right {
-  border:red solid thin none;
-  width:298px;
+
+  width:315px;
   height:417px;
   float:right;
   position:relative;
 }
 
 #rgt-i {
- 
-  width:298px;
+
+  width:315px;
   height:410px;
   margin-top:4px;
   position:relative;
 }
 
 #rgt-i img {
-  width:298px;
+  width:315px;
   height:410px;
 }
 
 #on-r-img {
- 
+
   height: 190px;
     position: absolute;
     right: 22px;
@@ -1752,9 +1357,9 @@ color: #1f1f1f;
     width: 248px;
 	font-weight:bold;
 	}
-	
-	
-	
+
+
+
 	#on-r-img-two {
     font-family: GOTHAMbook;
     font-size: 16px;
@@ -1763,7 +1368,7 @@ color: #1f1f1f;
     width: 248px;
 	font-weight:bold;
 	}
-	
+
 #on-r-img-three {
     font-family: GOTHAMbook;
     font-size: 15px;
@@ -1774,11 +1379,9 @@ color: #1f1f1f;
 
 
 #on-r-img-four {
-   border: thin solid red;
     height: 20px;
-    margin-left: 90px;
     margin-top: 7px;
-    width: 48px;
+    text-align: center;
 }
 
 .wrs-selection {
@@ -1789,3 +1392,6 @@ color: #1f1f1f;
   font-family:Gothambold;
 }
 
+.programme .pager-wrs-selection {
+  background: none;
+}
