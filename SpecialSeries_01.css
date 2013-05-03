@@ -263,7 +263,7 @@ body  {
 }
 .special-column {
     background-color: #F1F1F1;
-    border-top: 4px solid #FF0000;
+    
     float: left;
     margin-bottom: 0;
     margin-right: 4px;
@@ -273,26 +273,15 @@ body  {
   margin-right: 0px;
 }
 
+.special-img {
+border-bottom: 4px solid #FF0000;
 
-
-.special-date {
-    font-family: GOTHAMbook;
-    font-size: 10px;
-    padding-bottom: 4px;
-    padding-left: 4.4%;
-    color: #6d6d6d;
 }
 
-.special-tag-head {
-    color: #E40C23;
-    font-family: GOTHAMbook;
-    font-size: 17px;
-    height: 60px;
-    line-height: 20px;
-    padding-left: 3.8%;
-    padding-top: 10px;
-    padding-right: 3.8px;
-}
+
+
+
+
 
 .special-tag-lin {
     font-family: GOTHAMbold;
@@ -301,16 +290,18 @@ body  {
     height: 47px;
     line-height: 16px;
     padding-left: 9px;
-    color:#1c1a1b;
+    color:#FF0000;
     padding-right: 9px;
+    margin-top: 6px;
+
 }
-.special-column:hover {
+/*.special-column:hover {
     background-color: #faf02c;
     border-top:4px solid #faf02c;
 }
 .special-column:hover .special-tag-head{
     color: #000;
-}
+}*/
 /* end CSS code @Saurabh */
 
 

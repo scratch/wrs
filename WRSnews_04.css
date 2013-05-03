@@ -1,6 +1,7 @@
 .news .slider,
 .news-episode .slider,
-.artist-interview .slider {
+.artist-interview .slider,
+.theme .slider {
   width: 626px;
   height: 387px;
   margin-top: 35px;
@@ -8,7 +9,8 @@
 
 .news .slides,
 .news-episode .slides,
-.artist-interview .slides {
+.artist-interview .slides,
+.theme .slides {
   height: 387px;
 }
 
