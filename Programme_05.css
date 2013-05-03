@@ -525,7 +525,7 @@ height:100px;
 margin-right:-20px;
 text-align:justify;
 font-size:12px;
-}  
+}
 
 .right-content8
 {
@@ -569,7 +569,7 @@ margin-right:5px;
     height: 8px;
     width: 6px;
 	text-indent: -9999em;
-	
+
 }
 .center-footer .pager1 a, .center-footer .pager2 a, .center-footer .pager3 a {
     background: url("images/pager.jpg") no-repeat scroll 0 0 transparent;
@@ -592,7 +592,7 @@ margin-top:12px;
 }
 .right-center-footer h2
 {
- 
+
 margin-top:7px;
 margin-left:120px;
 color:#3366CC;
@@ -602,7 +602,7 @@ color:#3366CC;
   width: 72.5%;
   height:auto;
   font-size:10px;
- 
+
 }
 .right-content
 {
@@ -1237,8 +1237,8 @@ width:950px;
 background-color:#E9E9E9;
 float:left;
 }
-	   
-					   
+
+
 .wrs-selection-main-title {
   font-size: 10px;
   font-family: GOTHAMbold;
@@ -1628,7 +1628,7 @@ color: #1f1f1f;
  border:#000000 solid thin none;
  font-family:GOTHAMbold;
  font-size:30px;
- margin-top:25px; 
+ margin-top:25px;
 }
 
 #image-wrapper {
@@ -1646,7 +1646,7 @@ color: #1f1f1f;
 }
 
 #lft-i {
-  
+
   width:630px;
   height:410px;
   margin-top:4px;
@@ -1658,7 +1658,7 @@ color: #1f1f1f;
  width:630px;
   height:410px;
   }
-  
+
 #on-image {
   border:red solid thin none;
   width:600px;
@@ -1677,7 +1677,7 @@ color: #1f1f1f;
     padding: 12px 0 0;
     text-align: center;
     width: 600px;
-} 
+}
 
 #on-img-two {
    border: thin solid blue none;
@@ -1698,7 +1698,7 @@ color: #1f1f1f;
     padding-top: 6px;
     text-align: center;
     width: 600px;
-}   
+}
 
 #on-img-four {
    border: thin solid blue none;
@@ -1710,8 +1710,8 @@ color: #1f1f1f;
     padding-top: 6px;
     text-align: center;
     width: 600px;
-}   
-  
+}
+
 #image-right {
   border:red solid thin none;
   width:298px;
@@ -1721,7 +1721,7 @@ color: #1f1f1f;
 }
 
 #rgt-i {
- 
+
   width:298px;
   height:410px;
   margin-top:4px;
@@ -1734,7 +1734,7 @@ color: #1f1f1f;
 }
 
 #on-r-img {
- 
+
   height: 190px;
     position: absolute;
     right: 22px;
@@ -1752,9 +1752,9 @@ color: #1f1f1f;
     width: 248px;
 	font-weight:bold;
 	}
-	
-	
-	
+
+
+
 	#on-r-img-two {
     font-family: GOTHAMbook;
     font-size: 16px;
@@ -1763,7 +1763,7 @@ color: #1f1f1f;
     width: 248px;
 	font-weight:bold;
 	}
-	
+
 #on-r-img-three {
     font-family: GOTHAMbook;
     font-size: 15px;
@@ -1774,11 +1774,9 @@ color: #1f1f1f;
 
 
 #on-r-img-four {
-   border: thin solid red;
     height: 20px;
-    margin-left: 90px;
     margin-top: 7px;
-    width: 48px;
+    text-align: center;
 }
 
 .wrs-selection {
@@ -1789,3 +1787,6 @@ color: #1f1f1f;
   font-family:Gothambold;
 }
 
+.programme .pager-wrs-selection {
+  background: none;
+}
