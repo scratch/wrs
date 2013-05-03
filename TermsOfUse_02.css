@@ -38,6 +38,36 @@ body  {
   padding-right: 1.5%;
 }
 
+.term-of-use .primary-content {
+  margin-top: 39px;
+}
+
+.term-of-use .right-content .right-top1 {
+  margin-top: 102px;
+}
+
+.term-of-use #main-content .primary-content .h1-content {
+  font-size: 21pt;
+}
+
+.term-of-use #main-content .primary-content p {
+  font-size: 16px;
+  line-height: 18px;
+}
+
+.term-of-use .content-bottom-middle h1 {
+  margin-bottom: 10px;
+  letter-spacing: -1px;
+}
+
+.term-of-use .footer-bottom-menu .footer-wrs img {
+  margin-top: -22px;
+}
+
+.term-of-use #main-content {
+  padding-bottom: 109px;
+}
+
 #main-menu li a {
   color: #0054a5;
   font-family: GOTHAMbold;
