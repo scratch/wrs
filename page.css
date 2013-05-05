@@ -298,12 +298,15 @@ body  {
 .slider {
   float: left;
   margin-top: 15px;
-  width: 444px;
-  height: 381px;
+
   position: relative;
 }
 
-.slides {
+.front {
+width: 444px;
+  height: 381px;
+}
+.front .slides {
   height: 381px;
 }
 
@@ -1267,7 +1270,8 @@ color: #1f1f1f;
 .special-column .special-img,
 .programme .center-content-img,
 #shows .col .pic,
-#voiceProfile .col .pic {
+#voiceProfile .col .pic,
+.specific-series .news-content-column .news-img{
   position: relative;
 }
 
@@ -1310,7 +1314,8 @@ color: #1f1f1f;
 .special-column .special-img:before,
 .programme .center-content-img:before,
 #shows .col .pic:before,
-#voiceProfile .col .pic:before {
+#voiceProfile .col .pic:before,
+.specific-series .news-content-column .news-img:before {
     content: "";
     display: block;
     position: absolute;
@@ -1368,7 +1373,8 @@ color: #1f1f1f;
 .special-column:hover .special-img:before,
 .programme .center-content .row:hover .center-content-img:before,
 #shows .col:hover .pic:before,
-#voiceProfile .col:hover .pic:before {
+#voiceProfile .col:hover .pic:before,
+.specific-series .news-content-column:hover .news-img:before {
   background: url(images/classifieds-images-hover.png) no-repeat center ;
 }
 
@@ -1377,7 +1383,9 @@ color: #1f1f1f;
 .special-column:hover .special-tag-lin,
 .programme .center-content .row:hover .center-content-title,
 .programme .center-content .row:hover .center-content-date,
-#voiceProfile .col:hover .intro  {
+#voiceProfile .col:hover .intro,
+.specific-series .news-content-column:hover .news-content-main,
+.specific-series .news-content-column:hover .news-content-date  {
   background: #faf037;
 }
 
@@ -1385,7 +1393,8 @@ color: #1f1f1f;
 .wrs-playlist-content-2:hover .wrs-playlist-content .wrs-playlist-title a,
 .special-column:hover .special-tag-lin a,
 .programme .center-middle-content .center-content .row:hover .center-content-title h1 a,
-#voiceProfile .col:hover .intro a  {
+#voiceProfile .col:hover .intro a,
+.specific-series .news-content-column:hover .news-content-main a  {
   color: #000;
   text-decoration: underline;
 }

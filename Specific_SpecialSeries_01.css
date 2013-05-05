@@ -1,0 +1,115 @@
+.specific-series .latest-news-bulletion {
+  width: 100%;
+  margin-top: 22px;
+  margin-bottom: 24px;
+}
+
+.specific-series .primary-content {
+  width: 66.5%;
+}
+
+.specific-series .latest-news-bulletin-block {
+  background: #000;
+}
+
+.specific-series .latest-news-bulletin-block h1 {
+  color: #f5f535;
+  font-family: GOTHAMbold;
+  text-align: center;
+  line-height: 76px;
+}
+
+.specific-series .news-sidebar-second {
+  margin-top: 101px;
+}
+
+.specific-series .latest-news-bulletion .latest-news {
+height: auto;
+}
+
+.specific-series .special-series-sidebar-news h1 {
+  font-family: GOTHAMbold;
+  font-size: 14px;
+  margin-bottom: 8px;
+  margin-top: 10px;
+  float: left;
+  text-transform: uppercase;
+}
+
+.specific-series .news-content-column {
+float: left;
+width: 49.2%;
+padding-right: 0.4%;
+position: relative;
+margin-bottom: 28px;
+}
+
+.specific-series .news-img {
+border-bottom: 4px solid #e60d22;
+height: 150px;
+}
+
+.specific-series .news-content-column .news-content-main {
+background: #f1f1f1;
+min-height: 68px;
+}
+
+.specific-series .news-content-rows {
+  float: left;
+  width: 100%;
+}
+
+.specific-series .news-content-column .news-content-title {
+font-size: 12px;
+font-family: GOTHAMbold;
+padding-top: 6px;
+padding-left: 2.8%;
+text-transform: uppercase;
+width: 75%;
+float: left;
+}
+.specific-series .news-content-rows .news-content-img-wrs {
+background: url(images/wrs-news.png) no-repeat;
+width: 42px;
+height: 18px;
+float: right;
+padding-right: 5px;
+margin-top: 2px;
+}
+
+.specific-series .news-content-title > h1 {
+color: #e60d22;
+}
+
+.specific-series .news-content-column .news-content-desc {
+font-size: 14px;
+font-family: GOTHAMbold;
+padding: 2px 7% 0 3%;
+color: #414141;
+float: left;
+width: 82%;
+}
+
+.specific-series .news-content-column .news-content-date {
+background: #fff;
+position: absolute;
+top: 9px;
+font-family: GOTHAMbook;
+font-size: 11px;
+left: 9px;
+padding: 3px 8px 2px 4px;
+color: #646464;
+}
+
+.specific-series .news-today h1 {
+font-size: 30px;
+}
+
+.specific-series .slider {
+  margin-top: 37px;
+  margin-bottom: 23px;
+}
+
+.specific-series .slides:hover:before {
+  background: url(images/slide-hover.png) no-repeat center 180px;
+}
