@@ -1264,7 +1264,8 @@ color: #1f1f1f;
 }**/
 .content-middle-banner,
 .wrs-selection-img,
-.special-column .special-img {
+.special-column .special-img,
+.programme .center-content-img {
   position: relative;
 }
 
@@ -1304,7 +1305,8 @@ color: #1f1f1f;
 
 #wrs-selection-img:before,
 .left-center-content:before,
-.special-column .special-img:before{
+.special-column .special-img:before,
+.center-content-img:before{
     content: "";
     display: block;
     position: absolute;
@@ -1359,19 +1361,23 @@ color: #1f1f1f;
 .voices .col:hover .pic:before,
 .wrs-playlist-content-1:hover .wrs-platlist-img:before,
 .wrs-playlist-content-2:hover .wrs-platlist-img:before,
-.special-column:hover .special-img:before  {
+.special-column:hover .special-img:before,
+.programme .center-content .row:hover .center-content-img:before  {
   background: url(images/classifieds-images-hover.png) no-repeat center ;
 }
 
 .wrs-playlist-content-1:hover .wrs-playlist-content,
 .wrs-playlist-content-2:hover .wrs-playlist-content,
-.special-column:hover .special-tag-lin {
+.special-column:hover .special-tag-lin,
+.programme .center-content .row:hover .center-content-title,
+.programme .center-content .row:hover .center-content-date {
   background: #faf037;
 }
 
 .wrs-playlist-content-1:hover .wrs-playlist-content .wrs-playlist-title a,
-.wrs-playlist-content-2:hover .wrs-playlist-content .wrs-playlist-title a.
-.special-column:hover .special-tag-lin a {
+.wrs-playlist-content-2:hover .wrs-playlist-content .wrs-playlist-title a,
+.special-column:hover .special-tag-lin a,
+.programme .center-middle-content .center-content .row:hover .center-content-title h1 a {
   color: #000;
   text-decoration: underline;
 }
