@@ -204,23 +204,9 @@ margin-right:50px;
 .center-content
 {
 float:left;
-width:620px;
-position:relative;
+width:100%;
+margin-bottom: 2px;
 }
-.left-center-content img
-{
-float:left;
-width:308px;
-height:152px;
-}
-.right-center-content img
-{
-float:right;
-width:310px;
-height:152px;
-}
-
-
 
 .left-center-date
 {
@@ -287,7 +273,7 @@ width:620px;
 .left-center-content1
 {
 float:left;
-width:310px;
+width:308px;
 background-color:#666666;
 height:50px;
 }
@@ -317,16 +303,19 @@ width:310px;
 background-color:#666666;
 height:50px;
 }
-.right-content3
+.right-content
 {
-height:393px;
-float:right;
-width:308px;
-background-color:#E0E0E0;
-font-family:GOTHAMbook;
-margin-right:5px;
-padding: 12px 8px 0 3px;
+  width: 300px;
+  float: left;
+  font-family: GOTHAMbook;
+}
 
+.right-content3 {
+  float: left;
+width: 100%;
+margin-bottom: 10px;
+background: #f1f1f1;
+margin-left: 8.2%;
 }
 .right-content31 h2
 {
@@ -390,15 +379,12 @@ text-align: center;
  margin-top: 15px;
 
 }
-.right-center-footer
-{
-float:right;
-width:320px;
-background-color:#E2E2E2;
-height:25px;
-margin-top:14px;
-margin-right:5px;
-
+.right-center-footer {
+float: left;
+width: 100%;
+background-color: #f1f1f1;
+line-height: 19px;
+text-align: center;
 }
 .left-center-footer .pager1 a, .left-center-footer .pager2 a, .left-center-footer .pager3 a {
     background: url("images/pager.jpg") no-repeat scroll 0 0 transparent;
@@ -417,9 +403,7 @@ margin-right:5px;
 }
  .center-footer .pager
 {
-width:100px;
-margin-left:450px;
-margin-top:12px;
+
 }
 .left-center-footer .pager
 {
@@ -427,12 +411,18 @@ width:100px;
 margin-left:250px;
 margin-top:12px;
 }
-.right-center-footer h2
+.right-center-footer h2 a
 {
+color:#10617c;
+text-decoration: none;
+font-family: GOTHAMbook;
+font-size: 12px;
+}
 
-margin-top:7px;
-margin-left:120px;
-color:#3366CC;
+.right-center-footer h2 a:hover {
+  text-decoration: underline;
+  color: #000;
+  font-family: GOTHAMbold
 }
 .primary-content {
   float: left;
@@ -441,11 +431,7 @@ color:#3366CC;
   font-size:10px;
 
 }
-.right-content
-{
-width:28%
-float:right;
-}
+
 
 .right-top1 img
 {
@@ -813,34 +799,20 @@ width: 100%;
 margin-bottom: 6px;
 }
 
-.wrs-selection-rows.rows1 .wrs-selection-content {
+.programme .wrs-selection-rows .wrs-selection-content {
   background: #999999;
 }
 
-.wrs-selection-rows.rows2 .wrs-selection-content {
-  background: #999999;
+.programme .wrs-selection-rows.last {
+  margin-right: 0;
 }
 
-.wrs-selection-rows.rows3 .wrs-selection-content {
-  background: #999999;
-}
-
-.wrs-selection-rows.rows4 .wrs-selection-content {
-  background: #999999;
-}
-
-.wrs-selection-rows.rows5 .wrs-selection-content {
-  background: #999999;
-}
-
-.wrs-selection-rows.rows6 .wrs-selection-content {
-  background: #999999;
-}
 .center-footer{
-height:25px;
-width:950px;
+line-height: 19px;
+width: 100%;
 background-color:#E9E9E9;
 float:left;
+text-align: center;
 }
 
 
@@ -1222,47 +1194,37 @@ color: #1f1f1f;
 
 
 #upper {
-  border:red solid thin none;
-  width:944px;
-  height:500px
+  width: 100%;
+  margin-bottom: 42px;
 }
 
 #text-food {
- width:944px;
+ width:100%;
  height:55px;
- border:#000000 solid thin none;
  font-family:GOTHAMbold;
  font-size:30px;
  margin-top:25px;
 }
 
 #image-wrapper {
-  border:green solid thin none;
-  width:944px;
-  height:417px;
+  width:100%;
+  height:407px;
 }
 
 #image-left {
-  border:red solid thin none;
-  width:622px;
-  height:417px;
+  width:634px;
+  height:407px;
   float:left;
   position:relative;
 }
 
 #lft-i {
 
-  width:622px;
-  height:410px;
+  width:634px;
+  height:407px;
   margin-top:4px;
   position:relative;
 }
-
-#lft-i img
-{
- width:622px;
-  height:410px;
-  }
 
 #on-image {
   border:red solid thin none;
@@ -1319,23 +1281,18 @@ color: #1f1f1f;
 
 #image-right {
 
-  width:315px;
-  height:417px;
+  width:316px;
+  height:407px;
   float:right;
   position:relative;
 }
 
 #rgt-i {
 
-  width:315px;
-  height:410px;
+  width:316px;
+  height:407px;
   margin-top:4px;
   position:relative;
-}
-
-#rgt-i img {
-  width:315px;
-  height:410px;
 }
 
 #on-r-img {
@@ -1394,4 +1351,109 @@ color: #1f1f1f;
 
 .programme .pager-wrs-selection {
   background: none;
+}
+
+.programme .center-middle-content {
+  float: left;
+  width: 628px;
+  margin-right: 2.5%;
+}
+
+.programme .center-middle-content .pager{
+  float: left;
+  width: 99.7%;
+  background: #f1f1f1;
+  line-height: 19px;
+text-align: center;
+}
+
+.programme .center-middle-content .row {
+  float: left;
+  width: 49.7%;
+  position: relative;
+  margin-right: .3%;
+}
+
+
+.programme .center-middle-content .row.last {
+  margin-right:0;
+}
+.programme .center-middle-content .center-content-date {
+background: #f1f1f1;
+position: absolute;
+top: 8px;
+left: 8px;
+font-size: 11px;
+font-family: GOTHAMbook;
+padding: 3px;
+}
+
+.programme .center-middle-content .center-content-img {
+height: 150px;
+width: 312px;
+}
+
+.programme .center-middle-content .center-content-title {
+  height: 70px;
+  background: #646464;
+  float: left;
+  width: 100%;
+}
+
+.programme .center-middle-content .center-content-title h1 a{
+margin-top: 8px;
+margin-left: 2.5%;
+color: #fff;
+font-family: GOTHAMbold;
+font-size: 14px;
+text-decoration: none;
+display: inline-block;
+}
+.programme .center-middle-content .pager span a {
+text-indent: -9999em;
+background: url(images/pager.jpg) no-repeat;
+display: inline-block;
+width: 6px;
+height: 8px;
+}
+
+.programme .blog-food-court {
+background: #f1f1f1;
+padding: 13px 13px 9px 13px;
+width: 274px;
+margin-bottom: 2px;
+height: 419px;
+}
+.programme .blog-food-title h2 {
+font-family: GOTHAMbold;
+font-size: 14px;
+color: #10617c;
+margin-top: 5px;
+margin-bottom: 4px;
+}
+
+.programme .blog-food-title h2 span {
+  font-family: GOTHAMbook;
+}
+
+.programme .blog-content h1 {
+  font-family: GOTHAMbold;
+  font-size: 14px;
+}
+
+.programme .blog-content span {
+  font-family: GOTHAMbook;
+  font-size: 12px;
+}
+
+.programme .blog-content {
+color: #646464;
+border-bottom: 1px dotted;
+padding-bottom: 10px;
+padding-top: 10px;
+}
+
+.blog-content p {
+  font-family: GOTHAMbook;
+  font-size: 12px;
 }
