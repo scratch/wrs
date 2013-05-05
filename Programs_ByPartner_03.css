@@ -1133,7 +1133,7 @@ color:#000;
 }
 */
 
-#title {
+.Programs_ByPartner #title {
   border:red solid thin none;
   width:auto;
   height:auto;
@@ -1142,15 +1142,7 @@ color:#000;
 }
 
 
-#t_one {
-  border:red solid thin none;
-  width:auto;
-  height:auto;
-  margin-top:3px;
-  font-size: 13px;
-}
-
-#t_two {
+.Programs_ByPartner #t_one {
   border:red solid thin none;
   width:auto;
   height:auto;
@@ -1158,7 +1150,15 @@ color:#000;
   font-size: 13px;
 }
 
-#title-gray {
+.Programs_ByPartner #t_two {
+  border:red solid thin none;
+  width:auto;
+  height:auto;
+  margin-top:3px;
+  font-size: 13px;
+}
+
+.Programs_ByPartner #title-gray {
   border:red solid thin none;
   width:auto;
   height:auto;
@@ -1167,7 +1167,7 @@ color:#000;
 }
 
 
-#title-blue {
+.Programs_ByPartner #title-blue {
   border:red solid thin none;
   width:auto;
   height:auto;
@@ -1175,7 +1175,7 @@ color:#000;
   margin-top:3px;
 }
 
-#title-green {
+.Programs_ByPartner #title-green {
   border:red solid thin none;
   width:auto;
   height:auto;
@@ -1184,7 +1184,7 @@ color:#000;
 }
 
 
-#title-blue-light {
+.Programs_ByPartner #title-blue-light {
   border:red solid thin none;
   width:auto;
   height:auto;
@@ -1194,7 +1194,7 @@ color:#000;
 
 
 
-#title-blue-light-j {
+.Programs_ByPartner #title-blue-light-j {
   border:red solid thin none;
   width:auto;
   height:auto;
@@ -1202,7 +1202,7 @@ color:#000;
   margin-top:3px;
 }
 
-#mid-one-left-air {
+.Programs_ByPartner #mid-one-left-air {
   width:49%;
   height:100px;
   float:left;
@@ -1210,7 +1210,7 @@ color:#000;
   color:#FFFFFF;
   position:relative;
 }
-.listen-air {
+.Programs_ByPartner .listen-air {
 
     height: 44px;
     position: absolute;
@@ -1220,7 +1220,7 @@ color:#000;
 	background-color:#FFFF00;
 }
 
-#listen-logo {
+.Programs_ByPartner #listen-logo {
 
  width: 30px;
  height: 17px;
@@ -1229,7 +1229,7 @@ color:#000;
  background-color:#FFFF00;
 }
 
-#listen-text {
+.Programs_ByPartner #listen-text {
 
  width: 38px;
  height: 25px;
@@ -1240,7 +1240,7 @@ color:#000;
  font-size:11px;
 }
 
-#t_two  span {
+.Programs_ByPartner #t_two  span {
     color: #CCCCCC;
 	font-size:12px;
 }
@@ -1263,125 +1263,125 @@ a {
  color:#FF0000;
 }
 
-#title a:hover {
+.Programs_ByPartner #title a:hover {
  text-decoration:underline;
  color:#000000;
 }
 
-#title-red a {
+.Programs_ByPartner #title-red a {
  text-decoration:none;
  color:#FF0000;
 }
 
-#title-red a:hover {
+.Programs_ByPartner #title-red a:hover {
  text-decoration:underline;
  color:#000000;
 }
 
-#title-black a{
+.Programs_ByPartner #title-black a{
  text-decoration:none;
  color:#000000;
 }
 
-#title-black a:hover {
+.Programs_ByPartner #title-black a:hover {
  text-decoration:underline;
  color:#000000;
 }
 
 
 
-#title-blue a {
+.Programs_ByPartner #title-blue a {
   text-decoration:none;
  color:#0054aa;
 }
 
-#title-blue a:hover {
+.Programs_ByPartner #title-blue a:hover {
  text-decoration:underline;
  color:#000000;
 }
 
-#title-green a {
+.Programs_ByPartner #title-green a {
    text-decoration:none;
  color:#3bb345;
 }
 
 
 
-#title-green a:hover {
+.Programs_ByPartner #title-green a:hover {
  text-decoration:underline;
  color:#000000;
 }
 
-#title-blue-light-j a {
+.Programs_ByPartner #title-blue-light-j a {
   color:#6c36d4;
 }
 
 
-#title-blue-light-j a:hover {
+.Programs_ByPartner #title-blue-light-j a:hover {
    text-decoration:underline;
  color:#000000;
 }
 
-#title-orange a {
+.Programs_ByPartner #title-orange a {
   color:#ef4f1d;
 }
 
-#title-orange a:hover {
+.Programs_ByPartner #title-orange a:hover {
    text-decoration:underline;
  color:#000000;
 }
 
-#title-gray a{
+.Programs_ByPartner #title-gray a{
 color:#646464;
 }
 
-#title-gray a:hover{
+.Programs_ByPartner #title-gray a:hover{
     text-decoration:underline;
  color:#000000;
 }
 
-#title-blue-royal a {
+.Programs_ByPartner #title-blue-royal a {
   color:#1d58f0;
 }
 
-#title-blue-royal a:hover{
+.Programs_ByPartner #title-blue-royal a:hover{
     text-decoration:underline;
  color:#000000;
 }
 
-#title-white a {
+.Programs_ByPartner #title-white a {
   color:#ffffff;
 }
 
-#title-white a:hover{
+.Programs_ByPartner #title-white a:hover{
     text-decoration:underline;
  color:#000000;
 }
 
-#bbc a {
+.Programs_ByPartner #bbc a {
  color:#0054aa;
 }
 
-#bbc a:hover {
- color:#0054aa;
- text-decoration:underline;
-}
-
-
-#npr a {
- color:#0054aa;
-}
-
-#npr a:hover {
+.Programs_ByPartner #bbc a:hover {
  color:#0054aa;
  text-decoration:underline;
 }
 
-#pri a {
+
+.Programs_ByPartner #npr a {
  color:#0054aa;
 }
 
-#pri a:hover {
+.Programs_ByPartner #npr a:hover {
+ color:#0054aa;
+ text-decoration:underline;
+}
+
+.Programs_ByPartner #pri a {
+ color:#0054aa;
+}
+
+.Programs_ByPartner #pri a:hover {
  color:#0054aa;
  text-decoration:underline;
 }
