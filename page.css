@@ -271,6 +271,12 @@ body  {
   width: 72.5%;
 }
 
+.term-of-use .primary-content {
+  float: left;
+  width: 65.8%;
+}
+
+
 .news-today {
   margin-top: 34px;
 }
