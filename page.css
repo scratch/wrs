@@ -1266,7 +1266,8 @@ color: #1f1f1f;
 .wrs-selection-img,
 .special-column .special-img,
 .programme .center-content-img,
-#shows .col .pic {
+#shows .col .pic,
+#voiceProfile .col .pic {
   position: relative;
 }
 
@@ -1308,7 +1309,8 @@ color: #1f1f1f;
 .left-center-content:before,
 .special-column .special-img:before,
 .programme .center-content-img:before,
-#shows .col .pic:before{
+#shows .col .pic:before,
+#voiceProfile .col .pic:before {
     content: "";
     display: block;
     position: absolute;
@@ -1365,7 +1367,8 @@ color: #1f1f1f;
 .wrs-playlist-content-2:hover .wrs-platlist-img:before,
 .special-column:hover .special-img:before,
 .programme .center-content .row:hover .center-content-img:before,
-#shows .col:hover .pic:before {
+#shows .col:hover .pic:before,
+#voiceProfile .col:hover .pic:before {
   background: url(images/classifieds-images-hover.png) no-repeat center ;
 }
 
@@ -1373,14 +1376,16 @@ color: #1f1f1f;
 .wrs-playlist-content-2:hover .wrs-playlist-content,
 .special-column:hover .special-tag-lin,
 .programme .center-content .row:hover .center-content-title,
-.programme .center-content .row:hover .center-content-date {
+.programme .center-content .row:hover .center-content-date,
+#voiceProfile .col:hover .intro  {
   background: #faf037;
 }
 
 .wrs-playlist-content-1:hover .wrs-playlist-content .wrs-playlist-title a,
 .wrs-playlist-content-2:hover .wrs-playlist-content .wrs-playlist-title a,
 .special-column:hover .special-tag-lin a,
-.programme .center-middle-content .center-content .row:hover .center-content-title h1 a {
+.programme .center-middle-content .center-content .row:hover .center-content-title h1 a,
+#voiceProfile .col:hover .intro a  {
   color: #000;
   text-decoration: underline;
 }
