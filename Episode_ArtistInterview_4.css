@@ -24,7 +24,9 @@
   background: #6A37D4;
 }
 
-
+.artist-interview .slides:hover:before {
+background: url(images/slide-hover.png) no-repeat center 180px;
+}
 .slider-player-bottom {
   background: #f1f1f1;
   float: left;

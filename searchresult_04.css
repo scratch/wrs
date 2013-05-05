@@ -400,7 +400,59 @@ searchresult .main-region {
     padding-left: 445px;
 
   }
-  
+  .searchresult .numbernav
+  {
+    border: dotted;
+  }
+  .searchresult .navig
+  {
+
+
+    
+    height: 24px;
+    
+  }
+  .searchresult .navig-in
+  {
+    color: #999999;
+    float: left;
+    font-family: GOTHAMbook;
+    font-size: 13px;
+    height: 20px;
+    margin-left: 15px;
+    padding-top: 8px;
+    width: 60px;
+     letter-spacing: 2px;
+  }
+  .searchresult .navig-in li
+  {
+    
+    display: inline-block;
+
+
+
+  }
+  .searchresult .navig-in li a
+  {
+    text-decoration: none;
+    color: #497C5B
+  }
+  .searchresult li a.active 
+  {
+    font-weight: bold;
+    color: black;
+  }
+
+
+  .searchresult .navig span
+  {
+    float: right;
+    font-family: GOTHAMbold;
+    font-size: 10px;
+    color: #999999;
+    margin-top: 5px;
+    margin-right: 16px;
+  }
 .searchresult #row1
 {
   
