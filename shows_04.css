@@ -190,18 +190,12 @@
   width: 80%;
   float: left;
   margin-top: 6px;
- }
- 
- #shows .span .col:hover .intro{
-  background: url(images/listen-new.jpg) #faf037 no-repeat right bottom;
-  opacity: .9;
+  font-size: 14px;
  }
 
- #shows .span .col:hover .intro .intro-listen,
- #shows .span .col:hover .intro .intro-text .intro-name
- {
-  color: #000;
-  visibility: visible;
+ #shows .span .col.on_air .intro{
+  background: url(images/listen-new.jpg) #faf037 no-repeat right bottom;
+  opacity: .9;
  }
 
  #shows #show-menu-text a{
@@ -216,7 +210,7 @@
   width: 16%;
   float:right;
   text-align: right;
-  visibility: hidden;
+  color: #000;
 }
 
 #shows .span .show-menu-col:hover #show-menu-text #purple-title a,
@@ -228,6 +222,17 @@
 {
   color: #000;
   text-decoration: underline;
+}
+
+#shows .show-menu-col.active {
+background: #ED501D;
+margin-bottom: 0px;
+height: 65px;
+color: #fff;
+}
+
+#shows .show-menu-col.active #show-menu-text a{
+  color: #fff;
 }
 
 #shows .span .col .pic img{
@@ -247,6 +252,7 @@
   letter-spacing: 2px;
   margin-bottom: 6px;
   word-spacing: 4px;
+  color: #000;
 }
 
 #shows .intro-show-time{

@@ -271,12 +271,6 @@ body  {
   width: 72.5%;
 }
 
-.term-of-use .primary-content {
-  float: left;
-  width: 65.8%;
-}
-
-
 .news-today {
   margin-top: 34px;
 }
@@ -1339,7 +1333,7 @@ color: #1f1f1f;
 }
 
 .wrs-selection-rows .wrs-selection-content:hover div{
-  color: #3c3c3c;
+  color: #000;
   }
 
 .wrs-selection-rows .wrs-selection-main-desc a {
@@ -1348,7 +1342,7 @@ color: #1f1f1f;
 }
 
 .wrs-selection-rows:hover .wrs-selection-main-desc a {
-  color: #3c3c3c;
+  color: #000;
   text-decoration: underline;
 }
 
@@ -1358,7 +1352,7 @@ color: #1f1f1f;
 }
 
 .wrs-selection-rows:hover .wrs-selection-content div {
-  color: #3c3c3c;
+  color: #000;
 }
 
 .wrs-selection-rows:hover .wrs-selection-content {
@@ -1372,7 +1366,6 @@ color: #1f1f1f;
 .wrs-playlist-content-2:hover .wrs-platlist-img:before,
 #special_series .special-column:hover .special-img:before,
 .programme .center-content .row:hover .center-content-img:before,
-#shows .col:hover .pic:before,
 .specific-series .news-content-column:hover .news-img:before {
   background: url(images/classifieds-images-hover.png) no-repeat center ;
 }
@@ -1456,4 +1449,10 @@ background: #faf037;
 
 #main-menu li a.active {
   color: #000;
+}
+.main-menu-sub-top2 li a:hover,
+.main-menu-sub-top2 li a.active,
+.main-menu-sub-top li a:hover,
+.main-menu-sub-top li a.active {
+  font-family: GOTHAMbold;
 }

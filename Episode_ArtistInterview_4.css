@@ -20,22 +20,28 @@
   font-family: GOTHAMbold;
 }
 
-.artist-interview .slider-text-country {
+.artist-interview .artist-text-country {
   background: #6A37D4;
+  color: #fff;
+font-size: 12px;
+font-family: GOTHAMbold;
+padding: 4px 7px 4px 6px;
+float: left;
 }
 
 .artist-interview .slides:hover:before {
-background: url(images/slide-hover.png) no-repeat center 180px;
+background: none;
 }
 .slider-player-bottom {
   background: #f1f1f1;
   float: left;
-  padding-left: 3%;
+  padding-left: 2.8%;
   width: 92.8%;
   padding-top: 19px;
   padding-right: 3%;
   min-height: 361px;
   border-bottom: 4px solid #e40c23;
+  padding-bottom: 100px;
 }
 
 .slider-player {
@@ -51,22 +57,29 @@ background: url(images/slide-hover.png) no-repeat center 180px;
 background: #faf037;
 float: left;
 width: 22.5%;
-padding-top: 25px;
-padding-bottom: 18px;
+padding-top: 22px;
+padding-bottom: 17px;
 padding-left: 3%;
 }
 
-.slide-player-title {
+.slide-player-title a{
 font-family: GOTHAMbold;
 font-size: 13px;
+text-decoration: none;
+color: #000;
 }
 
-.slide-player-desc {
+.slide-player-desc a{
 font-family: GOTHAMbook;
 font-size: 13px;
 padding-top: 2px;
+text-decoration: none;
+color: #000;
 }
 
+.slider-player-left a:hover {
+  text-decoration: underline;
+}
 .slide-player-center {
 float: left;
 width: 73.3%;
@@ -109,8 +122,8 @@ margin-top: 31px;
 }
 
 .slider-player-closure h1 {
-font-family: GOTHAMbook;
-font-size: 18px;
+font-family: GOTHAMbold;
+font-size: 14px;
 color: #000;
 padding-bottom: 3px;
 padding-top: 20px;
@@ -208,10 +221,55 @@ font-size: 13px;
 }
 
 
-.artist-interview #footer  {
-  margin: 0 auto;
-  overflow: hidden;
-  width: 1026px;
+.artist-interview .artist {
+  height: 387px;
+  width: 626px;
+  position: relative;
+  margin-top: 35px;
 }
 
+.artist-top-content {
+position: absolute;
+top: 8px;
+background: #f1f1f1;
+width: 97.5%;
+left: 8px;
+}
 
+.artist-date {
+color: #3c3c3c;
+font-size: 12px;
+font-family: GOTHAMbold;
+padding: 4px 11px;
+right: 8px;
+float: left;
+}
+
+.slider-player-share ul li:hover a.fb:before{
+background: url(images/fb.jpg) no-repeat 0 0px;
+}
+
+.slider-player-share ul li a.fb {
+display: inline-block;
+}
+.slider-player-share ul li:hover a.tw:before{
+background: url(images/tw.jpg) no-repeat 0 0px;
+height: 17px;
+}
+
+.slider-player-share ul li:hover a.gplus:before{
+background: url(images/gplus.jpg) no-repeat 0 0px;
+}
+.slider-player-share ul li a:before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.slider-player-share ul li a {
+  position: relative;
+}
