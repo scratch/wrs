@@ -1454,3 +1454,7 @@ background: #faf037;
 .homepage-event:hover a{
   text-decoration: underline;
 }
+
+#main-menu li a.active {
+  color: #000;
+}
