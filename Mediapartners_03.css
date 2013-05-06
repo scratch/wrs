@@ -1,0 +1,59 @@
+.searchresult #media
+{
+    font-size: 12;
+    font-family: GOTHAMbold;
+    font-size: 30px;
+    margin-bottom: 31px;
+    margin-top: 40px;
+    color:black;
+
+}
+.searchresult #sidebarmedia
+{
+
+  float: left;
+    font-size: 14px;
+    height: 1110px;
+    margin-top: 4px;
+    width: 222px;
+}
+.searchresult .sidebarmedia label {
+    color: #9C9C9C;
+    font-family: GOTHAMbold;
+    letter-spacing: 1px;
+}
+.searchresult #mediaheading
+{
+    font-family: GOTHAMbold;
+    font-size: 18px;
+  
+    margin-left: 4px;
+    
+
+}
+   .searchresult #mediatimeperiod
+   {
+
+     font-family: GOTHAMbook;
+    font-size: 14px;
+    height: 12px;
+    margin-left: 5px;
+    margin-top: 6px;
+    width: 260px;
+   }
+
+.searchresult #mediarowbody
+{
+
+    color: #9B9B9B;
+    font-family: GOTHAMbold;
+    font-size: 12px;
+    margin-left: 5px;
+    margin-top: 15px;
+}
+
+
+#main-menu-sub li.third,
+.main-menu-sub-top2 li.third {
+padding-left: .3%;
+}
