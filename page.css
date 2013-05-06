@@ -1314,7 +1314,6 @@ color: #1f1f1f;
 .special-column .special-img:before,
 .programme .center-content-img:before,
 #shows .col .pic:before,
-#voiceProfile .col .pic:before,
 .specific-series .news-content-column .news-img:before {
     content: "";
     display: block;
@@ -1373,7 +1372,6 @@ color: #1f1f1f;
 .special-column:hover .special-img:before,
 .programme .center-content .row:hover .center-content-img:before,
 #shows .col:hover .pic:before,
-#voiceProfile .col:hover .pic:before,
 .specific-series .news-content-column:hover .news-img:before {
   background: url(images/classifieds-images-hover.png) no-repeat center ;
 }
