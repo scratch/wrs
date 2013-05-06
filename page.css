@@ -1331,7 +1331,8 @@ color: #1f1f1f;
   background: url(images/wrs-hover.png);
 }**/
 .slides:hover .slider-text-country,
-.slides:hover .slider-top-content {
+.slides:hover .slider-top-content,
+.slides:hover .slider-date {
   background: #faf037;
   color: #000;
 }
