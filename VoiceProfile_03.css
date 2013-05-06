@@ -173,22 +173,22 @@ color: #000000;
  }
  #voiceProfile .col{
   float: left;
-  margin-left: 5px;
+  margin-left: 4px;
   height: 183px;
  }
 
 #voiceProfile .pic{
-  width: 234px;
-  height: 117px;
+  width: 235px;
+  height: 116px;
 }
 #voiceProfile .pic img{
    border-bottom: 4px solid #697273;
-   width: 234px;
-   height: 117px;
+   width: 235px;
+   height: 116px;
 }
 
 #voiceProfile .intro{
-  width: 223px;
+  width: 95%;
   height: 47px;
   background-color:#e6e8fa;
   color: #bababa;
@@ -277,4 +277,8 @@ color: #000000;
 
 #voiceProfile .slider-bottom {
   width: 99.8%;
+}
+
+#voiceProfile .col:hover .pic img {
+border-bottom: 4px solid #faf037;
 }

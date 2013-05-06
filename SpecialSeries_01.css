@@ -285,8 +285,7 @@ height: 116px;
 
 .special-tag-lin {
     font-family: GOTHAMbold;
-    font-size: 12px;
-    letter-spacing: 1px;
+    font-size: 14px;
     height: 47px;
     line-height: 16px;
     padding-left: 9px;
@@ -294,6 +293,10 @@ height: 116px;
     padding-right: 9px;
     padding-top: 6px;
 
+}
+
+.special-column:hover .special-img {
+border-bottom: 4px solid #faf037;
 }
 /*.special-column:hover {
     background-color: #faf02c;
