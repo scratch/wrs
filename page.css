@@ -302,7 +302,7 @@ body  {
   position: relative;
 }
 
-.front {
+.front .slider{
 width: 444px;
   height: 381px;
 }
@@ -460,7 +460,7 @@ width: 444px;
   width: 240px;
 }
 
-.foriegn-affair {
+.foreign-affair {
   position: relative;
 }
 
@@ -494,7 +494,7 @@ width: 444px;
   height: 15px;
   float: left;
 }
-.foriegn-affair .affair-text {
+.foreign-affair .affair-text {
   display: block;
   width: 100px;
   color: #fff;
@@ -504,7 +504,7 @@ width: 444px;
   line-height: 26px;
 }
 
-.foriegn-affair .philip-mottaz {
+.foreign-affair .philip-mottaz {
   display: inline-block;
   font-size: 11px;
   font-family: GOTHAMbold;
@@ -514,7 +514,7 @@ width: 444px;
   width: 105px;
 }
 
-.foriegn-affair .listen-live {
+.foreign-affair .listen-live {
   background: #000;
   margin-top: 30px;
   display: block;
@@ -523,12 +523,12 @@ width: 444px;
   width: 105px;
 }
 
-.foriegn-affair .listen-live img {
+.foreign-affair .listen-live img {
   margin-left: 5%;
   margin-top: 3px;
 }
 
-.foriegn-affair .listen-live a {
+.foreign-affair .listen-live a {
   text-decoration: none;
   font-size: 12px;
   font-family: GOTHAMbold;
@@ -536,15 +536,15 @@ width: 444px;
   padding-left: 4px;
 }
 
-.foriegn-affair:hover .listen-live{
+.foreign-affair:hover .listen-live{
   background: #faf037;
 }
 
-.foriegn-affair:hover .listen-img {
+.foreign-affair:hover .listen-img {
 background: url(images/listen-hover.png) no-repeat 5px 4px;
 }
 
-.foriegn-affair:hover .listen-live a{
+.foreign-affair:hover .listen-live a{
   color: #000;
 }
 
