@@ -278,3 +278,7 @@ color: #000000;
 #voiceProfile .slider-bottom {
   width: 99.8%;
 }
+
+#voiceProfile .col:hover .pic img {
+border-bottom: 4px solid #faf037;
+}
