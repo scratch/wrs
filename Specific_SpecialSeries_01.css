@@ -111,5 +111,9 @@ font-size: 30px;
 }
 
 .specific-series .slides:hover:before {
-  background: url(images/slide-hover.png) no-repeat center 180px;
+  background: none;
+}
+
+.specific-series .news-content-column:hover .news-img {
+ border-bottom: 4px solid #faf037;
 }
