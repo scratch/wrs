@@ -968,3 +968,7 @@ overflow: hidden;
 .voices .col:hover .intro p {
   color: #000;
 }
+
+.searchresult #boldlinerow1 a:hover {
+  text-decoration: underline;
+}
