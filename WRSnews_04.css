@@ -449,7 +449,7 @@ color:#3F80C2;
   color: #000;
 }
 
-.wrs-selection-rows:hover .wrs-selction-main .wrs-selection-main-title,
+.wrs-selection-rows:hover .wrs-selction-main .wrs-selection-main-title a,
 .wrs-selection-rows:hover .wrs-selction-main .wrs-selection-main-time,
 .wrs-selection-rows:hover .wrs-selction-main .wrs-selection-main-desc a {
   color: #000 !important;
