@@ -243,7 +243,7 @@ color: #000000;
 }
 
 #voiceProfile .vpslider-col-text{
-  
+
   color: #ffffff;
   padding: 68px 25px;
   letter-spacing: 0px;
@@ -273,4 +273,8 @@ color: #000000;
   font-size: 14px;
   margin-top: 16px;
   font-family: DIN;
+}
+
+#voiceProfile .slider-bottom {
+  width: 99.8%;
 }
