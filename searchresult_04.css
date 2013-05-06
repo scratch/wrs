@@ -294,7 +294,7 @@ searchresult .main-region {
     height: 1200px;
     margin-top: 50px;
     width: 713px;
-    
+
 
   }
 
@@ -328,7 +328,7 @@ searchresult .main-region {
   margin-left: 0px;
 }
 
- 
+
 .searchresult .intro{
   width: 223px;
   height: 47px;
@@ -361,7 +361,7 @@ searchresult .main-region {
     margin-bottom: 31px;
     margin-top: 40px;
     color:#005D83
-           
+
   }
   .searchresult #Results
    {
@@ -371,7 +371,7 @@ searchresult .main-region {
     margin-top: -25px;
 
   }
- 
+
 .searchresult #Results span {
   color: black;
   font-size: 24px;
@@ -408,9 +408,18 @@ searchresult .main-region {
   {
 
 
-    
+
     height: 24px;
-    
+
+  }
+
+  #Results span.num {
+    font-family: GOTHAMbook;
+  }
+
+.searchresult .navig-in li a:hover {
+    color: #000;
+    font-family: GOTHAMbold;
   }
   .searchresult .navig-in
   {
@@ -426,7 +435,7 @@ searchresult .main-region {
   }
   .searchresult .navig-in li
   {
-    
+
     display: inline-block;
 
 
@@ -437,7 +446,7 @@ searchresult .main-region {
     text-decoration: none;
     color: #497C5B
   }
-  .searchresult li a.active 
+  .searchresult li a.active
   {
     font-weight: bold;
     color: black;
@@ -446,16 +455,24 @@ searchresult .main-region {
 
   .searchresult .navig span
   {
-    float: right;
     font-family: GOTHAMbold;
     font-size: 10px;
     color: #999999;
-    margin-top: 4px;
-    margin-right: 16px;
+    margin-top: 3px;
+  }
+
+.searchresult .navig .pager-num .showing-page {
+  padding-right: 16px;
+}
+  .searchresult .navig .pager-num {
+  float: right;
+  }
+  .searchresult .navig .pager-num select {
+    margin-top: 5px;
   }
 .searchresult #row1
 {
-  
+
   width: 713px;
   height: 100px;
   margin-top: 12px;
@@ -529,7 +546,7 @@ font-family: GOTHAMbold;
     font-size: 10px;
     width: 39px;
     margin-left: 2px;
-    
+
 }
 .searchresult #health
 {
@@ -552,9 +569,9 @@ font-family: GOTHAMbold;
 .searchresult #sideimagerow1
 {
   float: right;
-  
+
   height: 46px;
-  
+
   margin-top: -10px;
 }
 
@@ -564,7 +581,7 @@ font-family: GOTHAMbold;
     float: left;
     font-family: GOTHAMbold;
     font-size: 14px;
-    
+
     height: 16px;
     margin-left: 5px;
     width: 360px;
@@ -577,11 +594,11 @@ font-family: GOTHAMbold;
 
 .searchresult #timerow1
 {
-    
+
     height: 12px;
     width: 101px;
     margin-left: 5px;
-  
+
     margin-top: 10px;
     font-family: GOTHAMbook;
     font-size: 10px;
