@@ -3,18 +3,20 @@
   <head>
     <title>HTML conversion template</title>
     <link rel="stylesheet" type="text/css" href="reset.css">
-    <link rel="stylesheet" type="text/css" href="faqs_01.css">
-	<link rel="stylesheet" type="text/css" href="page.css">
-
+    <link rel="stylesheet" type="text/css" href="page.css">
+    <link rel="stylesheet" type="text/css" href="JobProfile_01.css">
+    <link rel="stylesheet" type="text/css" href="WRSnews_04.css">
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
   </head>
 
-  <body>
-		<div id="page">
-
-			<div id="header-block">
+  <body class="front jobprofile">
+    <div id="page">
+      <div class="header">
+      <div id="header-block">
         <div class="header-top"><!-- hesder top -->
           <div class="logo">
-            <img src="images/logo.jpg">
+            <a href="page.html">
+            <img src="images/logo.jpg"></a>
           </div>
           <div class="top-menu">
             <ul class="top-nav-menu">
@@ -49,7 +51,7 @@
         </ul>
         </div>
         <div class="header-bottom-media">
-            <div class="media-partners">
+          <div class="media-partners">
             <div class="partners1">
               <li><a href="#"><img src="images/content-partner-logo-bbc.png"></a></li>
             <li><a href="#"><img src="images/content-partner-logo-npr.png"></a></li>
@@ -63,146 +65,309 @@
         </div>
       </div><!--end header -->
     </div>
-			<div id="main-menu">
-					<li class="first"><a href="#">HOME</a></li>
-					<li><a href="#">WRS NEWS</a></li>
-					<li><a href="#">SCHEDULE</a></li>
-					<li><a href="#">SHOWS</a></li>
-					<li><a href=="#">PROGRAMMES</a></li>
-					<li><a href="#">PLAY LIST</a></li>
-					<li><a href="#">ABOUT</a></li>
-					<li><a href="#">HOW TO LISTEN</a></li>
+  </div>
+      <div id="main-menu">
+        <ul class="main-top-menu">
+          <li class="first"><a href="page.html">HOME</a></li>
+          <li><a href="WRSnews_04.html">WRS NEWS</a></li>
+          <li><a href="#">SCHEDULE</a></li>
+          <li><a href="#">SHOWS</a></li>
+          <li><a href=="#">PROGRAMMES</a></li>
+          <li><a href="#">PLAY LIST</a></li>
+          <li><a class="active" href="#">ABOUT</a></li>
+          <li><a href="#">HOW TO LISTEN</a></li>
           <li><form>
-          <input type="text" placeholder="Search WRS Radio">
+          <input type="text" placeholder="Search WRS Radio" class="search">
+          <input type="submit" class="submit">
           </form></li>
-			</div>
-              <div id="secondry-menu"><!---for the menu-->
-                  <li class="first"><a href="#">MISSION</a></li>
-                  <li> <a href="#">CONTENT PARTNERS</a></li>
-                  <li><a href="#">MEDIA PARTNERS</a></li>
-                  <li><a href="#">VOICES</a></li>
-                  <li><a href="#">STAFF</a></li>
-                  <li><a href="#">JOBS</a></li>
-                  <li><a href="#">CONTACT</a></li>
-                  <li><a class="active" href="#">FAQS</a></li>
+      </div>
+      <div id="main-menu-sub">
+        <ul class="main-menu-sub-top">
+          <li class="first"><a href="#">MISSION</a></li>
+          <li><a href="#">CONTENT PARTNERS</a></li>
+          <li><a href="#">MEDIA PARTNERS</a></li>
+          <li><a href="#">VOICES</a></li>
+          <li><a href="#">STAFF</a></li>
+          <li><a href="#">JOBS</a></li>
+          <li><a href="#">CONTACT</a></li>
+          <li class="last"><a class="active" href="#">FAQS</a></li>
+        </ul>
+
+      </div>
+  <div class="main-region">
+    <div id="main-content">
+      <div class="primary-content">
+        <div class="news-today">
+          <h1>FAQs </h1>
+        </div>
+       <div class="faqs-detail">
+        <div class="faqs-question">
+          How do I listen to WRS online?
+        </div>
+        <div class="faqs-answers">
+          To listen to WRS streaming live on the website, look for the orange “Listen Online” link
+at the top right of every page. To listen via iTunes or other Internet radio applications,
+copy and paste the following URL into the client of your choosing: http://provisioning.
+streamtheworld.com/pls/WRS.pls
+        </div>
+        <div class="faqs-question">
+          How can I listen to WRS?
+        </div>
+        <div class="faqs-answers">
+          World Radio Switzerland is available in the Geneva region on 101.7 FM. For listeners
+in Switzerland outside of Geneva, WRS is available nationwide on DAB+ radio. Cable
+and satellite subscribers throughout the country can also listen to us via music channels
+on these services. Listeners in neighboring countries just across the border may also
+be able to pick up WRS via DAB+. Or you can listen to us anytime via live streaming on
+worldradio.ch. We have no FM frequency in German-speaking Switzerland.
+        </div>
+        <div class="faqs-question">
+          How do I listen to WRS on cable?
+        </div>
+        <div class="faqs-answers">
+          List of WRS frequencies on Cablecom (PDF)
+        </div>
+        <div class="faqs-question">
+          How do I listen to WRS on satellite?
+        </div>
+        <div class="faqs-answers">
+          You can listen to us on our satellite feed at the following coordinates:
+Hotbird 9 at 13.0 degrees East — 11526.00 H 27500 3/4 SID: 14038 Audio: 228 PCR:
+228
+Full details
+        </div>
+        <div class="faqs-question">
+          Where can I buy a DAB + radio?
+        </div>
+        <div class="faqs-answers">
+          DAB+ is the best way to listen to WRS across Switzerland. A wide range of DAB+
+receivers is available at most electronics stores in Switzerland. You can shop online
+and compare prices here (NOTE: Make sure it is a DAB+ radio and not the older DAB
+standard):
+In-car systems
+Portable DAB+ radios
+Buy online
+        </div>
+        <div class="faqs-question">
+          What was that song...?
+        </div>
+        <div class="faqs-answers">
+          You can find the last 100 songs played on WRS listed here or download a PDF of the
+WRS playlist, which is updated monthly
+        </div>
+        <div class="faqs-question">
+          I'm having problems with WRS Classifieds. Can you help me?
+        </div>
+        <div class="faqs-answers">
+          First, read the Classifieds FAQs. If your question is not answered, please send it to
+web@worldradio.ch. We will make an effort to respond whenever possible, however due
+to limited staff resources we are not able to answer all inquiries.
+        </div>
+        <div class="faqs-question">
+          Is it English…or is it English?
+        </div>
+        <div class="faqs-answers">
+          You might notice that some of our stories are written in American English while others
+are written in British English…
+        </div>
+        <div class="faqs-question">
+What the heck is DAB +?
+        </div>
+        <div class="faqs-answers">
+          It’s not as complicated as it sounds. DAB is an acronym for Digital Audio
+Broadcasting—a broadcasting system that brings radio into the digital age…
+        </div>
+        <div class="faqs-question">
+          Does WRS broadcast advertising?
+        </div>
+        <div class="faqs-answers">
+          As WRS is a public service broadcaster under Swiss laws and regulations, radio
+commercials are not allowed, however sponsorships of shows and segments on the air
+are available. If you are interested in sponsoring our shows or segments, please contact
+our sales staff at wrs@publisuisse.ch.
+        </div>
+       </div>
+
+
+
+
+
+      </div>
+    <div class="sidebar-second">
+
+      <div class="content-bottom-last">
+        <h1 class="title">RECENT POSTS</h1>
+        <div class="classifieds-recent-posts">
+          <div class="classifieds">
+            <div class="recent-classifieds">
+              <div class="recent-post-img"><img src="images/Icons_Classifieds_01.png"></div>
+              <a href="#">
+              <div class="classifieds-post-label">Animals</div>
+              <div class="recent-post-text">WTS: Available English Bulldog Puppies</div></a>
+              <div class="recent-post-channel"></div>
             </div>
-			<div id="mid">
-              <div class="faq">FAQs</div>
+            <div class="recent-classifieds">
+              <div class="recent-post-img"><img src="images/Icons_Classifieds_02.png"></div>
+              <a href="#"><div class="classifieds-post-label">Cameras</div>
+              <div class="recent-post-text">Brand New Canon EOS
+5D Mark III 21MP DSLR Camera</div></a>
+              <div class="recent-post-channel"></div>
+            </div>
+            <div class="recent-classifieds">
+              <div class="recent-post-img"><img src="images/Icons_Classifieds_03.png"></div>
+              <a href="#"><div class="classifieds-post-label">Animals</div>
+              <div class="recent-post-text">WTS: Available English Bulldog Puppies</div></a>
+            </div>
+            <div class="recent-classifieds">
+              <div class="recent-post-img"><img src="images/Icons_Classifieds_04.png"></div>
+              <a href="#"><div class="classifieds-post-label">Cameras</div>
+              <div class="recent-post-text">Brand New Canon EOS
+5D Mark III 21MP DSLR Camera</div></a>
+              <div class="recent-post-channel"></div>
+            </div>
+            <div class="recent-classifieds">
+              <div class="recent-post-img"><img src="images/Icons_Classifieds_05.png"></div>
+              <a href="#"><div class="classifieds-post-label">Animals</div>
+              <div class="recent-post-text">WTS: Available English Bulldog Puppies</div></a>
+            </div>
+            <div class="recent-classifieds">
+              <div class="recent-post-img"><img src="images/Icons_Classifieds_06.png"></div>
+              <a href="#"><div class="classifieds-post-label">Cameras</div>
+              <div class="recent-post-text">Brand New Canon EOS
+5D Mark III 21MP DSLR Camera</div></a>
 
-			   <div id="temp">
-			   <div class="recent">
-                <p>RECENT POSTS</p>
-              </div>
-			  <div style="clear:both;"></div>
+            </div>
+            <div class="recent-classifieds">
+              <div class="recent-post-img"><img src="images/Icons_Classifieds_07.png"></div>
+              <a href="#"><div class="classifieds-post-label">Animals</div>
+              <div class="recent-post-text">WTS: Available English Bulldog Puppies</div></a>
+              <div class="recent-post-channel"></div>
+            </div>
+            <div class="recent-classifieds">
+              <div class="recent-post-img"><img src="images/Icons_Classifieds_08.png"></div>
+              <a href="#"><div class="classifieds-post-label">Cameras</div>
+              <div class="recent-post-text">Brand New Canon EOS
+5D Mark III 21MP DSLR Camera</div></a>
+              <div class="recent-post-img-right"></div>
+            </div>
+            <div class="recent-classifieds">
+              <div class="recent-post-img"><img src="images/Icons_Classifieds_01.png"></div>
+              <a href="#">
+              <div class="classifieds-post-label">Animals</div>
+              <div class="recent-post-text">WTS: Available English Bulldog Puppies</div></a>
+              <div class="recent-post-channel"></div>
+            </div>
+            <div class="recent-classifieds">
+              <div class="recent-post-img"><img src="images/Icons_Classifieds_02.png"></div>
+              <a href="#"><div class="classifieds-post-label">Cameras</div>
+              <div class="recent-post-text">Brand New Canon EOS
+5D Mark III 21MP DSLR Camera</div></a>
+              <div class="recent-post-channel"></div>
+            </div>
+            <div class="recent-classifieds">
+              <div class="recent-post-img"><img src="images/Icons_Classifieds_03.png"></div>
+              <a href="#"><div class="classifieds-post-label">Animals</div>
+              <div class="recent-post-text">WTS: Available English Bulldog Puppies</div></a>
+            </div>
+            <div class="recent-classifieds">
+              <div class="recent-post-img"><img src="images/Icons_Classifieds_04.png"></div>
+              <a href="#"><div class="classifieds-post-label">Cameras</div>
+              <div class="recent-post-text">Brand New Canon EOS
+5D Mark III 21MP DSLR Camera</div></a>
+              <div class="recent-post-channel"></div>
+            </div>
+            <div class="recent-classifieds">
+              <div class="recent-post-img"><img src="images/Icons_Classifieds_05.png"></div>
+              <a href="#"><div class="classifieds-post-label">Animals</div>
+              <div class="recent-post-text">WTS: Available English Bulldog Puppies</div></a>
+            </div>
+            <div class="recent-classifieds">
+              <div class="recent-post-img"><img src="images/Icons_Classifieds_06.png"></div>
+              <a href="#"><div class="classifieds-post-label">Cameras</div>
+              <div class="recent-post-text">Brand New Canon EOS
+5D Mark III 21MP DSLR Camera</div></a>
 
-      <div class="middleleftcontent"><!--body content div-->
-        <ul>
-          <h1 class="faqquestion"> How do I listen to WRS online?</h1>
-             <p class="faqpara">To listen to WRS streaming live on the website, look for the orange "Listen Online"link
+            </div>
+            <div class="recent-classifieds">
+              <div class="recent-post-img"><img src="images/Icons_Classifieds_07.png"></div>
+              <a href="#"><div class="classifieds-post-label">Animals</div>
+              <div class="recent-post-text">WTS: Available English Bulldog Puppies</div></a>
+              <div class="recent-post-channel"></div>
+            </div>
+            <div class="recent-classifieds">
+              <div class="recent-post-img"><img src="images/Icons_Classifieds_08.png"></div>
+              <a href="#"><div class="classifieds-post-label">Cameras</div>
+              <div class="recent-post-text">Brand New Canon EOS
+5D Mark III 21MP DSLR Camera</div></a>
+              <div class="recent-post-img-right"></div>
+            </div>
 
-                    at the top right of every page. To listen via iTunes or other Internet radio applications,
-                    copy and paste the following URL into the client of your choosing: http://provisioning.
-                    streamtheworld.com/pls/WRS.pls</p>
+<div class="recent-classifieds">
+              <div class="recent-post-img"><img src="images/Icons_Classifieds_01.png"></div>
+              <a href="#">
+              <div class="classifieds-post-label">Animals</div>
+              <div class="recent-post-text">WTS: Available English Bulldog Puppies</div></a>
+              <div class="recent-post-channel"></div>
+            </div>
+            <div class="recent-classifieds">
+              <div class="recent-post-img"><img src="images/Icons_Classifieds_02.png"></div>
+              <a href="#"><div class="classifieds-post-label">Cameras</div>
+              <div class="recent-post-text">Brand New Canon EOS
+5D Mark III 21MP DSLR Camera</div></a>
+              <div class="recent-post-channel"></div>
+            </div>
+            <div class="recent-classifieds">
+              <div class="recent-post-img"><img src="images/Icons_Classifieds_03.png"></div>
+              <a href="#"><div class="classifieds-post-label">Animals</div>
+              <div class="recent-post-text">WTS: Available English Bulldog Puppies</div></a>
+            </div>
+            <div class="recent-classifieds">
+              <div class="recent-post-img"><img src="images/Icons_Classifieds_04.png"></div>
+              <a href="#"><div class="classifieds-post-label">Cameras</div>
+              <div class="recent-post-text">Brand New Canon EOS
+5D Mark III 21MP DSLR Camera</div></a>
+              <div class="recent-post-channel"></div>
+            </div>
+            <div class="recent-classifieds">
+              <div class="recent-post-img"><img src="images/Icons_Classifieds_05.png"></div>
+              <a href="#"><div class="classifieds-post-label">Animals</div>
+              <div class="recent-post-text">WTS: Available English Bulldog Puppies</div></a>
+            </div>
+            <div class="recent-classifieds">
+              <div class="recent-post-img"><img src="images/Icons_Classifieds_06.png"></div>
+              <a href="#"><div class="classifieds-post-label">Cameras</div>
+              <div class="recent-post-text">Brand New Canon EOS
+5D Mark III 21MP DSLR Camera</div></a>
 
-              <h2 class="faqquestion">How can I listen to WRS?</h2>
-              <p class="faqpara">World Radio Switzerland is available in the Geneva region on 101.7 FM. For listeners
-                 in Switzerland outside of Geneva, WRS is available nationwide on DAB+ radio. Cable
-                 and satellite subscribers throughout the country can also listen to us via music channels
-                 on these services. Listeners in neighboring countries just across the border may also
-                 be able to pick up WRS via DAB+. Or you can listen to us anytime via live streaming on
-                 worldradio.ch. We have no FM frequency in German-speaking Switzerland.
-              </p>
-              <h2 class="faqquestion">How do I listen to WRS on cable?</h2>
-              <p class="faqpara">List of WRS frequencies on Cablecom (PDF)</p>
-              <h2 class="faqquestion">How do I listen to WRS on satellite?</h2>
-              <p class="faqpara">You can listen to us on our satellite feed at the following coordinates:
-                  Hotbird 9 at 13.0 degrees East — 11526.00 H 27500 3/4 SID: 14038 Audio: 228 PCR:
-                   228
-                   Full details
-              </p>
-              <h2 class="faqquestion">Where can I buy a DAB + radio?</h2>
+            </div>
+            <div class="recent-classifieds">
+              <div class="recent-post-img"><img src="images/Icons_Classifieds_07.png"></div>
+              <a href="#"><div class="classifieds-post-label">Animals</div>
+              <div class="recent-post-text">WTS: Available English Bulldog Puppies</div></a>
+              <div class="recent-post-channel"></div>
+            </div>
+            <div class="recent-classifieds">
+              <div class="recent-post-img"><img src="images/Icons_Classifieds_07.png"></div>
+              <a href="#"><div class="classifieds-post-label">Animals</div>
+              <div class="recent-post-text">WTS: Available English Bulldog Puppies</div></a>
+              <div class="recent-post-channel"></div>
+            </div>
+            <div class="recent-classifieds">
+              <div class="recent-post-img"><img src="images/Icons_Classifieds_08.png"></div>
+              <a href="#"><div class="classifieds-post-label">Cameras</div>
+              <div class="recent-post-text">Brand New Canon EOS
+5D Mark III 21MP DSLR Camera</div></a>
+              <div class="recent-post-img-right"></div>
+            </div>
 
-              <p class="faqpara">DAB+ is the best way to listen to WRS across Switzerland. A wide range of DAB+
-              receivers is available at most electronics stores in Switzerland. You can shop online
-              and compare prices here (NOTE: Make sure it is a DAB+ radio and not the older DAB
-              standard):
-              In-car systems
-              Portable DAB+ radios
-              Buy online</p>
-              <h2 class="faqquestion">
-               What was that song...?</h2>
-              <p class="faqpara">You can find the last 100 songs played on WRS listed here or download a PDF of the
-               WRS playlist, which is updated monthly</p>
-              <h2 class="faqquestion">I'm having problems with WRS Classifieds. Can you help me?</h2>
-              <p class="faqpara">First, read the Classifieds FAQs. If your question is not answered, please send it to
-              web@worldradio.ch. We will make an effort to respond whenever possible, however due
-              to limited staff resources we are not able to answer all inquiries.</p>
-             <h2 class="faqquestion">Is it English...or is it English?</h2>
-             <p class="faqpara">You might notice that some of our stories are written in American English while others
-             are written in British English...</p>
-             <h2 class="faqquestion">What the heck is DAB +?</h2>
-             <p class="faqpara">Broadcasting...a broadcasting system that brings radio into the digital age</p>
+            <div class="posts-view-all"><a href="#">VIEW ALL</a> </div>
+          </div>
+        </div>
 
-             <h2 class="faqquestion">Does WRS broadcast advertising?</h2>
-              <p class="faqpara">
-              As WRS is a public service broadcaster under Swiss laws and regulations, radio
-              commercials are not allowed, however sponsorships of shows and segments on the air
-              are available. If you are interested in sponsoring our shows or segments, please contact
-              our sales staff at wrs@publisuisse.ch.</p>
-
-              </ul>
-
-               </div>
-
-		</div>
-               <div class="middlerightcontent">
-
-                            <li> <b class="boldmiddlerightcontent">Animals  </b>WTS  Available English
-                                  Bulldog Puppies</li>
-                             <li>  <b class="boldmiddlerightcontent">Cameras</b>     Brand New Canon EOS
-                             5D Mark II 21MP DSLR Camera</li>
-                             <li>  <b class="boldmiddlerightcontent">Animals </b>Available English
-                                         Bulldog Puppies
-                                                         </li>
-                             <li>  <b class="boldmiddlerightcontent">Cameras </b>     Brand New Canon EOS
-                             5D Mark II 21MP DSLR Camera</li>
-                             <li>  <b class="boldmiddlerightcontent">Animals</b> Available English
-                                        Bulldog Puppies
-                             </li>
-                             <li>  <b class="boldmiddlerightcontent">Animals</b>  WTS Available English
-                                            Bulldog Puppies
-                                     </li>
-                             <li>  <b class="boldmiddlerightcontent">Cameras</b>     Brand New Canon EOS
-                             5D Mark II 21MP DSLR Camera</li>
-                             <li>  <b class="boldmiddlerightcontent">Animals</b> WTS  Available English
-                                             Bulldog Puppies
-                                     </li>
-                             <li>  <b class="boldmiddlerightcontent">Cameras</b>     Brand New Canon EOS
-                             5D Mark II 21MP DSLR Camera</li>
-                             <li>  <b class="boldmiddlerightcontent">Animals</b>  WTS Available English Bulldog Puppies
-                                           </li>
-                             <li>  <b class="boldmiddlerightcontent">Cameras</b>     Brand New Canon EOS
-                             5D Mark II 21MP DSLR Camera</li>
-                             <li>  <b class="boldmiddlerightcontent">Animals</b>  WTS   Available English
-                                         Bulldog Puppies</li>
-                             <li>  <b class="boldmiddlerightcontent">Cameras</b>     Brand New Canon EOS
-                             5D Mark II 21MP DSLR Camera</li>
-                             <li>  <b class="boldmiddlerightcontent">Animals</b>  WTS   Available English
-                                   Bulldog Puppies       </li>
-                             <li>  <b class="boldmiddlerightcontent">Cameras</b>     Brand New Canon EOS
-                             5D Mark II 21MP DSLR Camera</li>
-                             <li>  <b class="boldmiddlerightcontent">Animals </b>  WTS    Available English
-                                     Bulldog Puppies     </li>
-                             <li>  <b class="boldmiddlerightcontent">Cameras</b>     Brand New Canon EOS
-                             5D Mark II 21MP DSLR Camera</li>
-                             <li>  <b class="boldmiddlerightcontent">Animals</b>   WTS   Available English
-                                   Bulldog Puppies</li>
-
-
-
-
-		</div>
-		</div><!--main end -->
+        </div>
+      </div>
+    </div>
+  </div><!--main end -->
     <div id="footer">
       <div class="footer-main-menu">
         <ul class="footer-menu">
@@ -285,6 +450,5 @@
    </div>
   </div>
 </div>
-
   </body>
 </html>
