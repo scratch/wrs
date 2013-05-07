@@ -77,45 +77,43 @@
  }
  #shows .red-line{
   width: 100%;
-  height: 5px;
+  height: 4px;
   background-color: #FF0000;
  }
  #shows .green-line{
   width: 100%;
-  height: 5px;
+  height: 4px;
   background-color: #3bb345;
  }
  #shows .blue-line{
   width: 100%;
-  height: 5px;
+  height: 4px;
   background-color: #0054aa;
  }
  #shows .purple-line{
   width: 100%;
-  height: 5px;
+  height: 4px;
   background-color: #6d35d4;
  }
   #shows .orange-line{
   width: 100%;
-  height: 5px;
+  height: 4px;
   background-color: #ED501D;
  }
   #shows .grey-line{
   width: 100%;
-  height: 5px;
+  height: 4px;
   background-color: #68635f;
  }
   #shows .green-line{
   width: 100%;
-  height: 5px;
+  height: 4px;
   background-color: #3bb345;
  }
  #shows #grey-title a{
   color: #68635f;
   font-family: GOTHAMbold;
   margin-top: 6px;
-  margin-left: 4px;
-  letter-spacing: -1px;
   word-spacing: -2px;
 
  }
@@ -123,8 +121,6 @@
   color: #3bb345;
   font-family: GOTHAMbold;
   margin-top: 6px;
-  margin-left: 4px;
-  letter-spacing: -1px;
   word-spacing: -2px;
 
  }
@@ -133,18 +129,24 @@
   color: #ED501D;
   font-family: GOTHAMbold;
   margin-top: 6px;
-  margin-left: 4px;
-  letter-spacing: -1px;
   word-spacing: -2px;
 
  }
+
+/** #shows #red-title,
+ #shows #green-title,
+ #shows #orange-title,
+ #shows #grey-title,
+ #shows #blue-title,
+ #shows #purple-title
+ {
+  margin-left: 6px;
+ } **/
 
  #shows #red-title a{
   color: #FF0000;
   font-family: GOTHAMbold;
   margin-top: 6px;
-  margin-left: 4px;
-  letter-spacing: -1px;
   word-spacing: -2px;
 
  }
@@ -152,42 +154,60 @@
   color: #3bb345;
    font-family: GOTHAMbold;
   margin-top: 6px;
-  margin-left: 4px;
-  letter-spacing: -1px;
   word-spacing: -2px;
  }
   #shows #blue-title a{
   color: #0054aa;
   font-family: GOTHAMbold;
   margin-top: 6px;
-  margin-left: 4px;
-  letter-spacing: -1px;
   word-spacing: -2px;
  }
   #shows #purple-title a{
   color: #6d35d4;
   font-family: GOTHAMbold;
   margin-top: 6px;
-  margin-left: 4px;
-  letter-spacing: -1px;
   word-spacing: -2px;
  }
  #shows #show-time{
   font-family: GOTHAMbook;
-  margin-left: 4px;
+  /**margin-left: 6px;**/
   margin-top: 4px;
   font-size: 13px;
   word-spacing: -2px;
  }
 
- #shows #show-menu-img{
+ #shows #show-menu-img-pri{
   float: right;
   width: 20%;
   margin-top:10px;
  }
-
+#shows #show-menu-img{
+  float: right;
+  width: 24%;
+  margin-top:10px;
+ }
+ #shows #show-menu-img-npr{
+  float: right;
+  width: 19%;
+  margin-top:10px;
+ }
+ #shows #show-menu-img-abc{
+  float: right;
+  width: 16%;
+  margin-top:10px;
+ }
+ /**#shows #show-menu-img{
+  float: right;
+  width: 20%;
+  margin-top:10px;
+ }
+ #shows #show-menu-img{
+  float: right;
+  width: 20%;
+  margin-top:10px;
+ }**/
  #shows #show-menu-text{
-  width: 80%;
+  width: 76%;
   float: left;
   margin-top: 6px;
   font-size: 14px;
@@ -259,4 +279,5 @@ color: #fff;
    font-size: 12px;
   color: #9c9c9c;
   font-family: GOTHAMbook;
+
 }
