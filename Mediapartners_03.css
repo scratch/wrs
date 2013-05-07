@@ -21,17 +21,16 @@
     color: #9C9C9C;
     font-family: GOTHAMbold;
     letter-spacing: 1px;
-    width: 190px;
+    font-size: 13px;
 }
-.searchresult .mainbarmedia
-{
+
+.searchresult .mainbarmedia{
     float: right;
     height: 1200px;
-    margin-top:0px;
+    margin-top: 0px;
     width: 713px;
-    
-
-  }
+    margin-right: 4px;
+}
 .searchresult #mediaheading
 {
     font-family: GOTHAMbold;
@@ -45,7 +44,7 @@
    {
 
      font-family: GOTHAMbook;
-    font-size: 14px;
+    font-size: 13px;
     height: 12px;
     margin-left: 5px;
     margin-top: 6px;
@@ -60,6 +59,14 @@
     font-size: 12px;
     margin-left: 5px;
     margin-top: 15px;
+}
+
+.searchresult #row1media
+{
+  border-top: medium solid #CFCFCF;
+    height: 86px;
+    margin-top: 12px;
+    width: 713px;
 }
 
 
