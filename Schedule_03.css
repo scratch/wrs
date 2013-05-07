@@ -42,95 +42,90 @@
 }
 .main_schedule .schedule {
   font-size: 30px;
-  font-family: gothambold;
+  font-family: GOTHAMbold;
 }
 .main_schedule .day_date {
   color: #939393;
-  font-family: gothambook;
+  font-family: GOTHAMbold;
   font-size: 30px;
   margin-left:6px;
 }
-.First_div ,.foriegn-affair{
+#Schedule_page .First_div ,#Schedule_page .foriegn-affair{
   float: left;
 }
-.first_col {
+#Schedule_page .first_col {
   min-height: 87px;
  }
-.second_col,.third_col {
+#Schedule_page .second_col, #Schedule_page .third_col {
   min-height: 100px;
   background: #fff3f5;
   border-top: 4px solid #e40c23;
 }
-.fourth_col,.fifth_col {
+#Schedule_page .fourth_col,#Schedule_page .fifth_col {
   min-height: 100px;
   border-top: 4px solid #ED501D; 
 }
-.second_col:hover,.third_col:hover,.fourth_col:hover, .fifth_col:hover ,.sixth_col:hover ,.eighth_col:hover ,.seventh_col:hover{
-  background:#faf037;
-  opacity: 0.8; 
-}
-.fourth_col {
+#Schedule_page .fourth_col {
   background: #8BD393 url("images/recorder_hoever.jpg") no-repeat 472px 17px;
   border-top: 4px solid #3EB551;
   z-index: 9; 
 }
-.eighth_col {
+#Schedule_page .eighth_col {
   min-height: 100px;
   border-top: 4px solid #025C75;
 }
-.sixth_col,.seventh_col {
+#Schedule_page .sixth_col, #Schedule_page .seventh_col {
   min-height: 100px;
   border-top: 4px solid #6f37d8;
 }
-.first_col_first,.first_col_second ,.first_col_third{
+#Schedule_page .first_col_first,#Schedule_page .first_col_third{
   float: left;
   min-height: 87px;
   width: 226px;
   background: #F1F1F1;
 }
-.first_col_first:hover ,.first_col_second:hover ,.first_col_third:hover {
+#Schedule_page .first_col_second {
   background:#faf037;
-  opacity: 0.8; 
+  float: left;
+  min-height: 87px;
+  width: 226px; 
 }
-.eighth_col_div {
+#Schedule_page .eighth_col_div {
   float: left;
   margin-left: 10px;
   width: 495px;
 }
- .first_col_second ,.first_col_third {
+ #Schedule_page .first_col_second ,#Schedule_page .first_col_third {
   margin-left: 3px;
  }
- .title {
+ #Schedule_page .title {
   font-size: 18px;
   font-family: GOTHAMbold;
   text-transform: uppercase;
   line-height: 48px;
   margin-left: 10px;
  }
- .title a {
+ #Schedule_page .title a {
   text-decoration: none;
   color: #046286;
  }
- .title1 {
+ #Schedule_page .title1 {
   color: #e40c23;
   font-family: GOTHAMbold;
   font-size: 14px;
   line-height: 33px;
   text-transform: uppercase;
 }
-.fourth_col_div .title1 {
+#Schedule_page .fourth_col_div .title1 {
   color: #ED501D;
 }
-.sixth_col_div .title1 {
+#Schedule_page .sixth_col_div .title1 {
   color: #6f37d8;
 }
-.eighth_col_div .title1 {
+#Schedule_page .eighth_col_div .title1 {
   color: #025C75;
-  font-size: 18px;
-  font-family: gothan;
-
 }
- .author {
+ #Schedule_page .author {
   display: block;
   font-size: 13px;
   font-family: GOTHAMbook;
@@ -139,16 +134,16 @@
   text-transform: uppercase;
   word-spacing: 1px;
 }
-.authors {
+#Schedule_page .authors {
   text-transform: capitalize;
   font-size: 13px;
   color: #9c9c9c;
   margin-top: -6px;
 }
-.fourth_col_div .authors {
+#Schedule_page .fourth_col_div .authors {
   color: #000000;
 }
-.day_time {
+#Schedule_page .day_time {
   color: #9c9c9c;
   font-size: 12px;
   font-family: gotham;
@@ -158,42 +153,42 @@
   float:left;
   margin-right:10px;
 }
-.day_time a {
+#Schedule_page .day_time a {
   color: #939393;
 }
-.second_col_div,.fourth_col_div,.sixth_col_div {
+#Schedule_page .second_col_div,#Schedule_page .fourth_col_div,#Schedule_page .sixth_col_div {
   margin-left: 10px;
   float: left;
   width: 290px;
 }
-.img_tag {
+#Schedule_page .img_tag {
   float: left;
   margin-left: 20px;
 }
-.company {
+#Schedule_page .company {
   font-family: GOTHAMbook;
   font-size: 13px;
   line-height: 21px;
 }
-.eight_col_div {
+#Schedule_page .eight_col_div {
   margin-left: 10px;
   float: left;
   width:455px;
 }
-.eighth_col .day_time {
+#Schedule_page .eighth_col .day_time {
     width: 38px;
 }
-.eighth_col .img_tag {
+#Schedule_page .eighth_col .img_tag {
   height: 105px;
 }
-.Highlighted a {
+#Schedule_page .Highlighted a {
   text-decoration: none;
   color: #025C75;
   font-size: 12px;
   font-weight: bold;
   text-transform: uppercase; 
 }
-.health-matters .health-text {
+#Schedule_page .health-matters .health-text {
   color: #FFFFFF;
   display: block;
   font-family: DIN;
@@ -203,16 +198,16 @@
   width: 100px;
   margin-top: 20%;
 }
-.recorder {
+#Schedule_page .recorder {
   float: left;
   margin-top: 36px;
 }
-.recorder2 {
+#Schedule_page .recorder2 {
   float: left;
   margin-top: 36px;
   margin-left: 21px;
 }
-.recorder4 {
+#Schedule_page .recorder4 {
   background: none repeat scroll 0 0 #CCC;
   float: left;
   margin-top: 15px;
@@ -221,37 +216,37 @@
   min-height: 70px;
   z-index:-1;
 }
-.recorder4 .recorder_text {
+#Schedule_page .recorder4 .recorder_text {
   display: inline-block;
-  font-family: gothambold;
+  font-family: GOTHAMbold;
   font-size: 18px;
   padding-top: 15px;
   padding-left: 4px;
 }
-.recorder4 .recorder2_text {
-  font-family: gothan;
+#Schedule_page .recorder4 .recorder2_text {
+  font-family: GOTHAMbold;
   font-size: 14px
 }
-.cmpny_logo2 {
+#Schedule_page .cmpny_logo2 {
   float:left;
   margin-top:36px;
   margin-left: 65px;
 } 
-.cmpny_logo3 ,.cmpny_logo4,.cmpny_logo6,.cmpny_logo7{
+#Schedule_page .cmpny_logo3 ,#Schedule_page .cmpny_logo4,#Schedule_page .cmpny_logo6,#Schedule_page .cmpny_logo7{
     float: left;
     margin-left: 128px;
     margin-top: 36px;
 }
-.cmpny_logo5{
+#Schedule_page .cmpny_logo5{
   float: left;
   margin-top:36px;
   margin-left: 35px;
 }
-.health-matters {
+#Schedule_page .health-matters {
   float:left;
   margin-top: 10px;
 }
-.health-matters .dr-name {
+#Schedule_page .health-matters .dr-name {
   line-height: 90px;
   font-family: GOTHAMbold;
   font-size: 11px;
@@ -259,8 +254,8 @@
   margin-top: 41px;
   width: 105px;
 }
-.foriegn-affair .listen-live {
-  margin-top: 7px;
+#Schedule_page .foreign-affair .listen-live {
+  margin-top: 10px;
 } 
 .health-content {
   min-width: 241px;
@@ -294,14 +289,6 @@
 }
 .health-matters:visited {
   background: transparent;
-}
-.health-matters:hover .health-content{
-  background:none repeat scroll 0 0 #faf037;
-  opacity: 0.8;
-  color: #3c3c3c;
-}
-.health-matters:hover .health-text {
-  color:#3c3c3c ;
 }
 .on_air {
   background: none repeat scroll 0 0 #000000;
