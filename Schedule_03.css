@@ -133,6 +133,8 @@
   margin-top: -15px;
   text-transform: uppercase;
   word-spacing: 1px;
+  float:left;
+  width: 100%;
 }
 #Schedule_page .authors {
   text-transform: capitalize;
@@ -290,7 +292,7 @@
 .health-matters:visited {
   background: transparent;
 }
-.on_air {
+.schedule_on_air {
   background: none repeat scroll 0 0 #000000;
   color: #FAF037;
   float: right;
@@ -298,7 +300,6 @@
   font-size: 15px;
   padding: 4px 0 4px 11px;
   width: 40px;
-  margin-top: 10px;
 }
 .latest_news_content:hover {
   background:#faf037;
