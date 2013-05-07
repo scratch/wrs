@@ -282,3 +282,11 @@ color: #000000;
 #voiceProfile .col:hover .pic img {
 border-bottom: 4px solid #faf037;
 }
+
+#voiceProfile .wrs-selection-rows:hover .wrs-channel-img {
+background: url(images/bbc-hiver.png);
+}
+
+#voiceProfile .col:hover .intro .intro-place {
+  color: #000;
+}

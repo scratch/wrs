@@ -419,8 +419,11 @@ searchresult .main-region {
 
   #Results span.num {
     font-family: GOTHAMbook;
+    color:#9C9C9C;
   }
-
+  #Results .serach-text {
+  margin-left: 5px;
+}
 .searchresult .navig-in li a:hover {
     color: #000;
     font-family: GOTHAMbold;
