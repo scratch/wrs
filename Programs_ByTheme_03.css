@@ -1121,7 +1121,7 @@ color: #1f1f1f;
 .Programs_ByTheme #news {
   background-color: #FF0000;
     color: #FFFF00;
-    font-family: Verdana;
+    font-family: GOTHAMbook;
     font-size: 13px;
     font-weight: bold;
     line-height: 22px;
@@ -1131,11 +1131,14 @@ color: #1f1f1f;
     width: 99%;
 }
 
+.Programs_ByTheme #news a{
+ color:#FFFF00;
+}
 
 .Programs_ByTheme #b_e {
    background-color: #0054AA;
-    color: #FFFF00;
-    font-family: Verdana;
+   
+    font-family: GOTHAMbook;
     font-size: 13px;
     font-weight: bold;
     line-height: 22px;
@@ -1143,6 +1146,10 @@ color: #1f1f1f;
     padding: 0 0 0 10px;
     position: relative;
     width: 99%;
+}
+
+.Programs_ByTheme #b_e a{
+ color: #FFFF00;
 }
 
 
@@ -1154,12 +1161,15 @@ color: #1f1f1f;
   background-color:#3bb345;
   color:#FFFF00;
   padding:0px 0px 0px 10px;
-  font-family:Verdana;
+  font-family:GOTHAMbook;
   font-weight:bold;
   font-size:13px;
   line-height:22px;
 }
 
+.Programs_ByTheme #s_t a{
+ color: #FFFF00;
+}
 
 .Programs_ByTheme #a_e{
   border:red solid thin none;
@@ -1169,12 +1179,15 @@ color: #1f1f1f;
   background-color:#6d35d4;
   color:#FFFF00;
   padding:0px 0px 0px 10px;
-  font-family:Verdana;
+  font-family:GOTHAMbook;
   font-weight:bold;
   font-size:13px;
   line-height:22px;
 }
 
+.Programs_ByTheme #a_e a{
+ color:#ffff00;
+}
 
 .Programs_ByTheme #h_f{
   border:red solid thin none;
@@ -1184,12 +1197,15 @@ color: #1f1f1f;
   background-color:#ef4f1d;
   color:#FFFF00;
   padding:0px 0px 0px 10px;
-  font-family:Verdana;
+  font-family:GOTHAMbook;
   font-weight:bold;
   font-size:13px;
   line-height:22px;
 }
 
+.Programs_ByTheme #h_f a{
+ color:#ffff00;
+}
 
 .Programs_ByTheme #l_ch{
   border:red solid thin none;
@@ -1199,12 +1215,16 @@ color: #1f1f1f;
   background-color:#646464;
   color:#FFFF00;
   padding:0px 0px 0px 10px;
-  font-family:Verdana;
+  font-family:GOTHAMbook;
   font-weight:bold;
   font-size:13px;
   line-height:22px;
 }
 
+
+.Programs_ByTheme #l_ch a{
+ color:#ffff00;
+}
 
 .Programs_ByTheme #sports{
   border:red solid thin none;
@@ -1214,10 +1234,14 @@ color: #1f1f1f;
   background-color:#1d58f0;
   color:#FFFF00;
   padding:0px 0px 0px 10px;
-  font-family:Verdana;
+  font-family:GOTHAMbook;
   font-weight:bold;
   font-size:13px;
   line-height:22px;
+}
+
+.Programs_ByTheme #sports a{
+color:#FFFF00;
 }
 
 /*

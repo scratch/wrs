@@ -943,9 +943,8 @@ color: #1f1f1f;
   border:#000099 solid thin none;
   height:30px;
   margin-top:38px;
-  font-weight:bold;
   font-size:28px;
-  font-family:verdana;
+  font-family:GOTHAMbold;
 }
 
 #mid-content {
@@ -1078,40 +1077,36 @@ color: #1f1f1f;
 
 
 #bbc {
-  border:red solid thin none;
-  width:100%;
+  width:98.7%;
   height:36px;
   margin-top:35px;
   background-color:#F1F1F1;
   font-size:25px;
   padding:10px 0px 0px  13px;
-  font-weight:bold;
-  font-family:Verdana;
+  font-family:GOTHAMbold;
   color:#0054aa;
 }
 
 #npr {
   border:red solid thin none;
-  width:100%;
+  width:98%;
   height:36px;
   margin-top:7px;
   background-color:#F1F1F1;
   font-size:25px;
   padding:7px 0px 0px  18px;
-  font-weight:bold;
-  font-family:Verdana;
+  font-family:GOTHAMbold;
   color:#0054aa;
 }
 
 #pri {
   border:red solid thin none;
-  width:100%;
+  width:97.8%;
   height:36px;
   margin-top:14px;
   background-color:#F1F1F1;
   font-size:25px;
   padding:7px 0px 0px 20px;
-  font-weight:bold;
   font-family:GOTHAMbold;
   color:#0054aa;
 }
