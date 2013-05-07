@@ -511,7 +511,7 @@ padding-top: 0px;
 width: 150px;
 height: 15px;
 margin-left: 4px;
-
+letter-spacing: 1px;
 color: #7A4DDC;
 font-family: GOTHAMbold;
 
@@ -519,7 +519,7 @@ font-family: GOTHAMbold;
 
 .searchresult #newsline-B
 {
-
+letter-spacing: 1px;
 padding-top: 0px;
 width: 150px;
 height: 15px;
@@ -554,12 +554,13 @@ font-family: GOTHAMbold;
 }
 .searchresult #health
 {
-  font-family: GOTHAMbook;
-  font-size: 10px;
-  width: 109px;
-  margin-left: 39px;
   color: red;
-  font-weight: bold;
+    font-family: GOTHAMbook;
+    font-size: 10px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    margin-left: 39px;
+    width: 124px;
 }
 .searchresult #archi
 {
@@ -569,6 +570,7 @@ font-family: GOTHAMbold;
   margin-left: 39px;
   color: #6847C9;
   font-weight: bold;
+  letter-spacing: 1px;
 }
 .searchresult #sideimagerow1
 {

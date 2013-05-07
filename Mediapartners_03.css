@@ -21,7 +21,17 @@
     color: #9C9C9C;
     font-family: GOTHAMbold;
     letter-spacing: 1px;
+    width: 190px;
 }
+.searchresult .mainbarmedia
+{
+    float: right;
+    height: 1200px;
+    margin-top:0px;
+    width: 713px;
+    
+
+  }
 .searchresult #mediaheading
 {
     font-family: GOTHAMbold;
