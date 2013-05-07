@@ -104,6 +104,7 @@
   text-transform: uppercase;
   line-height: 48px;
   margin-left: 10px;
+  float:left;
  }
  #Schedule_page .title a {
   text-decoration: none;
