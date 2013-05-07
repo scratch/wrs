@@ -234,7 +234,6 @@ padding-left: 3.3%;
 .news .wrs-selection-rows:hover .wrs-selection-content,
 .news-episode .wrs-selection-rows:hover .wrs-selection-content {
   background:#faf037;
-  opacity: .8;
 }
 
 .news .wrs-selection-rows:hover .wrs-selection-content .wrs-selection-main-desc,
