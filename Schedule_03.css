@@ -9,26 +9,26 @@
 .active a {
   color:#000 !important;
 }
-.Schedular_menu {
+#Schedule_page .main-menu-sub-top {
   padding-top: 5px;
-  margin-left: 50px;
+  margin-left: 10%;
 }
-.Schedular_menu  li.sc_first{
+#Schedule_page .main-menu-sub-top  li.sc_first a{
   display: inline-block;
   padding-left: 6.3%;
 }
 
-.Schedular_menu  li {
+#Schedule_page .main-menu-sub-top  li {
   display: inline-block;
   padding-right: 1.5%;
 }
 
-.Schedular_menu li.sc_first a {
+#Schedule_page .main-menu-sub-top li.sc_first a {
   color: #000000;
   font-family: GOTHAMbold;
 }
 
-.Schedular_menu li a {
+#Schedule_page .main-menu-sub-topu li a {
   color: #126577;
   display: inline-block;
   font-family: GOTHAM;
@@ -36,15 +36,15 @@
   text-decoration: none;
   text-transform: uppercase;
 }
-.main_schedule {
+#Schedule_page .main_schedule {
   height: 20%;
   margin: 36px 36px 36px 0;
 }
-.main_schedule .schedule {
+#Schedule_page .main_schedule .schedule {
   font-size: 30px;
   font-family: GOTHAMbold;
 }
-.main_schedule .day_date {
+#Schedule_page .main_schedule .day_date {
   color: #939393;
   font-family: GOTHAMbold;
   font-size: 30px;
@@ -98,14 +98,15 @@
  #Schedule_page .first_col_second ,#Schedule_page .first_col_third {
   margin-left: 3px;
  }
- #Schedule_page .title {
+ #Schedule_page .schedule_title {
   font-size: 18px;
   font-family: GOTHAMbold;
   text-transform: uppercase;
   line-height: 48px;
   margin-left: 10px;
+  float:left;
  }
- #Schedule_page .title a {
+ #Schedule_page .schedule_title a {
   text-decoration: none;
   color: #046286;
  }
@@ -133,6 +134,8 @@
   margin-top: -15px;
   text-transform: uppercase;
   word-spacing: 1px;
+  float:left;
+  width: 100%;
 }
 #Schedule_page .authors {
   text-transform: capitalize;
@@ -290,7 +293,7 @@
 .health-matters:visited {
   background: transparent;
 }
-.on_air {
+.schedule_on_air {
   background: none repeat scroll 0 0 #000000;
   color: #FAF037;
   float: right;

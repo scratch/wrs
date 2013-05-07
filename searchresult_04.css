@@ -419,8 +419,11 @@ searchresult .main-region {
 
   #Results span.num {
     font-family: GOTHAMbook;
+    color:#9C9C9C;
   }
-
+  #Results .serach-text {
+  margin-left: 5px;
+}
 .searchresult .navig-in li a:hover {
     color: #000;
     font-family: GOTHAMbold;
@@ -629,8 +632,8 @@ font-family: GOTHAMbold;
 }
 .searchresult #picrow1 img
 {
-  width: 102px;
-  height: 68px;;
+  width: 100px;
+  height: 60px;;
 }
 
 .primary-content {
