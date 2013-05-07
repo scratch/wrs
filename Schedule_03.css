@@ -298,11 +298,6 @@
   width: 40px;
   margin-top: 10px;
 }
-.latest_news_content:hover {
-  background:#faf037;
-  color: #000000;
-  opacity: 0.8;
-}
 .primary-content {
   margin-bottom: 60px;
   width: 72%;
