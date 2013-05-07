@@ -86,7 +86,6 @@ float:left;
 {
 margin-top:135px;
 width:300px;
-height:78px;
 margin-bottom:30px;
 background-color:#000000;
 color:#FFFF00;
@@ -95,7 +94,7 @@ font-family: GOTHAMbold;
 
 .term-of-use .right-top1 h1
 {line-height: 69px;
-    padding: 0 0 0 64px;
+    padding: 0 0 0 10px;
 }
 .right-top2 h1
 {

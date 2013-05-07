@@ -1174,7 +1174,6 @@ color: #1f1f1f;
 
 .wrs-selection-rows:hover .wrs-selection-img:before {
   background: url(images/classifieds-image-hover.png) #faf037 no-repeat center ;
-  opacity: .8;
   }
 
 .wrs-selection-img:before {
@@ -1268,8 +1267,8 @@ color: #1f1f1f;
 #on-img-four {
    border: thin solid blue none;
     color: red;
-    font-family: DIN;
-    font-size: 16px;
+    font-family: GOTHAMbook;
+    font-size: 12px;
     font-weight: bold;
     height: 40px;
     padding-top: 6px;
@@ -1313,11 +1312,12 @@ color: #1f1f1f;
 
 
 	#on-r-img-two {
-    font-family: GOTHAMbook;
+    font-family: GOTHAMbold;
     font-size: 14px;
     height: 25px;
     text-align: center;
 	font-weight:bold;
+  margin-top: 6px;
 	}
 
 #on-r-img-three {
