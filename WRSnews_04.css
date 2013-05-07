@@ -319,7 +319,7 @@ padding-left: 3.3%;
 color:#3F80C2;
 }
 
-.news .news-content-column.transformation .news-content-title {
+.news .news-content-column.transformation .news-content-title h1 {
   color: #e40c23;
 }
 
@@ -327,7 +327,7 @@ color:#3F80C2;
   border-bottom: 4px solid #e40c23;
 }
 
-.news .news-content-column.working-in-ch .news-content-title {
+.news .news-content-column.working-in-ch .news-content-title h1{
   color: #646464;
 }
 
@@ -335,7 +335,7 @@ color:#3F80C2;
   border-bottom: 4px solid #646464;
 }
 
-.news .news-content-column.music .news-content-title {
+.news .news-content-column.music .news-content-title h1{
   color: #6a37d4;
 }
 
@@ -344,7 +344,7 @@ color:#3F80C2;
   border-bottom: 4px solid #6a37d4;
 }
 
-.news .news-content-column.architech .news-content-title {
+.news .news-content-column.architech .news-content-title h1{
   color: #6a37d4;
 }
 
@@ -450,9 +450,11 @@ color:#3F80C2;
   color: #000;
 }
 
+.wrs-selection-rows:hover .wrs-selction-main .wrs-selection-main-title,
 .wrs-selection-rows:hover .wrs-selction-main .wrs-selection-main-title a,
 .wrs-selection-rows:hover .wrs-selction-main .wrs-selection-main-time,
-.wrs-selection-rows:hover .wrs-selction-main .wrs-selection-main-desc a {
+.wrs-selection-rows:hover .wrs-selction-main .wrs-selection-main-desc a,
+.news-content-column:hover .news-content-main .news-content-title h1 {
   color: #000 !important;
 }
 
