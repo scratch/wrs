@@ -1,0 +1,16 @@
+.faq .faqs-detail {
+  margin-top: 25px;
+}
+
+.faqs-question {
+font-size: 16px;
+font-family: GOTHAMbold;
+line-height: 20px;
+}
+
+.faqs-answers {
+font-size: 14px;
+font-family: GOTHAMbook;
+line-height: 20px;
+margin-bottom:20px;
+}
