@@ -1348,7 +1348,7 @@ color: #1f1f1f;
 
 .wrs-selection-rows:hover .wrs-selection-main-title a {
   text-decoration: none;
-  color: #3c3c3c;
+  color: #000;
 }
 
 .wrs-selection-rows:hover .wrs-selection-content div {
