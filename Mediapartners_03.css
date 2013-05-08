@@ -35,9 +35,9 @@
 {
     font-family: GOTHAMbold;
     font-size: 18px;
-  
+
     margin-left: 4px;
-    
+
 
 }
    .searchresult #mediatimeperiod
@@ -67,10 +67,4 @@
     height: 86px;
     margin-top: 12px;
     width: 713px;
-}
-
-
-#main-menu-sub li.third,
-.main-menu-sub-top2 li.third {
-padding-left: .3%;
 }

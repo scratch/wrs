@@ -9,9 +9,8 @@
 .active a {
   color:#000 !important;
 }
-#Schedule_page .main-menu-sub-top {
-  padding-top: 5px;
-  margin-left: 10%;
+#Schedule_page #main-menu-sub li a {
+  font-size: 14px;
 }
 #Schedule_page .main-menu-sub-top  li.sc_first a{
   display: inline-block;
@@ -63,12 +62,12 @@
 }
 #Schedule_page .fourth_col,#Schedule_page .fifth_col {
   min-height: 100px;
-  border-top: 4px solid #ED501D; 
+  border-top: 4px solid #ED501D;
 }
 #Schedule_page .fourth_col {
   background: #8BD393 url("images/recorder_hoever.jpg") no-repeat 472px 17px;
   border-top: 4px solid #3EB551;
-  z-index: 9; 
+  z-index: 9;
 }
 #Schedule_page .eighth_col {
   min-height: 100px;
@@ -88,7 +87,7 @@
   background:#faf037;
   float: left;
   min-height: 87px;
-  width: 226px; 
+  width: 226px;
 }
 #Schedule_page .eighth_col_div {
   float: left;
@@ -130,7 +129,7 @@
   display: block;
   font-size: 13px;
   font-family: GOTHAMbook;
-  margin-left: 10px; 
+  margin-left: 10px;
   margin-top: -15px;
   text-transform: uppercase;
   word-spacing: 1px;
@@ -179,7 +178,7 @@
   width:455px;
 }
 #Schedule_page .eighth_col .day_time {
-    width: 38px;
+    width: 27px;
 }
 #Schedule_page .eighth_col .img_tag {
   height: 105px;
@@ -189,7 +188,7 @@
   color: #025C75;
   font-size: 12px;
   font-weight: bold;
-  text-transform: uppercase; 
+  text-transform: uppercase;
 }
 #Schedule_page .health-matters .health-text {
   color: #FFFFFF;
@@ -231,19 +230,19 @@
   font-size: 14px
 }
 #Schedule_page .cmpny_logo2 {
-  float:left;
+  float:right;
   margin-top:36px;
-  margin-left: 65px;
-} 
+  margin-right: 24px;
+}
 #Schedule_page .cmpny_logo3 ,#Schedule_page .cmpny_logo4,#Schedule_page .cmpny_logo6,#Schedule_page .cmpny_logo7{
-    float: left;
-    margin-left: 128px;
+    float: right;
+    margin-right: 24px;
     margin-top: 36px;
 }
 #Schedule_page .cmpny_logo5{
-  float: left;
+  float: right;
   margin-top:36px;
-  margin-left: 35px;
+  margin-right: 24px;
 }
 #Schedule_page .health-matters {
   float:left;
@@ -259,7 +258,7 @@
 }
 #Schedule_page .foreign-affair .listen-live {
   margin-top: 10px;
-} 
+}
 .health-content {
   min-width: 241px;
   position: absolute;
