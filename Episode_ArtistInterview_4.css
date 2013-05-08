@@ -245,31 +245,35 @@ right: 8px;
 float: left;
 }
 
-.slider-player-share ul li:hover a.fb:before{
+.slider-player-share ul li a.fb {
+  background: url(images/fb.png) no-repeat;
+  display: inline-block;
+  width: 15px;
+  height: 16px;
+}
+
+.slider-player-share ul li a.tw {
+  background: url(images/tw.png) no-repeat;
+  display: inline-block;
+  width: 15px;
+  height: 16px;
+}
+
+.slider-player-share ul li a.gplus {
+  background: url(images/gplus.png) no-repeat 0px 2px;
+  display: inline-block;
+  width: 15px;
+  height: 16px;
+}
+.slider-player-share ul li a.fb:hover{
 background: url(images/fb.jpg) no-repeat 0 0px;
 }
 
-.slider-player-share ul li a.fb {
-display: inline-block;
-}
-.slider-player-share ul li:hover a.tw:before{
+.slider-player-share ul li a.tw:hover{
 background: url(images/tw.jpg) no-repeat 0 0px;
-height: 17px;
 }
 
-.slider-player-share ul li:hover a.gplus:before{
-background: url(images/gplus.jpg) no-repeat 0 0px;
-}
-.slider-player-share ul li a:before {
-    content: "";
-    display: block;
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
+.slider-player-share ul li a.gplus:hover{
+background: url(images/gplus.jpg) no-repeat 0 2px;
 }
 
-.slider-player-share ul li a {
-  position: relative;
-}
