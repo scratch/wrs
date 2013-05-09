@@ -31,15 +31,26 @@
     width: 713px;
     margin-right: 4px;
 }
-.searchresult #mediaheading
+
+.searchresult #boldlinerow1media
 {
+
+    text-decoration: none;
     font-family: GOTHAMbold;
     font-size: 18px;
-
     margin-left: 4px;
-
-
+    width: 460px;
 }
+.searchresult #boldlinerow1media a {
+    color: #000000;
+    text-decoration: none;
+}
+.searchresult #boldlinerow1media a:hover
+{
+    text-decoration: underline;
+    color: black;
+}
+
    .searchresult #mediatimeperiod
    {
 
