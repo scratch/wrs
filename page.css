@@ -6000,6 +6000,7 @@ color:#646464;
 }
 #Schedule_page .day_time a {
   color: #939393;
+  font-weight: bold;
 }
 #Schedule_page .second_col_div,#Schedule_page .fourth_col_div,#Schedule_page .sixth_col_div {
   margin-left: 10px;
