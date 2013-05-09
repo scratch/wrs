@@ -350,7 +350,7 @@ width: 444px;
 }
 
 .slider-content h1 {
-  color: #fdf528;
+  color: #ffe100;
   font-size: 22px;
   font-family: GOTHAMbold;
   margin-top: 15px;
@@ -416,7 +416,7 @@ width: 444px;
   margin-left: 2px;
   margin-right: 1px;
   text-align: center;
-  color: #f2f33d;
+  color: #ffe100;
   font-size: 12px;
   font-family: GOTHAMbold;
   padding-left: 11.8%;
@@ -504,7 +504,7 @@ width: 444px;
   display: inline-block;
   font-size: 11px;
   font-family: GOTHAMbold;
-  color: #f8f943;
+  color: #ffe100;
   margin-top: 41px;
   margin-left: 6%;
   width: 105px;
@@ -528,7 +528,7 @@ width: 444px;
   text-decoration: none;
   font-size: 12px;
   font-family: GOTHAMbold;
-  color: #f8f943;
+  color: #ffe100;
   padding-left: 4px;
 }
 
@@ -555,7 +555,7 @@ background: url(images/listen-hover.png) no-repeat 5px 4px;
 .sidebar-second .next-label, .next-description {
   font-family: GOTHAMbold;
   font-size: 14px;
-  color: #f9e838;
+  color: #ffe100;
   margin-bottom: 4px;
 }
 
@@ -703,7 +703,7 @@ text-decoration: underline;
   text-decoration: none;
   font-family: GOTHAMbold;
   font-size: 12px;
-  color: #fff227;
+  color: #ffe100;
   display: inline-block;
   padding: 9px 22px;
 }
