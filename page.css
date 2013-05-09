@@ -590,6 +590,9 @@ background: url(images/listen-hover.png) no-repeat 5px 4px;
 .later-content a:hover {
   text-decoration: underline;
 }
+.later-content .later-description:hover .later-text a {
+text-decoration: underline;
+}
 /**.later-content:hover .later-bbc {
   background: url(images/bbc-hiver.png);
 }
