@@ -6109,7 +6109,7 @@ color:#646464;
   position: absolute;
   top: 528px;
   height: 197px;
-  color:#F8F943;
+  color:#ffe100;
 }
 .health-matters .health-text1 {
   display: inline-block;
@@ -6137,7 +6137,7 @@ color:#646464;
 }
 #Schedule_page .latest-news .news-bulletion-label {
   background: url("images/graphic-image-small.png") no-repeat scroll 15px 16px #242021;
-  color: #F2F33D;
+  color: #ffe100;
   display: block;
   font-family: GOTHAMbold;
   font-size: 16px;
