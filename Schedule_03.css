@@ -45,7 +45,7 @@
 }
 #Schedule_page .main_schedule .day_date {
   color: #939393;
-  font-family: GOTHAMbold;
+  font-family: GOTHAMbook;
   font-size: 30px;
   margin-left:6px;
 }
@@ -128,7 +128,7 @@
  #Schedule_page .author {
   display: block;
   font-size: 13px;
-  font-family: GOTHAMbook;
+  font-family: GOTHAMbold;
   margin-left: 10px;
   margin-top: -15px;
   text-transform: uppercase;
@@ -141,6 +141,7 @@
   font-size: 13px;
   color: #9c9c9c;
   margin-top: -6px;
+  font-family: GOTHAMbook;
 }
 #Schedule_page .fourth_col_div .authors {
   color: #000000;
@@ -148,8 +149,8 @@
 #Schedule_page .day_time {
   color: #9c9c9c;
   font-size: 12px;
-  font-family: gotham;
-  line-height: 29px;
+  font-family: GOTHAMbook;
+  line-height: 22px;
   margin-left: 10px;
   text-transform: uppercase;
   float:left;
@@ -283,11 +284,29 @@
   text-align: center;
   color: #faf037;
 }
-.latest_news_content span {
-  text-align: center;
-  font-size: 12px;
+#Schedule_page .latest-news {
+  float: left;
+  width: 101%;
+  padding: 0;
+  margin-top: 10%;
+
+}
+#Schedule_page .latest-news .news-bulletion-label {
+  background: url("images/graphic-image-small.png") no-repeat scroll 15px 13px #242021;
+  color: #F2F33D;
+  display: block;
   font-family: GOTHAMbold;
-  line-height: 55px;
+  font-size: 12px;
+  line-height: 57px;
+  margin-left: 2px;
+  margin-right: 1px;
+  min-height: 60px;
+  padding-left: 11.8%;
+  text-align: center;
+}
+#Schedule_page .news-bulletion-label:hover {
+  background: url("images/graphic-image-small-hover.png") no-repeat scroll 15px 13px #FAF037;
+  color: #1F1F1F;
 }
 .health-matters:visited {
   background: transparent;
@@ -301,11 +320,6 @@
   padding: 4px 0 4px 11px;
   width: 40px;
   margin-top: 10px;
-}
-.latest_news_content:hover {
-  background:#faf037;
-  color: #000000;
-  opacity: 0.8;
 }
 .primary-content {
   margin-bottom: 60px;
