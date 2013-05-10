@@ -411,7 +411,7 @@ width: 444px;
 
 .latest-news-bulletion .news-bulletion-label {
   display: block;
-  background: #242021 url(images/graphic-image-small.png) no-repeat 9px 8px;
+  background: #242021 url(images/graphic-image-small-hover.png) no-repeat 9px 8px;
   line-height: 40px;
   margin-left: 2px;
   margin-right: 1px;
@@ -1235,7 +1235,7 @@ color: #000;
 }
 
 .news-bulletion-label:hover {
-background: #faf037 url(images/graphic-image-small-hover.png) no-repeat 9px 8px;
+background: #faf037 url(images/graphic-image-small.png) no-repeat 9px 8px;
 color: #1f1f1f;
 }
 
@@ -6136,7 +6136,7 @@ color:#646464;
 
 }
 #Schedule_page .latest-news .news-bulletion-label {
-  background: url("images/graphic-image-small.png") no-repeat scroll 15px 16px #242021;
+  background: url("images/graphic-image-small-hover.png") no-repeat scroll 15px 16px #242021;
   color: #ffe100;
   display: block;
   font-family: GOTHAMbold;
@@ -6149,7 +6149,7 @@ color:#646464;
   text-align: center;
 }
 #Schedule_page .news-bulletion-label:hover {
-  background: url("images/graphic-image-small-hover.png") no-repeat scroll 15px 16px #FAF037;
+  background: url("images/graphic-image-small.png") no-repeat scroll 15px 16px #FAF037;
   color: #1F1F1F;
 }
 .health-matters:visited {
