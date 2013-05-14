@@ -6165,4 +6165,41 @@ color:#646464;
   width: 40px;
   margin-top: 10px;
 }
+/* CSS for dropdown menu"*/
+ul .top-nav-menu  li {
+  display: block;
+  position: relative;
+  float: left;
+}
+li ul {
+  display: none;
+}
+.top-nav-menu .inner-menu {
+  border: 1px solid #CCCCCC;
+}
+.top-nav-menu .inner-menu li {
+ padding-left: 5px;
+}
+.top-nav-menu .inner-menu li a {
+    display: block;
+    text-decoration: none;
+    border-bottom: 1px solid #CCCCCC;
+    padding: 5px 15px 5px 0;
+    background: none;
+    margin-left: 1px;
+    white-space: nowrap;
+}
+ul .top-nav-menu li a:hover {
+background: #3b3b3b;
+}
+.top-nav-menu li:hover ul {
+    display: block;
+    position: absolute;
+    background: #ffffff;
+}
+li:hover li {
+    float: none;
+    font-size: 11px;
+    display: block;
+}
 
