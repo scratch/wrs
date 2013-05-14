@@ -53,7 +53,9 @@ body  {
 
 .top-menu li {
   display: inline-block;
-  padding-right: 2.5%;
+  padding-right: 2%;
+  margin-bottom: 1px;
+padding-top: 5px;
 }
 
 .sign {
@@ -78,13 +80,27 @@ body  {
     font-family: GOTHAMbold;
     font-size: 13px;
 }
-.top-menu .top-nav-menu li a{
+.top-menu .top-nav-menu > li > a{
     text-decoration: none;
     color: #075a78;
     font-family: GOTHAMbold;
     font-size: 11px;
-    background: url(images/down-arrow.jpg) no-repeat center right;
-    padding-right: 14px;
+    background: url(images/DropDown_03.jpg) no-repeat;
+    padding-right: 18px;
+    padding-top: 10px;
+    padding-left: 4px;
+    background-position: 97% 75%;
+}
+
+.top-menu .top-nav-menu > li:hover > a {
+  background: #f8f8f8 url(images/down-arrow.jpg) no-repeat;
+  position: relative;
+  z-index: 500;
+  padding-right: 18px;
+    padding-top: 10px;
+    padding-left: 4px;
+    background-position: 97% 75%;
+    padding-bottom: 1px;
 }
 
 .header {
@@ -6171,23 +6187,34 @@ ul .top-nav-menu  li {
   position: relative;
   float: left;
 }
-li ul {
+.top-nav-menu li ul {
   display: none;
 }
-.top-nav-menu .inner-menu {
-  border: 1px solid #CCCCCC;
+.top-nav-menu li ul {
+  border: 1px solid #e8e8e8;
+  padding-top: 5px;
 }
-.top-nav-menu .inner-menu li {
+.top-nav-menu li ul li {
  padding-left: 5px;
 }
-.top-nav-menu .inner-menu li a {
+.top-menu .top-nav-menu li li a {
     display: block;
     text-decoration: none;
-    border-bottom: 1px solid #CCCCCC;
+    border-bottom: 1px solid #e8e8e8;
     padding: 5px 15px 5px 0;
     background: none;
     margin-left: 1px;
     white-space: nowrap;
+    font-family: GOTHAMbook;
+    color: #075a78;
+}
+
+.top-menu li li:hover a {
+  font-family: GOTHAMbold;
+}
+
+.top-menu li li:last-child a{
+  border-bottom: none;
 }
 ul .top-nav-menu li a:hover {
 background: #3b3b3b;
@@ -6195,11 +6222,37 @@ background: #3b3b3b;
 .top-nav-menu li:hover ul {
     display: block;
     position: absolute;
-    background: #ffffff;
+    background: #f8f8f8;
+    min-width: 185px;
 }
-li:hover li {
+.top-nav-menu li:hover li {
     float: none;
     font-size: 11px;
     display: block;
 }
 
+
+.top-nav-menu > li > a{
+  border-style: solid;
+  border-width: 1px 1px 0;
+border-color: #f8f8f8;
+}
+
+.top-nav-menu > li > a:hover {
+  color: #000;
+  position: relative;
+z-index: 600;
+margin: -1px 0;
+}
+
+.top-nav-menu li:hover a{
+  border-color: #e8e8e8;
+}
+
+.top-nav-menu li a ul:hover {
+  color: #000;
+}
+
+.top-menu li:hover a {
+color: #000;
+}
